@@ -1,6 +1,7 @@
 DEBUG = 0
 HAVE_NETWORK = 0
 VIDEO_RGB565 = 1
+EMULATORJS_THREADS ?= 0
 
 SPACE :=
 SPACE := $(SPACE) $(SPACE)
@@ -358,6 +359,11 @@ else ifeq ($(platform), libnx)
 else ifeq ($(platform), emscripten)
    TARGET := $(TARGET_NAME)_libretro_$(platform).bc
    STATIC_LINKING = 1
+	ifeq ($(EMULATORJS_THREADS), 1)
+		LDFLAGS += -pthread
+		CFLAGS += -pthread
+		CXXFLAGS += -pthread
+	endif
 
 # RS90
 else ifeq ($(platform), rs90)
