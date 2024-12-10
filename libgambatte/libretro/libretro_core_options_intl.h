@@ -2097,7 +2097,7 @@ struct retro_core_options_v2 options_ar = {
 #define GAMBATTE_GBC_COLOR_CORRECTION_LABEL_AST NULL
 #define GAMBATTE_GBC_COLOR_CORRECTION_INFO_0_AST NULL
 #define OPTION_VAL_GBC_ONLY_AST NULL
-#define OPTION_VAL_ALWAYS_AST "Siempres"
+#define OPTION_VAL_ALWAYS_AST "Siempre"
 #define GAMBATTE_GBC_COLOR_CORRECTION_MODE_LABEL_AST NULL
 #define GAMBATTE_GBC_COLOR_CORRECTION_MODE_INFO_0_AST NULL
 #define OPTION_VAL_ACCURATE_AST NULL
@@ -3312,31 +3312,31 @@ struct retro_core_options_v2 options_ast = {
 /* RETRO_LANGUAGE_BE */
 
 #define CATEGORY_GB_LINK_LABEL_BE NULL
-#define CATEGORY_GB_LINK_INFO_0_BE NULL
-#define GAMBATTE_GB_COLORIZATION_LABEL_BE NULL
-#define GAMBATTE_GB_COLORIZATION_INFO_0_BE NULL
+#define CATEGORY_GB_LINK_INFO_0_BE "Наладкі сеткавага (мультыплэера) Game Link."
+#define GAMBATTE_GB_COLORIZATION_LABEL_BE "Каларызацыя GB"
+#define GAMBATTE_GB_COLORIZATION_INFO_0_BE "Уключае каларызацыю гульняў Game Boy. 'Аўта' выбірае 'найлепшую' (найболей падыходную/маляўнічую) палітру. 'GBC' выкарыстоўвае для гульні прадусталяваную палітру Game Boy Color ці, пры яе адсутнасці, 'GBC - Dark Green'. 'SGB' выкарыстоўвае для гульні прадусталяваную палітру Super Game Boy ці, пры яе адсутнасці, 'SGB - 1A'. 'Убудаваная' выкарыстоўвае опцыю 'Убудаваная палітра'. 'Кастомная' загружае карыстальніцкую палітру з сістэмнага каталога."
 #define OPTION_VAL_AUTO_BE "Аўта"
 #define OPTION_VAL_GBC_BE NULL
 #define OPTION_VAL_SGB_BE NULL
-#define OPTION_VAL_INTERNAL_BE NULL
+#define OPTION_VAL_INTERNAL_BE "Убудаваная"
 #define OPTION_VAL_CUSTOM_BE "Уласная"
-#define GAMBATTE_GB_INTERNAL_PALETTE_LABEL_BE NULL
-#define GAMBATTE_GB_INTERNAL_PALETTE_INFO_0_BE NULL
+#define GAMBATTE_GB_INTERNAL_PALETTE_LABEL_BE "Убудаваная палітра"
+#define GAMBATTE_GB_INTERNAL_PALETTE_INFO_0_BE "Палітра, якая выкарыстоўваецца для размалёўвання гульняў Game Boy пры ўсталёўцы опцыі 'Каларызацыя GB' у рэжым 'Убудаваная' або калі ўсталяваны рэжым 'Аўта' і для гульні няма прадусталяванай палітры SGB/GBC. Палітры 'GB' імітуюць арыгінальную выяву кансолі. Палітры 'GBC' ідэнтычныя ўбудаваным прасэтам Game Boy Color. Палітры 'SGB' адпавядаюць убудаваным прасэтам Super Game Boy."
 #define OPTION_VAL_GB_DMG_BE NULL
 #define OPTION_VAL_GB_POCKET_BE NULL
-#define OPTION_VAL_GB_LIGHT_BE NULL
-#define OPTION_VAL_GBC_BLUE_BE NULL
-#define OPTION_VAL_GBC_BROWN_BE NULL
-#define OPTION_VAL_GBC_DARK_BLUE_BE NULL
-#define OPTION_VAL_GBC_DARK_BROWN_BE NULL
-#define OPTION_VAL_GBC_DARK_GREEN_BE NULL
-#define OPTION_VAL_GBC_GRAYSCALE_BE NULL
-#define OPTION_VAL_GBC_GREEN_BE NULL
-#define OPTION_VAL_GBC_INVERTED_BE NULL
-#define OPTION_VAL_GBC_ORANGE_BE NULL
-#define OPTION_VAL_GBC_PASTEL_MIX_BE NULL
-#define OPTION_VAL_GBC_RED_BE NULL
-#define OPTION_VAL_GBC_YELLOW_BE NULL
+#define OPTION_VAL_GB_LIGHT_BE "GB - Светлая"
+#define OPTION_VAL_GBC_BLUE_BE "GBC - Блакітная"
+#define OPTION_VAL_GBC_BROWN_BE "GBC - Карычневая"
+#define OPTION_VAL_GBC_DARK_BLUE_BE "GBC - Цёмна-сіняя"
+#define OPTION_VAL_GBC_DARK_BROWN_BE "GBC - Цёмна-карычневая"
+#define OPTION_VAL_GBC_DARK_GREEN_BE "GBC - Цёмна-зялёная"
+#define OPTION_VAL_GBC_GRAYSCALE_BE "GBC - Адценні шэрага"
+#define OPTION_VAL_GBC_GREEN_BE "GBC - Зялёная"
+#define OPTION_VAL_GBC_INVERTED_BE "GBC - Інверсія"
+#define OPTION_VAL_GBC_ORANGE_BE "GBC - Аранжавая"
+#define OPTION_VAL_GBC_PASTEL_MIX_BE "GBC - Пастэльны мікс"
+#define OPTION_VAL_GBC_RED_BE "GBC - Чырвоная"
+#define OPTION_VAL_GBC_YELLOW_BE "GBC - Жоўтая"
 #define OPTION_VAL_SGB_1A_BE NULL
 #define OPTION_VAL_SGB_1B_BE NULL
 #define OPTION_VAL_SGB_1C_BE NULL
@@ -3369,16 +3369,16 @@ struct retro_core_options_v2 options_ast = {
 #define OPTION_VAL_SGB_4F_BE NULL
 #define OPTION_VAL_SGB_4G_BE NULL
 #define OPTION_VAL_SGB_4H_BE NULL
-#define OPTION_VAL_SPECIAL_1_BE NULL
-#define OPTION_VAL_SPECIAL_2_BE NULL
-#define OPTION_VAL_SPECIAL_3_BE NULL
+#define OPTION_VAL_SPECIAL_1_BE "Асаблівая 1"
+#define OPTION_VAL_SPECIAL_2_BE "Асаблівая 2"
+#define OPTION_VAL_SPECIAL_3_BE "Асаблівая 3"
 #define OPTION_VAL_SPECIAL_4_TI_83_LEGACY_BE NULL
-#define OPTION_VAL_TWB64_PACK_1_BE NULL
-#define OPTION_VAL_TWB64_PACK_2_BE NULL
-#define OPTION_VAL_TWB64_PACK_3_BE NULL
-#define OPTION_VAL_PIXELSHIFT_PACK_1_BE NULL
-#define GAMBATTE_GB_PALETTE_TWB64_1_LABEL_BE NULL
-#define GAMBATTE_GB_PALETTE_TWB64_1_INFO_0_BE NULL
+#define OPTION_VAL_TWB64_PACK_1_BE "TWB64 - Пакет 1"
+#define OPTION_VAL_TWB64_PACK_2_BE "TWB64 - Пакет 2"
+#define OPTION_VAL_TWB64_PACK_3_BE "TWB64 - Пакет 3"
+#define OPTION_VAL_PIXELSHIFT_PACK_1_BE "PixelShift - Пакет 1"
+#define GAMBATTE_GB_PALETTE_TWB64_1_LABEL_BE "> Палітра TWB64 - Пакет 1"
+#define GAMBATTE_GB_PALETTE_TWB64_1_INFO_0_BE "Выбар убудаванай палітры каларызацыі, калі для опцыі 'Убудаваная палітра' зададзена 'TWB64 - Пакет 1'."
 #define OPTION_VAL_TWB64_001_AQOURS_BLUE_BE NULL
 #define OPTION_VAL_TWB64_002_ANIME_EXPO_VER_BE NULL
 #define OPTION_VAL_TWB64_003_SPONGEBOB_YELLOW_BE NULL
@@ -3479,8 +3479,8 @@ struct retro_core_options_v2 options_ast = {
 #define OPTION_VAL_TWB64_098_DEKU_ALPHA_EMERALD_BE NULL
 #define OPTION_VAL_TWB64_099_BLUE_STRIPES_VER_BE NULL
 #define OPTION_VAL_TWB64_100_PRECURE_MARBLE_RASPBERRY_BE NULL
-#define GAMBATTE_GB_PALETTE_TWB64_2_LABEL_BE NULL
-#define GAMBATTE_GB_PALETTE_TWB64_2_INFO_0_BE NULL
+#define GAMBATTE_GB_PALETTE_TWB64_2_LABEL_BE "> Палітра TWB64 - Пакет 2"
+#define GAMBATTE_GB_PALETTE_TWB64_2_INFO_0_BE "Выбар убудаванай палітры каларызацыі, калі для опцыі 'Убудаваная палітра' зададзена 'TWB64 - Пакет 2'."
 #define OPTION_VAL_TWB64_101_765PRO_PINK_BE NULL
 #define OPTION_VAL_TWB64_102_CINDERELLA_BLUE_BE NULL
 #define OPTION_VAL_TWB64_103_MILLION_YELLOW_BE NULL
@@ -3581,8 +3581,8 @@ struct retro_core_options_v2 options_ast = {
 #define OPTION_VAL_TWB64_198_NICONICO_SEA_GREEN_BE NULL
 #define OPTION_VAL_TWB64_199_DURACELL_COPPER_BE NULL
 #define OPTION_VAL_TWB64_200_TOKYO_SKYTREE_CLOUDY_BLUE_BE NULL
-#define GAMBATTE_GB_PALETTE_TWB64_3_LABEL_BE NULL
-#define GAMBATTE_GB_PALETTE_TWB64_3_INFO_0_BE NULL
+#define GAMBATTE_GB_PALETTE_TWB64_3_LABEL_BE "> Палітра TWB64 - Пакет 3"
+#define GAMBATTE_GB_PALETTE_TWB64_3_INFO_0_BE "Выбар убудаванай палітры каларызацыі, калі для опцыі 'Убудаваная палітра' зададзена 'TWB64 - Пакет 3'."
 #define OPTION_VAL_TWB64_201_DMG_GOLD_BE NULL
 #define OPTION_VAL_TWB64_202_LCD_CLOCK_GREEN_BE NULL
 #define OPTION_VAL_TWB64_203_FAMICOM_FRENZY_BE NULL
@@ -3683,8 +3683,8 @@ struct retro_core_options_v2 options_ast = {
 #define OPTION_VAL_TWB64_298_BAJA_BLAST_BEACH_BE NULL
 #define OPTION_VAL_TWB64_299_3DS_VIRTUAL_CONSOLE_GREEN_BE NULL
 #define OPTION_VAL_TWB64_300_WONDER_PURPLE_BE NULL
-#define GAMBATTE_GB_PALETTE_PIXELSHIFT_1_LABEL_BE NULL
-#define GAMBATTE_GB_PALETTE_PIXELSHIFT_1_INFO_0_BE NULL
+#define GAMBATTE_GB_PALETTE_PIXELSHIFT_1_LABEL_BE "> Палітра PixelShift - Пакет 1"
+#define GAMBATTE_GB_PALETTE_PIXELSHIFT_1_INFO_0_BE "Выбар убудаванай палітры каларызацыі, калі для опцыі 'Убудаваная палітра' зададзена 'PixelShift - Пакет 1'."
 #define OPTION_VAL_PIXELSHIFT_01_ARCTIC_GREEN_BE NULL
 #define OPTION_VAL_PIXELSHIFT_02_ARDUBOY_BE NULL
 #define OPTION_VAL_PIXELSHIFT_03_BGB_0_3_EMULATOR_BE NULL
@@ -3730,101 +3730,101 @@ struct retro_core_options_v2 options_ast = {
 #define OPTION_VAL_PIXELSHIFT_43_VAPORWAVE_BE NULL
 #define OPTION_VAL_PIXELSHIFT_44_VIRTUAL_BOY_BE NULL
 #define OPTION_VAL_PIXELSHIFT_45_WISH_BE NULL
-#define GAMBATTE_GBC_COLOR_CORRECTION_LABEL_BE NULL
-#define GAMBATTE_GBC_COLOR_CORRECTION_INFO_0_BE NULL
-#define OPTION_VAL_GBC_ONLY_BE NULL
+#define GAMBATTE_GBC_COLOR_CORRECTION_LABEL_BE "Карэкцыя колеру"
+#define GAMBATTE_GBC_COLOR_CORRECTION_INFO_0_BE "Падладка каляровасці для адпаведнасці малюнку на дысплеі рэальнага Game Boy Color. 'Толькі GBC' ужывае карэкцыю пры запуску гульняў Game Boy Color ці калі для каларызацыі гульні Game Boy выкарыстоўваецца палітра Game Boy Color. 'Заўсёды' ужывае колеракарэкцыю да ўсяго кантэнту і прыводзіць да непажаданых вынікаў пры выкарыстанні ўбудаваных палітраў 'GB' або 'SGB'."
+#define OPTION_VAL_GBC_ONLY_BE "Толькі GBC"
 #define OPTION_VAL_ALWAYS_BE "Заўсёды"
-#define GAMBATTE_GBC_COLOR_CORRECTION_MODE_LABEL_BE NULL
-#define GAMBATTE_GBC_COLOR_CORRECTION_MODE_INFO_0_BE NULL
-#define OPTION_VAL_ACCURATE_BE NULL
-#define OPTION_VAL_FAST_BE NULL
-#define GAMBATTE_GBC_FRONTLIGHT_POSITION_LABEL_BE NULL
-#define GAMBATTE_GBC_FRONTLIGHT_POSITION_INFO_0_BE NULL
-#define OPTION_VAL_CENTRAL_BE NULL
-#define OPTION_VAL_ABOVE_SCREEN_BE NULL
-#define OPTION_VAL_BELOW_SCREEN_BE NULL
-#define GAMBATTE_DARK_FILTER_LEVEL_LABEL_BE NULL
-#define GAMBATTE_DARK_FILTER_LEVEL_INFO_0_BE NULL
-#define GAMBATTE_MIX_FRAMES_LABEL_BE NULL
-#define GAMBATTE_MIX_FRAMES_INFO_0_BE NULL
-#define OPTION_VAL_MIX_BE NULL
-#define OPTION_VAL_LCD_GHOSTING_BE NULL
-#define OPTION_VAL_LCD_GHOSTING_FAST_BE NULL
+#define GAMBATTE_GBC_COLOR_CORRECTION_MODE_LABEL_BE "Рэжым карэкцыі колеру"
+#define GAMBATTE_GBC_COLOR_CORRECTION_MODE_INFO_0_BE "Выбар рэжыму, які выкарыстоўваецца для колеракарэкцыі. 'Дакладны' прайгравае колеры практычна неадрозна ад рэальнай ВК-панэлі Game Boy Color. 'Хуткі' толькі зацямняе колеры і памяншае насычанасць і падыходзіць для слабых прылад у тым выпадку, калі 'Дакладны' рэжым працуе занадта павольна."
+#define OPTION_VAL_ACCURATE_BE "Дакладны"
+#define OPTION_VAL_FAST_BE "Хуткі"
+#define GAMBATTE_GBC_FRONTLIGHT_POSITION_LABEL_BE "Карэкцыя колеру - крыніца святла"
+#define GAMBATTE_GBC_FRONTLIGHT_POSITION_INFO_0_BE "Імітуе фізічны водгук ВК-панэлі Game Boy Color пры асвятленні з розных кутоў. 'Па цэнтры' адпавядае стандартнай колераперадачы. 'Над экранам' павялічвае яркасць. 'Пад экранам' памяншае яркасць. Дадзеная налада ўжываецца толькі ў тым выпадку, калі 'Рэжым колеракарэкцыі' мае значэнне 'Дакладны'."
+#define OPTION_VAL_CENTRAL_BE "Цэнтральны"
+#define OPTION_VAL_ABOVE_SCREEN_BE "Над экранам"
+#define OPTION_VAL_BELOW_SCREEN_BE "Пад экранам"
+#define GAMBATTE_DARK_FILTER_LEVEL_LABEL_BE "Узровень фільтра зацямнення (%)"
+#define GAMBATTE_DARK_FILTER_LEVEL_INFO_0_BE "Уключае памяншэнне яркасці ў залежнасці ад навакольнага асвятлення. Можа выкарыстоўвацца для зніжэння нагрузкі на вочы ў гульнях з белым заднім фонам, якія прызначаны для Game Boy Color без падсвятлення і з-за залішняй яркасці могуць выклікаць дыскамфорт на сучасных экранах з падсветкай."
+#define GAMBATTE_MIX_FRAMES_LABEL_BE "Міжкадравае змешванне"
+#define GAMBATTE_MIX_FRAMES_INFO_0_BE "Імітацыя эфекту дваення LCD. 'Простае' змешвае бягучыя кадры з папярэднімі ў прапорцыі 50:50. 'Дваенне LCD' імітуе натуральны час водгуку LCD аб'яднаннем некалькіх буфераваных кадраў. \"Простае\" змешванне патрабуецца для гульняў, якія выкарыстоўваюць LCD-гостынг для эфектаў празрыстасці (Wave Race, Ballistic, Chikyuu Kaihou Gun ZAS...)."
+#define OPTION_VAL_MIX_BE "Простае"
+#define OPTION_VAL_LCD_GHOSTING_BE "Дваенне ВК (дакладна)"
+#define OPTION_VAL_LCD_GHOSTING_FAST_BE "Дваенне ВК (хутка)"
 #define GAMBATTE_AUDIO_RESAMPLER_LABEL_BE "Перадыскрэтызацыя гуку"
-#define GAMBATTE_AUDIO_RESAMPLER_INFO_0_BE NULL
-#define OPTION_VAL_SINC_BE NULL
-#define OPTION_VAL_CC_BE NULL
-#define GAMBATTE_GB_HWMODE_LABEL_BE NULL
-#define GAMBATTE_GB_HWMODE_INFO_0_BE NULL
+#define GAMBATTE_AUDIO_RESAMPLER_INFO_0_BE "Алгарытм перадіскрэтызацыі згенераванага гуку (частата гуку Game Boy абмежавана толькі хуткасцю запісу CPU кансолі, т. ч., 'натыўныя' частоты на сучасных гукавых прыладах непрымяняльныя і патрабуюць паніжэнні). 'Сінусны' забяспечвае найлепшую якасць. 'Касінусны' паляпшае прадукцыйнасць для слабых прылад."
+#define OPTION_VAL_SINC_BE "Сінусны"
+#define OPTION_VAL_CC_BE "Касінусны"
+#define GAMBATTE_GB_HWMODE_LABEL_BE "Мадэль кансолі (патрабуецца перазапуск)"
+#define GAMBATTE_GB_HWMODE_INFO_0_BE "Выбар сістэмы для эмуляцыі. Рэкамендуецца ўсталяваць «Аўта». Выбар 'GBA' адкрывае новыя магчымасці ў некаторых гульнях Game Boy Color з паляпшэннямі для GBA (Shantae, Wendy - Every Witch Way, Legend of Zelda: Oracle of Seasons/Ages...)."
 #define OPTION_VAL_GB_BE NULL
 #define OPTION_VAL_GBA_BE NULL
-#define GAMBATTE_GB_BOOTLOADER_LABEL_BE NULL
-#define GAMBATTE_GB_BOOTLOADER_INFO_0_BE NULL
-#define GAMBATTE_UP_DOWN_ALLOWED_LABEL_BE NULL
-#define GAMBATTE_UP_DOWN_ALLOWED_INFO_0_BE NULL
-#define GAMBATTE_TURBO_PERIOD_LABEL_BE NULL
-#define GAMBATTE_TURBO_PERIOD_INFO_0_BE NULL
-#define GAMBATTE_RUMBLE_LEVEL_LABEL_BE NULL
-#define GAMBATTE_RUMBLE_LEVEL_INFO_0_BE NULL
-#define GAMBATTE_SHOW_GB_LINK_SETTINGS_LABEL_BE NULL
-#define GAMBATTE_SHOW_GB_LINK_SETTINGS_INFO_0_BE NULL
-#define GAMBATTE_GB_LINK_MODE_LABEL_BE NULL
-#define GAMBATTE_GB_LINK_MODE_LABEL_CAT_BE NULL
-#define GAMBATTE_GB_LINK_MODE_INFO_0_BE NULL
-#define OPTION_VAL_NOT_CONNECTED_BE NULL
-#define OPTION_VAL_NETWORK_SERVER_BE NULL
-#define OPTION_VAL_NETWORK_CLIENT_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_PORT_LABEL_BE NULL
+#define GAMBATTE_GB_BOOTLOADER_LABEL_BE "Выкарыстоўваць афіцыйны загрузчык (патрабуецца перазапуск)"
+#define GAMBATTE_GB_BOOTLOADER_INFO_0_BE "Уключае падтрымку афіцыйных загрузчыкаў Game Boy і Game Boy Color з адпаведнай анімацыяй запуску."
+#define GAMBATTE_UP_DOWN_ALLOWED_LABEL_BE "Дазволіць супрацьлеглыя напрамкі"
+#define GAMBATTE_UP_DOWN_ALLOWED_INFO_0_BE "Дазваляе націскаць/хутка змяняць/адначасова заціскаць кірункі налева і направа (ці ўверх і ўніз). Можа выклікаць глітчы, злучаныя з перасоўваннем."
+#define GAMBATTE_TURBO_PERIOD_LABEL_BE "Перыяд турба-кнопкі"
+#define GAMBATTE_TURBO_PERIOD_INFO_0_BE "Усталёўвае інтэрвал паўтору (у кадрах) пры ўтрыманні турба-кнопак A/B."
+#define GAMBATTE_RUMBLE_LEVEL_LABEL_BE "Інтэнсіўнасць аддачы кантролера"
+#define GAMBATTE_RUMBLE_LEVEL_INFO_0_BE "Уключае эфекты тактыльнай аддачы для гульняў з падтрымкай (Pokemon Pinball, Perfect Dark...)."
+#define GAMBATTE_SHOW_GB_LINK_SETTINGS_LABEL_BE "Паказваць налады Game Link"
+#define GAMBATTE_SHOW_GB_LINK_SETTINGS_INFO_0_BE "Уключае настройку сеткавых параметраў (мультыплэера) Game Link. Для прымянення змен патрабуецца пераключыць хуткае меню."
+#define GAMBATTE_GB_LINK_MODE_LABEL_BE "Рэжым Game Link"
+#define GAMBATTE_GB_LINK_MODE_LABEL_CAT_BE "Рэжым сувязі"
+#define GAMBATTE_GB_LINK_MODE_INFO_0_BE "Пры ўключэнні Game Link усталёўвае рэжым сервера або кліента для запушчанага ядра."
+#define OPTION_VAL_NOT_CONNECTED_BE "Падлучэнне адсутнічае"
+#define OPTION_VAL_NETWORK_SERVER_BE "Сеткавы сервер"
+#define OPTION_VAL_NETWORK_CLIENT_BE "Сеткавы кліент"
+#define GAMBATTE_GB_LINK_NETWORK_PORT_LABEL_BE "Сеткавы порт сувязі"
 #define GAMBATTE_GB_LINK_NETWORK_PORT_LABEL_CAT_BE "Порт"
-#define GAMBATTE_GB_LINK_NETWORK_PORT_INFO_0_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_LABEL_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_LABEL_CAT_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_INFO_0_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_INFO_1_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_LABEL_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_LABEL_CAT_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_INFO_0_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_INFO_1_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_LABEL_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_LABEL_CAT_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_INFO_0_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_INFO_1_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_LABEL_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_LABEL_CAT_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_INFO_0_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_INFO_1_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_LABEL_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_LABEL_CAT_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_INFO_0_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_INFO_1_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_LABEL_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_LABEL_CAT_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_INFO_0_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_INFO_1_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_LABEL_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_LABEL_CAT_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_INFO_0_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_INFO_1_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_LABEL_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_LABEL_CAT_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_INFO_0_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_INFO_1_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_LABEL_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_LABEL_CAT_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_INFO_0_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_INFO_1_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_LABEL_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_LABEL_CAT_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_INFO_0_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_INFO_1_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_LABEL_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_LABEL_CAT_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_INFO_0_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_INFO_1_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_LABEL_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_LABEL_CAT_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_INFO_0_BE NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_INFO_1_BE NULL
+#define GAMBATTE_GB_LINK_NETWORK_PORT_INFO_0_BE "Устанаўлівае порт, які выкарыстоўваецца для сувязі з Game Link."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_LABEL_BE "Адрас сеткавага сервера сувязі з. 01: x__.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_LABEL_CAT_BE "Адрас сервера ч. 01: x__.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_INFO_0_BE "1-я лічба IP-адраса аддаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым Game Link' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_INFO_1_BE "1-я лічба IP-адраса аддаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым сувязі' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_LABEL_BE "Адрас сеткавага сервера сувязі з. 02: _x_.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_LABEL_CAT_BE "Адрас сервера ч. 02: _x_.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_INFO_0_BE "2-я лічба IP-адраса аддаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым Game Link' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_INFO_1_BE "2-я лічба IP-адраса аддаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым сувязі' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_LABEL_BE "Адрас сеткавага сервера сувязі з. 03: __x.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_LABEL_CAT_BE "Адрас сервера ч. 03: __x.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_INFO_0_BE "3-я лічба IP-адраса аддаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым Game Link' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_INFO_1_BE "3-я лічба IP-адраса аддаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым сувязі' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_LABEL_BE "Адрас сеткавага сервера сувязі з. 04: ___.x__.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_LABEL_CAT_BE "Адрас сервера ч. 04: ___.x__.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_INFO_0_BE "4-я лічба IP-адраса аддаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым Game Link' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_INFO_1_BE "4-я лічба IP-адраса аддаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым сувязі' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_LABEL_BE "Адрас сеткавага сервера сувязі з. 05: ___._x_.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_LABEL_CAT_BE "Адрас сервера ч. 05: ___._x_.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_INFO_0_BE "5-я лічба IP-адраса аддаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым Game Link' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_INFO_1_BE "5-я лічба IP-адраса аддаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым сувязі' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_LABEL_BE "Адрас сеткавага сервера сувязі з. 06: ___._x.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_LABEL_CAT_BE "Адрас сервера ч. 06: ___._x.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_INFO_0_BE "6-я лічба IP-адраса аддаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым Game Link' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_INFO_1_BE "6-я лічба IP-адраса аддаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым сувязі' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_LABEL_BE "Адрас сеткавага сервера сувязі з. 07: ___._x.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_LABEL_CAT_BE "Адрас сервера ч. 07: ___._x.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_INFO_0_BE "7-я лічба IP-адраса аддаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым Game Link' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_INFO_1_BE "7-я лічба IP-адраса аддаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым сувязі' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_LABEL_BE "Адрас сеткавага сервера сувязі з. 08: ___._x.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_LABEL_CAT_BE "Адрас сервера ч. 08: ___._x.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_INFO_0_BE "8-я лічба IP-адраса аддаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым Game Link' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_INFO_1_BE "8-я лічба IP-адраса аддаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым сувязі' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_LABEL_BE "Адрас сеткавага сервера сувязі з. 09: ___._x.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_LABEL_CAT_BE "Адрас сервера ч. 09: ___._x.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_INFO_0_BE "9-я лічба IP-адраса аддаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым Game Link' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_INFO_1_BE "9-я лічба IP-адраса аддаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым сувязі' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_LABEL_BE "Адрас сеткавага сервера сувязі з. 10: ___._x.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_LABEL_CAT_BE "Адрас сервера ч. 10: ___._x.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_INFO_0_BE "10-я лічба IP-адраса выдаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым Game Link' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_INFO_1_BE "10-я лічба IP-адраса выдаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым сувязі' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_LABEL_BE "Адрас сеткавага сервера сувязі з. 11: ___._x.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_LABEL_CAT_BE "Адрас сервера ч. 11: ___._x.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_INFO_0_BE "11-я лічба IP-адраса выдаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым Game Link' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_INFO_1_BE "11-я лічба IP-адраса выдаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым сувязі' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_LABEL_BE "Адрас сеткавага сервера сувязі з. 12: ___._x.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_LABEL_CAT_BE "Адрас сервера ч. 12: ___._x.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_INFO_0_BE "12-я лічба IP-адраса выдаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым Game Link' усталяваны ў 'Сеткавы кліент'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_INFO_1_BE "12-я лічба IP-адраса выдаленага сервера Game Link. Выкарыстоўваецца толькі калі 'Рэжым сувязі' усталяваны ў 'Сеткавы кліент'."
 
 struct retro_core_option_v2_category option_cats_be[] = {
    {
@@ -6585,30 +6585,30 @@ struct retro_core_options_v2 options_bg = {
 
 #define CATEGORY_GB_LINK_LABEL_CA NULL
 #define CATEGORY_GB_LINK_INFO_0_CA NULL
-#define GAMBATTE_GB_COLORIZATION_LABEL_CA NULL
+#define GAMBATTE_GB_COLORIZATION_LABEL_CA "Coloració de GB"
 #define GAMBATTE_GB_COLORIZATION_INFO_0_CA NULL
 #define OPTION_VAL_AUTO_CA "Automàtic"
 #define OPTION_VAL_GBC_CA NULL
 #define OPTION_VAL_SGB_CA NULL
-#define OPTION_VAL_INTERNAL_CA NULL
+#define OPTION_VAL_INTERNAL_CA "Intern"
 #define OPTION_VAL_CUSTOM_CA "Personalitzat"
-#define GAMBATTE_GB_INTERNAL_PALETTE_LABEL_CA NULL
+#define GAMBATTE_GB_INTERNAL_PALETTE_LABEL_CA "Paleta de colors interna"
 #define GAMBATTE_GB_INTERNAL_PALETTE_INFO_0_CA NULL
 #define OPTION_VAL_GB_DMG_CA NULL
-#define OPTION_VAL_GB_POCKET_CA NULL
-#define OPTION_VAL_GB_LIGHT_CA NULL
-#define OPTION_VAL_GBC_BLUE_CA NULL
-#define OPTION_VAL_GBC_BROWN_CA NULL
-#define OPTION_VAL_GBC_DARK_BLUE_CA NULL
-#define OPTION_VAL_GBC_DARK_BROWN_CA NULL
-#define OPTION_VAL_GBC_DARK_GREEN_CA NULL
-#define OPTION_VAL_GBC_GRAYSCALE_CA NULL
-#define OPTION_VAL_GBC_GREEN_CA NULL
-#define OPTION_VAL_GBC_INVERTED_CA NULL
-#define OPTION_VAL_GBC_ORANGE_CA NULL
-#define OPTION_VAL_GBC_PASTEL_MIX_CA NULL
-#define OPTION_VAL_GBC_RED_CA NULL
-#define OPTION_VAL_GBC_YELLOW_CA NULL
+#define OPTION_VAL_GB_POCKET_CA "GB - Butxaca"
+#define OPTION_VAL_GB_LIGHT_CA "GB - Brillant"
+#define OPTION_VAL_GBC_BLUE_CA "GBC - Blau"
+#define OPTION_VAL_GBC_BROWN_CA "GBC - Marró"
+#define OPTION_VAL_GBC_DARK_BLUE_CA "GB. - Blau fosc"
+#define OPTION_VAL_GBC_DARK_BROWN_CA "GBC - Marró fosc"
+#define OPTION_VAL_GBC_DARK_GREEN_CA "GBC - Verd fosc"
+#define OPTION_VAL_GBC_GRAYSCALE_CA "GBC - Escala de grisos"
+#define OPTION_VAL_GBC_GREEN_CA "GBC - Verd"
+#define OPTION_VAL_GBC_INVERTED_CA "GBC - Invertida"
+#define OPTION_VAL_GBC_ORANGE_CA "GBC - Taronja"
+#define OPTION_VAL_GBC_PASTEL_MIX_CA "GBC - Pastel mix"
+#define OPTION_VAL_GBC_RED_CA "GBC - Vermell"
+#define OPTION_VAL_GBC_YELLOW_CA "GBC - Groc"
 #define OPTION_VAL_SGB_1A_CA NULL
 #define OPTION_VAL_SGB_1B_CA NULL
 #define OPTION_VAL_SGB_1C_CA NULL
@@ -6641,9 +6641,9 @@ struct retro_core_options_v2 options_bg = {
 #define OPTION_VAL_SGB_4F_CA NULL
 #define OPTION_VAL_SGB_4G_CA NULL
 #define OPTION_VAL_SGB_4H_CA NULL
-#define OPTION_VAL_SPECIAL_1_CA NULL
-#define OPTION_VAL_SPECIAL_2_CA NULL
-#define OPTION_VAL_SPECIAL_3_CA NULL
+#define OPTION_VAL_SPECIAL_1_CA "Especial 1"
+#define OPTION_VAL_SPECIAL_2_CA "Especial 2"
+#define OPTION_VAL_SPECIAL_3_CA "Especial 3"
 #define OPTION_VAL_SPECIAL_4_TI_83_LEGACY_CA NULL
 #define OPTION_VAL_TWB64_PACK_1_CA NULL
 #define OPTION_VAL_TWB64_PACK_2_CA NULL
@@ -6658,7 +6658,7 @@ struct retro_core_options_v2 options_bg = {
 #define OPTION_VAL_TWB64_005_NEON_RED_CA NULL
 #define OPTION_VAL_TWB64_006_NEON_BLUE_CA NULL
 #define OPTION_VAL_TWB64_007_NEON_YELLOW_CA NULL
-#define OPTION_VAL_TWB64_008_NEON_GREEN_CA NULL
+#define OPTION_VAL_TWB64_008_NEON_GREEN_CA "TWB64 008 - Verd neó"
 #define OPTION_VAL_TWB64_009_NEON_PINK_CA NULL
 #define OPTION_VAL_TWB64_010_MARIO_RED_CA NULL
 #define OPTION_VAL_TWB64_011_NICK_ORANGE_CA NULL
@@ -6899,7 +6899,7 @@ struct retro_core_options_v2 options_bg = {
 #define OPTION_VAL_TWB64_242_SHINING_PEARL_PINK_CA NULL
 #define OPTION_VAL_TWB64_243_FUNIMATION_MELON_CA NULL
 #define OPTION_VAL_TWB64_244_TEYVAT_BROWN_CA NULL
-#define OPTION_VAL_TWB64_245_CHOZO_BLUE_CA NULL
+#define OPTION_VAL_TWB64_245_CHOZO_BLUE_CA "TWB64 245 - Chozo Blau"
 #define OPTION_VAL_TWB64_246_SPOTIFY_GREEN_CA NULL
 #define OPTION_VAL_TWB64_247_DR_PEPPER_RED_CA NULL
 #define OPTION_VAL_TWB64_248_NHK_SILVER_GRAY_CA NULL
@@ -7002,26 +7002,26 @@ struct retro_core_options_v2 options_bg = {
 #define OPTION_VAL_PIXELSHIFT_43_VAPORWAVE_CA NULL
 #define OPTION_VAL_PIXELSHIFT_44_VIRTUAL_BOY_CA NULL
 #define OPTION_VAL_PIXELSHIFT_45_WISH_CA NULL
-#define GAMBATTE_GBC_COLOR_CORRECTION_LABEL_CA NULL
+#define GAMBATTE_GBC_COLOR_CORRECTION_LABEL_CA "Correcció de color"
 #define GAMBATTE_GBC_COLOR_CORRECTION_INFO_0_CA NULL
-#define OPTION_VAL_GBC_ONLY_CA NULL
-#define OPTION_VAL_ALWAYS_CA NULL
-#define GAMBATTE_GBC_COLOR_CORRECTION_MODE_LABEL_CA NULL
+#define OPTION_VAL_GBC_ONLY_CA "Només GBC"
+#define OPTION_VAL_ALWAYS_CA "Sempre"
+#define GAMBATTE_GBC_COLOR_CORRECTION_MODE_LABEL_CA "Mode de correcció de color"
 #define GAMBATTE_GBC_COLOR_CORRECTION_MODE_INFO_0_CA NULL
-#define OPTION_VAL_ACCURATE_CA NULL
+#define OPTION_VAL_ACCURATE_CA "Precís"
 #define OPTION_VAL_FAST_CA "Ràpida"
 #define GAMBATTE_GBC_FRONTLIGHT_POSITION_LABEL_CA NULL
 #define GAMBATTE_GBC_FRONTLIGHT_POSITION_INFO_0_CA NULL
 #define OPTION_VAL_CENTRAL_CA NULL
-#define OPTION_VAL_ABOVE_SCREEN_CA NULL
-#define OPTION_VAL_BELOW_SCREEN_CA NULL
-#define GAMBATTE_DARK_FILTER_LEVEL_LABEL_CA NULL
+#define OPTION_VAL_ABOVE_SCREEN_CA "Per sobre la pantalla"
+#define OPTION_VAL_BELOW_SCREEN_CA "Per sota la pantalla"
+#define GAMBATTE_DARK_FILTER_LEVEL_LABEL_CA "Nivell del filtre fosc (%)"
 #define GAMBATTE_DARK_FILTER_LEVEL_INFO_0_CA NULL
-#define GAMBATTE_MIX_FRAMES_LABEL_CA NULL
+#define GAMBATTE_MIX_FRAMES_LABEL_CA "Fusió de fotogrames"
 #define GAMBATTE_MIX_FRAMES_INFO_0_CA NULL
 #define OPTION_VAL_MIX_CA NULL
-#define OPTION_VAL_LCD_GHOSTING_CA NULL
-#define OPTION_VAL_LCD_GHOSTING_FAST_CA NULL
+#define OPTION_VAL_LCD_GHOSTING_CA "Imatge fantasma de LCD (Acurat)"
+#define OPTION_VAL_LCD_GHOSTING_FAST_CA "Imatge fantasma del LCD (ràpid)"
 #define GAMBATTE_AUDIO_RESAMPLER_LABEL_CA "Remostreig d'àudio"
 #define GAMBATTE_AUDIO_RESAMPLER_INFO_0_CA NULL
 #define OPTION_VAL_SINC_CA NULL
@@ -7032,21 +7032,21 @@ struct retro_core_options_v2 options_bg = {
 #define OPTION_VAL_GBA_CA NULL
 #define GAMBATTE_GB_BOOTLOADER_LABEL_CA NULL
 #define GAMBATTE_GB_BOOTLOADER_INFO_0_CA NULL
-#define GAMBATTE_UP_DOWN_ALLOWED_LABEL_CA NULL
+#define GAMBATTE_UP_DOWN_ALLOWED_LABEL_CA "Permet direccions oposades"
 #define GAMBATTE_UP_DOWN_ALLOWED_INFO_0_CA NULL
-#define GAMBATTE_TURBO_PERIOD_LABEL_CA NULL
+#define GAMBATTE_TURBO_PERIOD_LABEL_CA "Duració del botó Turbo"
 #define GAMBATTE_TURBO_PERIOD_INFO_0_CA NULL
-#define GAMBATTE_RUMBLE_LEVEL_LABEL_CA NULL
+#define GAMBATTE_RUMBLE_LEVEL_LABEL_CA "Força de la vibració del controlador"
 #define GAMBATTE_RUMBLE_LEVEL_INFO_0_CA NULL
-#define GAMBATTE_SHOW_GB_LINK_SETTINGS_LABEL_CA NULL
+#define GAMBATTE_SHOW_GB_LINK_SETTINGS_LABEL_CA "Mostrar la configuració de Game Link"
 #define GAMBATTE_SHOW_GB_LINK_SETTINGS_INFO_0_CA NULL
-#define GAMBATTE_GB_LINK_MODE_LABEL_CA NULL
-#define GAMBATTE_GB_LINK_MODE_LABEL_CAT_CA NULL
+#define GAMBATTE_GB_LINK_MODE_LABEL_CA "Mode de cable Game Link"
+#define GAMBATTE_GB_LINK_MODE_LABEL_CAT_CA "Mode de connexió"
 #define GAMBATTE_GB_LINK_MODE_INFO_0_CA NULL
-#define OPTION_VAL_NOT_CONNECTED_CA NULL
-#define OPTION_VAL_NETWORK_SERVER_CA NULL
-#define OPTION_VAL_NETWORK_CLIENT_CA NULL
-#define GAMBATTE_GB_LINK_NETWORK_PORT_LABEL_CA NULL
+#define OPTION_VAL_NOT_CONNECTED_CA "Sense connexió"
+#define OPTION_VAL_NETWORK_SERVER_CA "Servidor de xarxa"
+#define OPTION_VAL_NETWORK_CLIENT_CA "Client de xarxa"
+#define GAMBATTE_GB_LINK_NETWORK_PORT_LABEL_CA "Port d'enllaç a la xarxa"
 #define GAMBATTE_GB_LINK_NETWORK_PORT_LABEL_CAT_CA NULL
 #define GAMBATTE_GB_LINK_NETWORK_PORT_INFO_0_CA NULL
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_LABEL_CA NULL
@@ -8656,8 +8656,8 @@ struct retro_core_options_v2 options_ca = {
 #define GAMBATTE_MIX_FRAMES_LABEL_CHS NULL
 #define GAMBATTE_MIX_FRAMES_INFO_0_CHS NULL
 #define OPTION_VAL_MIX_CHS "简单"
-#define OPTION_VAL_LCD_GHOSTING_CHS NULL
-#define OPTION_VAL_LCD_GHOSTING_FAST_CHS NULL
+#define OPTION_VAL_LCD_GHOSTING_CHS "LCD 重影 (精准)"
+#define OPTION_VAL_LCD_GHOSTING_FAST_CHS "LCD 重影 (快速)"
 #define GAMBATTE_AUDIO_RESAMPLER_LABEL_CHS "音频重采样器"
 #define GAMBATTE_AUDIO_RESAMPLER_INFO_0_CHS NULL
 #define OPTION_VAL_SINC_CHS NULL
@@ -8668,7 +8668,7 @@ struct retro_core_options_v2 options_ca = {
 #define OPTION_VAL_GBA_CHS NULL
 #define GAMBATTE_GB_BOOTLOADER_LABEL_CHS NULL
 #define GAMBATTE_GB_BOOTLOADER_INFO_0_CHS NULL
-#define GAMBATTE_UP_DOWN_ALLOWED_LABEL_CHS NULL
+#define GAMBATTE_UP_DOWN_ALLOWED_LABEL_CHS "允许相反方向的输入"
 #define GAMBATTE_UP_DOWN_ALLOWED_INFO_0_CHS NULL
 #define GAMBATTE_TURBO_PERIOD_LABEL_CHS NULL
 #define GAMBATTE_TURBO_PERIOD_INFO_0_CHS NULL
@@ -26216,31 +26216,31 @@ struct retro_core_options_v2 options_fa = {
 /* RETRO_LANGUAGE_FI */
 
 #define CATEGORY_GB_LINK_LABEL_FI NULL
-#define CATEGORY_GB_LINK_INFO_0_FI NULL
+#define CATEGORY_GB_LINK_INFO_0_FI "Muuta verkotettuja Game Link (moninpeli) -asetuksia."
 #define GAMBATTE_GB_COLORIZATION_LABEL_FI "GB-väritys"
-#define GAMBATTE_GB_COLORIZATION_INFO_0_FI NULL
+#define GAMBATTE_GB_COLORIZATION_INFO_0_FI "Mahdollistaa Game Boy -pelien värityksen. 'Automaattinen' valitsee 'parhaan' (värikkäimmän/sopivimman) paletin. 'GBC' valitsee pelikohtaisen Game Boy Color -paletin, jos sellainen on määritelty, muuten 'GBC - Dark Green'. 'SGB' valitsee pelikohtaisen Super Game Boy -paletin, jos määritelty, muuten valitaan 'SGB - 1A'. 'Sisäinen' käyttää 'Sisäinen paletti' -ydinasetusta. 'Mukautettu' lataa käyttäjän luoman paletin järjestelmäkansiosta."
 #define OPTION_VAL_AUTO_FI "Automaattinen"
 #define OPTION_VAL_GBC_FI NULL
 #define OPTION_VAL_SGB_FI NULL
 #define OPTION_VAL_INTERNAL_FI "Sisäinen"
 #define OPTION_VAL_CUSTOM_FI "Mukautettu"
 #define GAMBATTE_GB_INTERNAL_PALETTE_LABEL_FI "Sisäinen paletti"
-#define GAMBATTE_GB_INTERNAL_PALETTE_INFO_0_FI NULL
+#define GAMBATTE_GB_INTERNAL_PALETTE_INFO_0_FI "Valitsee paletin, jota käytetään Game Boy -pelien värityksessä, kun 'GB-väritys' on asetettu tilaan 'Sisäinen', tai kun 'GB-väritys' on asetettu tilaan 'Automaattinen' eikä pelillä ole ennalta määriteltyä SGB/GBC-paletia. 'GB' -paletit jäljittelevät alkuperäisen Game Boy -laitteiston näyttöä. 'GBC' -paletit ovat identtisiä Game Boy Colorin sisäänrakennettujen esiasetusten kanssa. 'SGB' -paletit ovat identtisiä Super Game Boyn sisäänrakennettujen esiasetusten kanssa."
 #define OPTION_VAL_GB_DMG_FI NULL
 #define OPTION_VAL_GB_POCKET_FI NULL
 #define OPTION_VAL_GB_LIGHT_FI NULL
-#define OPTION_VAL_GBC_BLUE_FI NULL
-#define OPTION_VAL_GBC_BROWN_FI NULL
-#define OPTION_VAL_GBC_DARK_BLUE_FI NULL
-#define OPTION_VAL_GBC_DARK_BROWN_FI NULL
-#define OPTION_VAL_GBC_DARK_GREEN_FI NULL
-#define OPTION_VAL_GBC_GRAYSCALE_FI NULL
-#define OPTION_VAL_GBC_GREEN_FI NULL
-#define OPTION_VAL_GBC_INVERTED_FI NULL
-#define OPTION_VAL_GBC_ORANGE_FI NULL
-#define OPTION_VAL_GBC_PASTEL_MIX_FI NULL
-#define OPTION_VAL_GBC_RED_FI NULL
-#define OPTION_VAL_GBC_YELLOW_FI NULL
+#define OPTION_VAL_GBC_BLUE_FI "GBC - Sininen"
+#define OPTION_VAL_GBC_BROWN_FI "GBC - Ruskea"
+#define OPTION_VAL_GBC_DARK_BLUE_FI "GBC - Tummansininen"
+#define OPTION_VAL_GBC_DARK_BROWN_FI "GBC - Tummanruskea"
+#define OPTION_VAL_GBC_DARK_GREEN_FI "GBC - Tummanvihreä"
+#define OPTION_VAL_GBC_GRAYSCALE_FI "GBC - Harmaa"
+#define OPTION_VAL_GBC_GREEN_FI "GBC - Vihreä"
+#define OPTION_VAL_GBC_INVERTED_FI "GBC - Käänteinen"
+#define OPTION_VAL_GBC_ORANGE_FI "GBC - Oranssi"
+#define OPTION_VAL_GBC_PASTEL_MIX_FI "GBC – Pastellisekoitus"
+#define OPTION_VAL_GBC_RED_FI "GBC – Punainen"
+#define OPTION_VAL_GBC_YELLOW_FI "GBC - Keltainen"
 #define OPTION_VAL_SGB_1A_FI NULL
 #define OPTION_VAL_SGB_1B_FI NULL
 #define OPTION_VAL_SGB_1C_FI NULL
@@ -26273,10 +26273,10 @@ struct retro_core_options_v2 options_fa = {
 #define OPTION_VAL_SGB_4F_FI NULL
 #define OPTION_VAL_SGB_4G_FI NULL
 #define OPTION_VAL_SGB_4H_FI NULL
-#define OPTION_VAL_SPECIAL_1_FI NULL
-#define OPTION_VAL_SPECIAL_2_FI NULL
-#define OPTION_VAL_SPECIAL_3_FI NULL
-#define OPTION_VAL_SPECIAL_4_TI_83_LEGACY_FI NULL
+#define OPTION_VAL_SPECIAL_1_FI "Erityinen 1"
+#define OPTION_VAL_SPECIAL_2_FI "Erityinen 2"
+#define OPTION_VAL_SPECIAL_3_FI "Erityinen 3"
+#define OPTION_VAL_SPECIAL_4_TI_83_LEGACY_FI "Erityinen 4 (TI-83 Legacy)"
 #define OPTION_VAL_TWB64_PACK_1_FI NULL
 #define OPTION_VAL_TWB64_PACK_2_FI NULL
 #define OPTION_VAL_TWB64_PACK_3_FI NULL
@@ -26292,7 +26292,7 @@ struct retro_core_options_v2 options_fa = {
 #define OPTION_VAL_TWB64_007_NEON_YELLOW_FI NULL
 #define OPTION_VAL_TWB64_008_NEON_GREEN_FI NULL
 #define OPTION_VAL_TWB64_009_NEON_PINK_FI NULL
-#define OPTION_VAL_TWB64_010_MARIO_RED_FI NULL
+#define OPTION_VAL_TWB64_010_MARIO_RED_FI "TWB64 010 - Marion punainen"
 #define OPTION_VAL_TWB64_011_NICK_ORANGE_FI NULL
 #define OPTION_VAL_TWB64_012_VIRTUAL_VISION_FI NULL
 #define OPTION_VAL_TWB64_013_GOLDEN_WILD_FI NULL
@@ -26300,7 +26300,7 @@ struct retro_core_options_v2 options_fa = {
 #define OPTION_VAL_TWB64_015_CLASSIC_BLURPLE_FI NULL
 #define OPTION_VAL_TWB64_016_765_PRODUCTION_VER_FI NULL
 #define OPTION_VAL_TWB64_017_SUPERBALL_IVORY_FI NULL
-#define OPTION_VAL_TWB64_018_CRUNCHYROLL_ORANGE_FI NULL
+#define OPTION_VAL_TWB64_018_CRUNCHYROLL_ORANGE_FI "TWB64 018 - Crunchyrollin oranssi"
 #define OPTION_VAL_TWB64_019_MUSE_PINK_FI NULL
 #define OPTION_VAL_TWB64_020_SCHOOL_IDOL_BLUE_FI NULL
 #define OPTION_VAL_TWB64_021_GAMATE_VER_FI NULL
@@ -26635,16 +26635,16 @@ struct retro_core_options_v2 options_fa = {
 #define OPTION_VAL_PIXELSHIFT_44_VIRTUAL_BOY_FI NULL
 #define OPTION_VAL_PIXELSHIFT_45_WISH_FI NULL
 #define GAMBATTE_GBC_COLOR_CORRECTION_LABEL_FI "Värinkorjaus"
-#define GAMBATTE_GBC_COLOR_CORRECTION_INFO_0_FI NULL
-#define OPTION_VAL_GBC_ONLY_FI NULL
+#define GAMBATTE_GBC_COLOR_CORRECTION_INFO_0_FI "Säätää ulostulon värit vastaamaan oikean Game Boy Color -laitteiston näyttöä. 'Vain GBC' varmistaa, että korjaus tehdään vain, kun pelataan Game Boy Color -pelejä tai kun käytetään Game Boy Color -palettia väritykseen Game Boy -pelissä. 'Aina' soveltaa värikorjausta kaikkeen sisältöön, mikä voi tuottaa odottamattomia/epäoptimaalisia tuloksia, kun käytetään 'GB' tai 'SGB' sisäisiä väripaletteja."
+#define OPTION_VAL_GBC_ONLY_FI "Vain GBC"
 #define OPTION_VAL_ALWAYS_FI "Aina"
 #define GAMBATTE_GBC_COLOR_CORRECTION_MODE_LABEL_FI "Värinkorjauksen tila"
-#define GAMBATTE_GBC_COLOR_CORRECTION_MODE_INFO_0_FI NULL
+#define GAMBATTE_GBC_COLOR_CORRECTION_MODE_INFO_0_FI "Määrittää menetelmän, jota käytetään värikorjauksen suorittamiseen. 'Tarkka' tuottaa ulostulon, joka on lähes erottamaton oikean Game Boy Color -LCD-paneelin näytöstä. 'Nopea' vain tummentaa värejä ja vähentää kylläisyyttä, ja sitä voidaan käyttää heikkotehoisilla laitteilla, jos 'Tarkka' menetelmä on liian hidas."
 #define OPTION_VAL_ACCURATE_FI "Tarkka"
 #define OPTION_VAL_FAST_FI "Nopea"
-#define GAMBATTE_GBC_FRONTLIGHT_POSITION_LABEL_FI NULL
-#define GAMBATTE_GBC_FRONTLIGHT_POSITION_INFO_0_FI NULL
-#define OPTION_VAL_CENTRAL_FI NULL
+#define GAMBATTE_GBC_FRONTLIGHT_POSITION_LABEL_FI "Värikorjaus - Etuvalon sijainti"
+#define GAMBATTE_GBC_FRONTLIGHT_POSITION_INFO_0_FI "Simuloi Game Boy Color -LCD-paneelin fyysistä vastetta, kun sitä valaistaan eri kulmista. 'Keskellä' edustaa tavanomaista värintoistoa. 'Näytön yläpuolella' lisää kirkkautta. 'Näytön alapuolella' vähentää kirkkautta. Tämä asetus pätee vain silloin, kun 'Värinkorjaustila' on asetettu tilaan 'Tarkka'."
+#define OPTION_VAL_CENTRAL_FI "Keskellä"
 #define OPTION_VAL_ABOVE_SCREEN_FI "Näytön yläpuolella"
 #define OPTION_VAL_BELOW_SCREEN_FI "Näytön alapuolella"
 #define GAMBATTE_DARK_FILTER_LEVEL_LABEL_FI NULL
@@ -28029,7 +28029,7 @@ struct retro_core_options_v2 options_fi = {
 #define OPTION_VAL_TWB64_106_ANGRY_VOLCANO_VER_FR "TWB64 106 - Version Angry Volcano"
 #define OPTION_VAL_TWB64_107_NBA_VISION_FR NULL
 #define OPTION_VAL_TWB64_108_NFL_VISION_FR NULL
-#define OPTION_VAL_TWB64_109_MLB_VISION_FR NULL
+#define OPTION_VAL_TWB64_109_MLB_VISION_FR "Vision style MLB"
 #define OPTION_VAL_TWB64_110_ANIME_DIGIVICE_VER_FR NULL
 #define OPTION_VAL_TWB64_111_AQUATIC_IRO_FR "TWB64 111 - Iro aquatique"
 #define OPTION_VAL_TWB64_112_TEA_MIDORI_FR "TWB64 112 - Thé midori"
@@ -28044,7 +28044,7 @@ struct retro_core_options_v2 options_fi = {
 #define OPTION_VAL_TWB64_121_TRI_DIGIVICE_VER_FR NULL
 #define OPTION_VAL_TWB64_122_SURVEY_CORPS_UNIFORM_FR NULL
 #define OPTION_VAL_TWB64_123_ISLAND_GREEN_FR "TWB64 123 - Vert insulaire"
-#define OPTION_VAL_TWB64_124_NOGIZAKA46_PURPLE_FR NULL
+#define OPTION_VAL_TWB64_124_NOGIZAKA46_PURPLE_FR "Violet comme Nogizaka46"
 #define OPTION_VAL_TWB64_125_NINJA_TURTLE_GREEN_FR "TWB64 125 - Vert Tortues Ninja"
 #define OPTION_VAL_TWB64_126_SLIME_BLUE_FR "TWB64 126 - Bleu slime"
 #define OPTION_VAL_TWB64_127_LIME_MIDORI_FR "TWB64 127 - Citron vert Midori"
@@ -28054,8 +28054,8 @@ struct retro_core_options_v2 options_fi = {
 #define OPTION_VAL_TWB64_131_NEON_PURPLE_FR "TWB64 131 - Violet néon"
 #define OPTION_VAL_TWB64_132_NEON_ORANGE_FR "TWB64 132 - Orange néon"
 #define OPTION_VAL_TWB64_133_MOONLIGHT_VISION_FR "TWB64 133 - Vision Moonlight"
-#define OPTION_VAL_TWB64_134_RISING_SUN_RED_FR NULL
-#define OPTION_VAL_TWB64_135_BURGER_KING_COLOR_COMBO_FR NULL
+#define OPTION_VAL_TWB64_134_RISING_SUN_RED_FR "Rouge soleil levant"
+#define OPTION_VAL_TWB64_135_BURGER_KING_COLOR_COMBO_FR "Combinaison de couleur style \"Burger King\""
 #define OPTION_VAL_TWB64_136_GRAND_ZENO_COAT_FR NULL
 #define OPTION_VAL_TWB64_137_PAC_MAN_YELLOW_FR "TWB64 137 - Jaune Pac-Man"
 #define OPTION_VAL_TWB64_138_IRISH_GREEN_FR "TWB64 138 - Vert irlandais"
@@ -28071,10 +28071,10 @@ struct retro_core_options_v2 options_fi = {
 #define OPTION_VAL_TWB64_148_LIELLA_PURPLE_FR "TWB64 148 - Violet Liella !"
 #define OPTION_VAL_TWB64_149_OLYMPIC_SILVER_FR "TWB64 149 - Argent olympique"
 #define OPTION_VAL_TWB64_150_OLYMPIC_BRONZE_FR "TWB64 150 - Bronze olympique"
-#define OPTION_VAL_TWB64_151_ANA_FLIGHT_BLUE_FR NULL
+#define OPTION_VAL_TWB64_151_ANA_FLIGHT_BLUE_FR "Bleu comme les avions de ALL NIPPON AIRWAYS"
 #define OPTION_VAL_TWB64_152_NIJIGASAKI_ORANGE_FR "TWB64 152 - Orange Nijigasaki"
 #define OPTION_VAL_TWB64_153_HOLOBLUE_FR "TWB64 153 - HoloBleu"
-#define OPTION_VAL_TWB64_154_WWE_WHITE_AND_RED_FR NULL
+#define OPTION_VAL_TWB64_154_WWE_WHITE_AND_RED_FR "Rouge et blanc \"WWE\""
 #define OPTION_VAL_TWB64_155_YOSHI_EGG_GREEN_FR "TWB64 155 - Vert œuf de Yoshi"
 #define OPTION_VAL_TWB64_156_POKEDEX_RED_FR "TWB64 156 - Rouge Pokédex"
 #define OPTION_VAL_TWB64_157_FAMILYMART_VISION_FR NULL
@@ -28105,9 +28105,9 @@ struct retro_core_options_v2 options_fi = {
 #define OPTION_VAL_TWB64_182_PASTEL109_FR NULL
 #define OPTION_VAL_TWB64_183_DORAEMON_TRICOLOR_FR "TWB64 183 - Tricolore Doraemon"
 #define OPTION_VAL_TWB64_184_FURY_BLUE_FR "TWB64 184 - Bleu Fury"
-#define OPTION_VAL_TWB64_185_GOOD_SMILE_VISION_FR NULL
+#define OPTION_VAL_TWB64_185_GOOD_SMILE_VISION_FR "Vision style \"Good smile\""
 #define OPTION_VAL_TWB64_186_PUYO_PUYO_GREEN_FR "TWB64 186 - Vert Puyo Puyo"
-#define OPTION_VAL_TWB64_187_CIRCLE_K_COLOR_COMBO_FR NULL
+#define OPTION_VAL_TWB64_187_CIRCLE_K_COLOR_COMBO_FR "Combinaison de couleur style \"Circle K\""
 #define OPTION_VAL_TWB64_188_PIZZA_HUT_RED_FR "TWB64 188 - Rouge Pizza Hut"
 #define OPTION_VAL_TWB64_189_EMERALD_GREEN_FR NULL
 #define OPTION_VAL_TWB64_190_GRAND_IVORY_FR "TWB64 190 - Grand Ivoire"
@@ -28117,7 +28117,7 @@ struct retro_core_options_v2 options_fi = {
 #define OPTION_VAL_TWB64_194_DK_BARREL_BROWN_FR "TWB64 194 - Marron baril DK"
 #define OPTION_VAL_TWB64_195_EVA_01_FR NULL
 #define OPTION_VAL_TWB64_196_WILD_WEST_VISION_FR NULL
-#define OPTION_VAL_TWB64_197_OPTIMUS_PRIME_PALETTE_FR NULL
+#define OPTION_VAL_TWB64_197_OPTIMUS_PRIME_PALETTE_FR "Palette de couleur à la \"Optimus Prime\""
 #define OPTION_VAL_TWB64_198_NICONICO_SEA_GREEN_FR "TWB64 198 - Vert océan Niconico"
 #define OPTION_VAL_TWB64_199_DURACELL_COPPER_FR "TWB64 199 - Cuivre Duracell"
 #define OPTION_VAL_TWB64_200_TOKYO_SKYTREE_CLOUDY_BLUE_FR "TWB64 200 - BLEU NUAGEUX TOKYO SKYTREE"
@@ -28130,7 +28130,7 @@ struct retro_core_options_v2 options_fi = {
 #define OPTION_VAL_TWB64_205_ADVANCED_INDIGO_FR "TWB64 205 - Indigo avancé"
 #define OPTION_VAL_TWB64_206_ULTRA_BLACK_FR "TWB64 206 - Ultra noir"
 #define OPTION_VAL_TWB64_207_CHAOS_EMERALD_GREEN_FR "TWB64 207 - Vert émeraude du Chaos"
-#define OPTION_VAL_TWB64_208_BLUE_BOMBER_VISION_FR NULL
+#define OPTION_VAL_TWB64_208_BLUE_BOMBER_VISION_FR "Vision style \"Blue Bomber\""
 #define OPTION_VAL_TWB64_209_KRISPY_KREME_VISION_FR NULL
 #define OPTION_VAL_TWB64_210_STEAM_GRAY_FR "TWB64 210 - Gris Steam"
 #define OPTION_VAL_TWB64_211_DREAM_LAND_GB_VER_FR "TWB64 211 - Version GB Dream Land"
@@ -28183,7 +28183,7 @@ struct retro_core_options_v2 options_fi = {
 #define OPTION_VAL_TWB64_258_BILL_S_PC_SCREEN_FR "TWB64 258 - Écran du PC de Bill"
 #define OPTION_VAL_TWB64_259_SONIC_MEGA_BLUE_FR "TWB64 259 - Mega Bleu Sonic"
 #define OPTION_VAL_TWB64_260_FOOL_S_GOLD_AND_SILVER_FR "TWB64 260 - Or et Argent des Fous"
-#define OPTION_VAL_TWB64_261_UTA_VISION_FR NULL
+#define OPTION_VAL_TWB64_261_UTA_VISION_FR "Vision style \"UTA\""
 #define OPTION_VAL_TWB64_262_METALLIC_PALDEA_BRASS_FR "TWB64 262 - Laiton Paldea métallique"
 #define OPTION_VAL_TWB64_263_CLASSY_CHRISTMAS_FR "TWB64 263 - Noël chic"
 #define OPTION_VAL_TWB64_264_WINTER_CHRISTMAS_FR "TWB64 264 - Noël d'hiver"
@@ -28195,7 +28195,7 @@ struct retro_core_options_v2 options_fi = {
 #define OPTION_VAL_TWB64_270_NIGHTVISION_GREEN_FR "TWB64 270 - Vert vision de nuit"
 #define OPTION_VAL_TWB64_271_BANDAI_NAMCO_TRICOLOR_FR "TWB64 271 - Tricolore Bandai Namco"
 #define OPTION_VAL_TWB64_272_GOLD_SILVER_AND_BRONZE_FR "TWB64 272 - Or, argent et bronze"
-#define OPTION_VAL_TWB64_273_DEKU_VIGILANTE_PALETTE_FR NULL
+#define OPTION_VAL_TWB64_273_DEKU_VIGILANTE_PALETTE_FR "Palette de couleur à la \"Deku Vigilante\""
 #define OPTION_VAL_TWB64_274_SUPER_FAMICOM_SUPREME_FR "TWB64 274 - Suprême Super Famicom"
 #define OPTION_VAL_TWB64_275_ABSORBENT_AND_YELLOW_FR "TWB64 275 - Absorbant et Jaune"
 #define OPTION_VAL_TWB64_276_765PRO_TRICOLOR_FR "TWB64 276 - TRICOLORE 765PRO"
@@ -28219,7 +28219,7 @@ struct retro_core_options_v2 options_fi = {
 #define OPTION_VAL_TWB64_294_GARFIELD_VISION_FR NULL
 #define OPTION_VAL_TWB64_295_BEDROCK_CAVEMAN_VISION_FR NULL
 #define OPTION_VAL_TWB64_296_BANGTAN_ARMY_PURPLE_FR "TWB64 296 - VIOLET ARMY BANGTAN"
-#define OPTION_VAL_TWB64_297_LE_SSERAFIM_FEARLESS_BLUE_FR NULL
+#define OPTION_VAL_TWB64_297_LE_SSERAFIM_FEARLESS_BLUE_FR "Bleu style \"LE SSERAFIM FEARLESS\""
 #define OPTION_VAL_TWB64_298_BAJA_BLAST_BEACH_FR "TWB64 298 - Plage Baja Blast"
 #define OPTION_VAL_TWB64_299_3DS_VIRTUAL_CONSOLE_GREEN_FR "TWB64 299 - Vert console virtuelle 3DS"
 #define OPTION_VAL_TWB64_300_WONDER_PURPLE_FR "TWB64 300 - Violet Wonder"
@@ -36450,15 +36450,15 @@ struct retro_core_options_v2 options_hu = {
 #define OPTION_VAL_PIXELSHIFT_43_VAPORWAVE_ID NULL
 #define OPTION_VAL_PIXELSHIFT_44_VIRTUAL_BOY_ID NULL
 #define OPTION_VAL_PIXELSHIFT_45_WISH_ID NULL
-#define GAMBATTE_GBC_COLOR_CORRECTION_LABEL_ID NULL
+#define GAMBATTE_GBC_COLOR_CORRECTION_LABEL_ID "Betulkan Warna"
 #define GAMBATTE_GBC_COLOR_CORRECTION_INFO_0_ID NULL
 #define OPTION_VAL_GBC_ONLY_ID NULL
 #define OPTION_VAL_ALWAYS_ID NULL
-#define GAMBATTE_GBC_COLOR_CORRECTION_MODE_LABEL_ID NULL
+#define GAMBATTE_GBC_COLOR_CORRECTION_MODE_LABEL_ID "Mode Betulkan Warna"
 #define GAMBATTE_GBC_COLOR_CORRECTION_MODE_INFO_0_ID NULL
 #define OPTION_VAL_ACCURATE_ID NULL
 #define OPTION_VAL_FAST_ID NULL
-#define GAMBATTE_GBC_FRONTLIGHT_POSITION_LABEL_ID NULL
+#define GAMBATTE_GBC_FRONTLIGHT_POSITION_LABEL_ID "Betulkan Warna - Posisi Cahaya Depan"
 #define GAMBATTE_GBC_FRONTLIGHT_POSITION_INFO_0_ID NULL
 #define OPTION_VAL_CENTRAL_ID NULL
 #define OPTION_VAL_ABOVE_SCREEN_ID NULL
@@ -57729,7 +57729,7 @@ struct retro_core_options_v2 options_sr = {
 #define GAMBATTE_GBC_FRONTLIGHT_POSITION_LABEL_SV NULL
 #define GAMBATTE_GBC_FRONTLIGHT_POSITION_INFO_0_SV NULL
 #define OPTION_VAL_CENTRAL_SV NULL
-#define OPTION_VAL_ABOVE_SCREEN_SV NULL
+#define OPTION_VAL_ABOVE_SCREEN_SV "Över skärmen"
 #define OPTION_VAL_BELOW_SCREEN_SV "Nedanför skärmen"
 #define GAMBATTE_DARK_FILTER_LEVEL_LABEL_SV "Mörkerfilternivå (%)"
 #define GAMBATTE_DARK_FILTER_LEVEL_INFO_0_SV NULL
@@ -60575,7 +60575,7 @@ struct retro_core_options_v2 options_tr = {
 #define CATEGORY_GB_LINK_INFO_0_TT NULL
 #define GAMBATTE_GB_COLORIZATION_LABEL_TT NULL
 #define GAMBATTE_GB_COLORIZATION_INFO_0_TT NULL
-#define OPTION_VAL_AUTO_TT NULL
+#define OPTION_VAL_AUTO_TT "Автоматик"
 #define OPTION_VAL_GBC_TT NULL
 #define OPTION_VAL_SGB_TT NULL
 #define OPTION_VAL_INTERNAL_TT NULL
@@ -61035,7 +61035,7 @@ struct retro_core_options_v2 options_tr = {
 #define OPTION_VAL_NETWORK_SERVER_TT NULL
 #define OPTION_VAL_NETWORK_CLIENT_TT NULL
 #define GAMBATTE_GB_LINK_NETWORK_PORT_LABEL_TT NULL
-#define GAMBATTE_GB_LINK_NETWORK_PORT_LABEL_CAT_TT NULL
+#define GAMBATTE_GB_LINK_NETWORK_PORT_LABEL_CAT_TT "Порт"
 #define GAMBATTE_GB_LINK_NETWORK_PORT_INFO_0_TT NULL
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_LABEL_TT NULL
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_LABEL_CAT_TT NULL
@@ -62207,32 +62207,32 @@ struct retro_core_options_v2 options_tt = {
 
 /* RETRO_LANGUAGE_UK */
 
-#define CATEGORY_GB_LINK_LABEL_UK NULL
-#define CATEGORY_GB_LINK_INFO_0_UK NULL
-#define GAMBATTE_GB_COLORIZATION_LABEL_UK NULL
-#define GAMBATTE_GB_COLORIZATION_INFO_0_UK NULL
+#define CATEGORY_GB_LINK_LABEL_UK "Посилання на гру"
+#define CATEGORY_GB_LINK_INFO_0_UK "Змінити налаштування мережевого посилання (мультиплеєр)."
+#define GAMBATTE_GB_COLORIZATION_LABEL_UK "ГБ Колоризації"
+#define GAMBATTE_GB_COLORIZATION_INFO_0_UK "Активує розфарбовування ігрових хлопців. 'Auto' обирає \"найкраще\" (найбільш кольоровий/підходять) палітру. 'GBC' вибирає палітру кольорів для ігрового хлопчика, якщо визначено, інакше 'GBC - Темний зелений'. 'SGB' вибирає палітру для ігрового користувача, якщо визначено, інакше 'SGGB - 1A'. 'Internal' використовує параметр 'Internal Palette'. 'Custom' завантажує користувацьку палітру із папки системи."
 #define OPTION_VAL_AUTO_UK "Автоматично"
 #define OPTION_VAL_GBC_UK NULL
 #define OPTION_VAL_SGB_UK NULL
-#define OPTION_VAL_INTERNAL_UK NULL
+#define OPTION_VAL_INTERNAL_UK "Внутрішній"
 #define OPTION_VAL_CUSTOM_UK "Користувацька"
-#define GAMBATTE_GB_INTERNAL_PALETTE_LABEL_UK NULL
-#define GAMBATTE_GB_INTERNAL_PALETTE_INFO_0_UK NULL
-#define OPTION_VAL_GB_DMG_UK NULL
-#define OPTION_VAL_GB_POCKET_UK NULL
-#define OPTION_VAL_GB_LIGHT_UK NULL
-#define OPTION_VAL_GBC_BLUE_UK NULL
-#define OPTION_VAL_GBC_BROWN_UK NULL
-#define OPTION_VAL_GBC_DARK_BLUE_UK NULL
-#define OPTION_VAL_GBC_DARK_BROWN_UK NULL
-#define OPTION_VAL_GBC_DARK_GREEN_UK NULL
+#define GAMBATTE_GB_INTERNAL_PALETTE_LABEL_UK "Внутрішня палітра"
+#define GAMBATTE_GB_INTERNAL_PALETTE_INFO_0_UK "Вибирає палітру для розфарбовування ігрових іграшок коли \"GB Colorization\" встановлено на \"Internal\", або коли \"GB Colorization\" встановлено \"Auto\" та гра не має заданих SGB/GBC palette. 'GB' палітри імітують зовнішній вигляд оригінального твердого майстра для ігрових хлопців. 'GBC' палітри є ідентичними до вбудованих пресетів Colors Game Boy. 'SGB' палітри ідентичні пресетам супер ігрового хлопчика."
+#define OPTION_VAL_GB_DMG_UK "ГБ - ДМГ"
+#define OPTION_VAL_GB_POCKET_UK "GB - Кишеня"
+#define OPTION_VAL_GB_LIGHT_UK "ГБ - Світле"
+#define OPTION_VAL_GBC_BLUE_UK "GBC - Синій"
+#define OPTION_VAL_GBC_BROWN_UK "GBC - Браун"
+#define OPTION_VAL_GBC_DARK_BLUE_UK "GBC - Темно-синій"
+#define OPTION_VAL_GBC_DARK_BROWN_UK "GBC - Темний Браун"
+#define OPTION_VAL_GBC_DARK_GREEN_UK "GBC - Темно-зелений"
 #define OPTION_VAL_GBC_GRAYSCALE_UK NULL
-#define OPTION_VAL_GBC_GREEN_UK NULL
-#define OPTION_VAL_GBC_INVERTED_UK NULL
-#define OPTION_VAL_GBC_ORANGE_UK NULL
-#define OPTION_VAL_GBC_PASTEL_MIX_UK NULL
-#define OPTION_VAL_GBC_RED_UK NULL
-#define OPTION_VAL_GBC_YELLOW_UK NULL
+#define OPTION_VAL_GBC_GREEN_UK "GBC - Зелений"
+#define OPTION_VAL_GBC_INVERTED_UK "GBC - Інвертований"
+#define OPTION_VAL_GBC_ORANGE_UK "GBC - Помаранчевий"
+#define OPTION_VAL_GBC_PASTEL_MIX_UK "GBC – Пастель-Мікс"
+#define OPTION_VAL_GBC_RED_UK "GBC - Червоний"
+#define OPTION_VAL_GBC_YELLOW_UK "GBC - Жовтий"
 #define OPTION_VAL_SGB_1A_UK NULL
 #define OPTION_VAL_SGB_1B_UK NULL
 #define OPTION_VAL_SGB_1C_UK NULL
@@ -62241,12 +62241,12 @@ struct retro_core_options_v2 options_tt = {
 #define OPTION_VAL_SGB_1F_UK NULL
 #define OPTION_VAL_SGB_1G_UK NULL
 #define OPTION_VAL_SGB_1H_UK NULL
-#define OPTION_VAL_SGB_2A_UK NULL
+#define OPTION_VAL_SGB_2A_UK "SGB - 2a"
 #define OPTION_VAL_SGB_2B_UK NULL
 #define OPTION_VAL_SGB_2C_UK NULL
-#define OPTION_VAL_SGB_2D_UK NULL
+#define OPTION_VAL_SGB_2D_UK "SGB – 2D"
 #define OPTION_VAL_SGB_2E_UK NULL
-#define OPTION_VAL_SGB_2F_UK NULL
+#define OPTION_VAL_SGB_2F_UK "СГБ - 2Ф"
 #define OPTION_VAL_SGB_2G_UK NULL
 #define OPTION_VAL_SGB_2H_UK NULL
 #define OPTION_VAL_SGB_3A_UK NULL
@@ -62255,7 +62255,7 @@ struct retro_core_options_v2 options_tt = {
 #define OPTION_VAL_SGB_3D_UK NULL
 #define OPTION_VAL_SGB_3E_UK NULL
 #define OPTION_VAL_SGB_3F_UK NULL
-#define OPTION_VAL_SGB_3G_UK NULL
+#define OPTION_VAL_SGB_3G_UK "СГБ - 3G"
 #define OPTION_VAL_SGB_3H_UK NULL
 #define OPTION_VAL_SGB_4A_UK NULL
 #define OPTION_VAL_SGB_4B_UK NULL
@@ -62265,462 +62265,462 @@ struct retro_core_options_v2 options_tt = {
 #define OPTION_VAL_SGB_4F_UK NULL
 #define OPTION_VAL_SGB_4G_UK NULL
 #define OPTION_VAL_SGB_4H_UK NULL
-#define OPTION_VAL_SPECIAL_1_UK NULL
-#define OPTION_VAL_SPECIAL_2_UK NULL
-#define OPTION_VAL_SPECIAL_3_UK NULL
-#define OPTION_VAL_SPECIAL_4_TI_83_LEGACY_UK NULL
-#define OPTION_VAL_TWB64_PACK_1_UK NULL
+#define OPTION_VAL_SPECIAL_1_UK "Спеціальна 1"
+#define OPTION_VAL_SPECIAL_2_UK "Спеціальні 2"
+#define OPTION_VAL_SPECIAL_3_UK "Спеціальні 3"
+#define OPTION_VAL_SPECIAL_4_TI_83_LEGACY_UK "Спеціальні 4 (TI-83 Legacy)"
+#define OPTION_VAL_TWB64_PACK_1_UK "TWB64 - Пакунок 1"
 #define OPTION_VAL_TWB64_PACK_2_UK NULL
 #define OPTION_VAL_TWB64_PACK_3_UK NULL
-#define OPTION_VAL_PIXELSHIFT_PACK_1_UK NULL
+#define OPTION_VAL_PIXELSHIFT_PACK_1_UK "PixelShift - пакет 1"
 #define GAMBATTE_GB_PALETTE_TWB64_1_LABEL_UK NULL
-#define GAMBATTE_GB_PALETTE_TWB64_1_INFO_0_UK NULL
+#define GAMBATTE_GB_PALETTE_TWB64_1_INFO_0_UK "Вибирає внутрішню палітру колоризації, коли 'Внутрішній Палітта' встановлено у 'TWB64 - Пакунка 1'."
 #define OPTION_VAL_TWB64_001_AQOURS_BLUE_UK NULL
 #define OPTION_VAL_TWB64_002_ANIME_EXPO_VER_UK NULL
 #define OPTION_VAL_TWB64_003_SPONGEBOB_YELLOW_UK NULL
 #define OPTION_VAL_TWB64_004_PATRICK_STAR_PINK_UK NULL
 #define OPTION_VAL_TWB64_005_NEON_RED_UK NULL
 #define OPTION_VAL_TWB64_006_NEON_BLUE_UK NULL
-#define OPTION_VAL_TWB64_007_NEON_YELLOW_UK NULL
+#define OPTION_VAL_TWB64_007_NEON_YELLOW_UK "TWB64 007 - Неон Жовтий"
 #define OPTION_VAL_TWB64_008_NEON_GREEN_UK NULL
 #define OPTION_VAL_TWB64_009_NEON_PINK_UK NULL
 #define OPTION_VAL_TWB64_010_MARIO_RED_UK NULL
-#define OPTION_VAL_TWB64_011_NICK_ORANGE_UK NULL
-#define OPTION_VAL_TWB64_012_VIRTUAL_VISION_UK NULL
+#define OPTION_VAL_TWB64_011_NICK_ORANGE_UK "TWB64 011 - Нік Оранж"
+#define OPTION_VAL_TWB64_012_VIRTUAL_VISION_UK "TWB64 012 - Віртуальне бачення"
 #define OPTION_VAL_TWB64_013_GOLDEN_WILD_UK NULL
 #define OPTION_VAL_TWB64_014_DMG_099_UK NULL
-#define OPTION_VAL_TWB64_015_CLASSIC_BLURPLE_UK NULL
-#define OPTION_VAL_TWB64_016_765_PRODUCTION_VER_UK NULL
+#define OPTION_VAL_TWB64_015_CLASSIC_BLURPLE_UK "TWB64 015 - Класичне розмиття"
+#define OPTION_VAL_TWB64_016_765_PRODUCTION_VER_UK "TWB64 016 – 765 Виробництва вер."
 #define OPTION_VAL_TWB64_017_SUPERBALL_IVORY_UK NULL
-#define OPTION_VAL_TWB64_018_CRUNCHYROLL_ORANGE_UK NULL
+#define OPTION_VAL_TWB64_018_CRUNCHYROLL_ORANGE_UK "TWB64 018 - Помаранчевий Crunchyroll"
 #define OPTION_VAL_TWB64_019_MUSE_PINK_UK NULL
-#define OPTION_VAL_TWB64_020_SCHOOL_IDOL_BLUE_UK NULL
+#define OPTION_VAL_TWB64_020_SCHOOL_IDOL_BLUE_UK "TWB64 020 - Шкільний ідол-синій"
 #define OPTION_VAL_TWB64_021_GAMATE_VER_UK NULL
 #define OPTION_VAL_TWB64_022_GREENSCALE_VER_UK NULL
 #define OPTION_VAL_TWB64_023_ODYSSEY_GOLD_UK NULL
-#define OPTION_VAL_TWB64_024_SUPER_SAIYAN_GOD_UK NULL
-#define OPTION_VAL_TWB64_025_SUPER_SAIYAN_BLUE_UK NULL
+#define OPTION_VAL_TWB64_024_SUPER_SAIYAN_GOD_UK "TWB64 024 - Супер Бог Сайян"
+#define OPTION_VAL_TWB64_025_SUPER_SAIYAN_BLUE_UK "TWB64 025 - Супер Сайян"
 #define OPTION_VAL_TWB64_026_ANIMAX_BLUE_UK NULL
 #define OPTION_VAL_TWB64_027_BMO_VER_UK NULL
 #define OPTION_VAL_TWB64_028_GAME_COM_VER_UK NULL
 #define OPTION_VAL_TWB64_029_SANRIO_PINK_UK NULL
 #define OPTION_VAL_TWB64_030_TIMMY_TURNER_PINK_UK NULL
-#define OPTION_VAL_TWB64_031_FAIRLY_ODDPALETTE_UK NULL
+#define OPTION_VAL_TWB64_031_FAIRLY_ODDPALETTE_UK "TWB64 031 - Просто Одпалета"
 #define OPTION_VAL_TWB64_032_DANNY_PHANTOM_SILVER_UK NULL
 #define OPTION_VAL_TWB64_033_LINK_S_AWAKENING_DX_VER_UK NULL
-#define OPTION_VAL_TWB64_034_TRAVEL_WOOD_UK NULL
-#define OPTION_VAL_TWB64_035_POKEMON_VER_UK NULL
-#define OPTION_VAL_TWB64_036_GAME_GRUMP_ORANGE_UK NULL
+#define OPTION_VAL_TWB64_034_TRAVEL_WOOD_UK "TWB64 034 - Туристична Деревина"
+#define OPTION_VAL_TWB64_035_POKEMON_VER_UK "TWB64 035 - Покемон Вер."
+#define OPTION_VAL_TWB64_036_GAME_GRUMP_ORANGE_UK "TWB64 036 - Ігровий Баран"
 #define OPTION_VAL_TWB64_037_SCOOBY_DOO_MYSTERY_VER_UK NULL
-#define OPTION_VAL_TWB64_038_POKEMON_MINI_VER_UK NULL
+#define OPTION_VAL_TWB64_038_POKEMON_MINI_VER_UK "TWB64 038 - Покемон міні верс."
 #define OPTION_VAL_TWB64_039_SUPERVISION_VER_UK NULL
 #define OPTION_VAL_TWB64_040_DMG_VER_UK NULL
 #define OPTION_VAL_TWB64_041_POCKET_VER_UK NULL
 #define OPTION_VAL_TWB64_042_LIGHT_VER_UK NULL
-#define OPTION_VAL_TWB64_043_ALL_MIGHT_HERO_PALETTE_UK NULL
-#define OPTION_VAL_TWB64_044_U_A_HIGH_SCHOOL_UNIFORM_UK NULL
-#define OPTION_VAL_TWB64_045_PIKACHU_YELLOW_UK NULL
-#define OPTION_VAL_TWB64_046_EEVEE_BROWN_UK NULL
+#define OPTION_VAL_TWB64_043_ALL_MIGHT_HERO_PALETTE_UK "TWB64 043 - Вся палітра героя"
+#define OPTION_VAL_TWB64_044_U_A_HIGH_SCHOOL_UNIFORM_UK "TWB64 044 - США. Старша форма"
+#define OPTION_VAL_TWB64_045_PIKACHU_YELLOW_UK "TWB64 045 - Пікачу Жовтий"
+#define OPTION_VAL_TWB64_046_EEVEE_BROWN_UK "TWB64 046 - Івві Браун"
 #define OPTION_VAL_TWB64_047_MICROVISION_VER_UK NULL
 #define OPTION_VAL_TWB64_048_TI_83_VER_UK NULL
 #define OPTION_VAL_TWB64_049_AEGIS_CHERRY_UK NULL
 #define OPTION_VAL_TWB64_050_LABO_FAWN_UK NULL
-#define OPTION_VAL_TWB64_051_MILLION_LIVE_GOLD_UK NULL
-#define OPTION_VAL_TWB64_052_SQUIDWARD_SEA_FOAM_GREEN_UK NULL
+#define OPTION_VAL_TWB64_051_MILLION_LIVE_GOLD_UK "TWB64 051 - МІЛЬЙОНА ОТРИМАННЯ!"
+#define OPTION_VAL_TWB64_052_SQUIDWARD_SEA_FOAM_GREEN_UK "TWB64 052 - Квадратний морський піночок зелений"
 #define OPTION_VAL_TWB64_053_VMU_VER_UK NULL
-#define OPTION_VAL_TWB64_054_GAME_MASTER_VER_UK NULL
-#define OPTION_VAL_TWB64_055_ANDROID_GREEN_UK NULL
+#define OPTION_VAL_TWB64_054_GAME_MASTER_VER_UK "TWB64 054 - Майстер ігор Ver."
+#define OPTION_VAL_TWB64_055_ANDROID_GREEN_UK "TWB64 055 - Android Зелений"
 #define OPTION_VAL_TWB64_056_AMAZON_VISION_UK NULL
 #define OPTION_VAL_TWB64_057_GOOGLE_RED_UK NULL
 #define OPTION_VAL_TWB64_058_GOOGLE_BLUE_UK NULL
-#define OPTION_VAL_TWB64_059_GOOGLE_YELLOW_UK NULL
+#define OPTION_VAL_TWB64_059_GOOGLE_YELLOW_UK "TWB64 059 - Google Жовтий"
 #define OPTION_VAL_TWB64_060_GOOGLE_GREEN_UK NULL
 #define OPTION_VAL_TWB64_061_WONDERSWAN_VER_UK NULL
 #define OPTION_VAL_TWB64_062_NEO_GEO_POCKET_VER_UK NULL
 #define OPTION_VAL_TWB64_063_DEW_GREEN_UK NULL
 #define OPTION_VAL_TWB64_064_COCA_COLA_VISION_UK NULL
 #define OPTION_VAL_TWB64_065_GAMEKING_VER_UK NULL
-#define OPTION_VAL_TWB64_066_DO_THE_DEW_VER_UK NULL
-#define OPTION_VAL_TWB64_067_DIGIVICE_VER_UK NULL
-#define OPTION_VAL_TWB64_068_BIKINI_BOTTOM_VER_UK NULL
+#define OPTION_VAL_TWB64_066_DO_THE_DEW_VER_UK "TWB64 066 - виконуйте Дьюї Ver."
+#define OPTION_VAL_TWB64_067_DIGIVICE_VER_UK "TWB64 067 - Gamate Ver."
+#define OPTION_VAL_TWB64_068_BIKINI_BOTTOM_VER_UK "TWB64 068 - Бікіні Нижній Вер."
 #define OPTION_VAL_TWB64_069_BLOSSOM_PINK_UK NULL
-#define OPTION_VAL_TWB64_070_BUBBLES_BLUE_UK NULL
+#define OPTION_VAL_TWB64_070_BUBBLES_BLUE_UK "TWB64 070 - Блакитні бульбашки"
 #define OPTION_VAL_TWB64_071_BUTTERCUP_GREEN_UK NULL
 #define OPTION_VAL_TWB64_072_NASCAR_VER_UK NULL
 #define OPTION_VAL_TWB64_073_LEMON_LIME_GREEN_UK NULL
 #define OPTION_VAL_TWB64_074_MEGA_MAN_V_VER_UK NULL
 #define OPTION_VAL_TWB64_075_TAMAGOTCHI_VER_UK NULL
-#define OPTION_VAL_TWB64_076_PHANTOM_RED_UK NULL
+#define OPTION_VAL_TWB64_076_PHANTOM_RED_UK "TWB64 076 - Примарний червоний"
 #define OPTION_VAL_TWB64_077_HALLOWEEN_VER_UK NULL
 #define OPTION_VAL_TWB64_078_CHRISTMAS_VER_UK NULL
 #define OPTION_VAL_TWB64_079_CARDCAPTOR_PINK_UK NULL
-#define OPTION_VAL_TWB64_080_PRETTY_GUARDIAN_GOLD_UK NULL
+#define OPTION_VAL_TWB64_080_PRETTY_GUARDIAN_GOLD_UK "TWB64 080 - Золотий Охоронець"
 #define OPTION_VAL_TWB64_081_CAMOUFLAGE_VER_UK NULL
-#define OPTION_VAL_TWB64_082_LEGENDARY_SUPER_SAIYAN_UK NULL
-#define OPTION_VAL_TWB64_083_SUPER_SAIYAN_ROSE_UK NULL
+#define OPTION_VAL_TWB64_082_LEGENDARY_SUPER_SAIYAN_UK "TWB64 082 - Легендарний Супер Сайян"
+#define OPTION_VAL_TWB64_083_SUPER_SAIYAN_ROSE_UK "TWB64 083 - Супер Сайан Роуз"
 #define OPTION_VAL_TWB64_084_SUPER_SAIYAN_UK NULL
-#define OPTION_VAL_TWB64_085_PERFECTED_ULTRA_INSTINCT_UK NULL
-#define OPTION_VAL_TWB64_086_SAINT_SNOW_RED_UK NULL
-#define OPTION_VAL_TWB64_087_YELLOW_BANANA_UK NULL
-#define OPTION_VAL_TWB64_088_GREEN_BANANA_UK NULL
+#define OPTION_VAL_TWB64_085_PERFECTED_ULTRA_INSTINCT_UK "TWB64 085 - Ідеальний Ultra Instinct"
+#define OPTION_VAL_TWB64_086_SAINT_SNOW_RED_UK "ТВБ64 086 - Святий Сноу Червоний"
+#define OPTION_VAL_TWB64_087_YELLOW_BANANA_UK "TWB64 087 - Жовта банана"
+#define OPTION_VAL_TWB64_088_GREEN_BANANA_UK "TWB64 088 - Зелений банан"
 #define OPTION_VAL_TWB64_089_SUPER_SAIYAN_3_UK NULL
-#define OPTION_VAL_TWB64_090_SUPER_SAIYAN_BLUE_EVOLVED_UK NULL
-#define OPTION_VAL_TWB64_091_POCKET_TALES_VER_UK NULL
-#define OPTION_VAL_TWB64_092_INVESTIGATION_YELLOW_UK NULL
+#define OPTION_VAL_TWB64_090_SUPER_SAIYAN_BLUE_EVOLVED_UK "TWB64 090 - Супер Сайян Синій розвинувся"
+#define OPTION_VAL_TWB64_091_POCKET_TALES_VER_UK "TWB64 091 - Кишенькові казки Ver."
+#define OPTION_VAL_TWB64_092_INVESTIGATION_YELLOW_UK "TWB64 092 - Розслідування Жовтим"
 #define OPTION_VAL_TWB64_093_S_E_E_S_BLUE_UK NULL
-#define OPTION_VAL_TWB64_094_ULTRA_INSTINCT_SIGN_UK NULL
-#define OPTION_VAL_TWB64_095_HOKAGE_ORANGE_UK NULL
-#define OPTION_VAL_TWB64_096_STRAW_HAT_RED_UK NULL
-#define OPTION_VAL_TWB64_097_SWORD_ART_CYAN_UK NULL
+#define OPTION_VAL_TWB64_094_ULTRA_INSTINCT_SIGN_UK "Знак TWB64 094 - Ультра інстинкт"
+#define OPTION_VAL_TWB64_095_HOKAGE_ORANGE_UK "TWB64 095 - Хокадж Помаранчевий"
+#define OPTION_VAL_TWB64_096_STRAW_HAT_RED_UK "TWB64 096 - солом'яний капелюх червоний"
+#define OPTION_VAL_TWB64_097_SWORD_ART_CYAN_UK "TWB64 097 - Арт-Ціан"
 #define OPTION_VAL_TWB64_098_DEKU_ALPHA_EMERALD_UK NULL
-#define OPTION_VAL_TWB64_099_BLUE_STRIPES_VER_UK NULL
-#define OPTION_VAL_TWB64_100_PRECURE_MARBLE_RASPBERRY_UK NULL
+#define OPTION_VAL_TWB64_099_BLUE_STRIPES_VER_UK "TWB64 099 - Сині смуги Ver."
+#define OPTION_VAL_TWB64_100_PRECURE_MARBLE_RASPBERRY_UK "TWB64 100 - Мармурова малина"
 #define GAMBATTE_GB_PALETTE_TWB64_2_LABEL_UK NULL
-#define GAMBATTE_GB_PALETTE_TWB64_2_INFO_0_UK NULL
+#define GAMBATTE_GB_PALETTE_TWB64_2_INFO_0_UK "Вибирає внутрішню палітру колоризації, коли 'Внутрішній Палітта' встановлено у 'TWB64 - Pack 2'."
 #define OPTION_VAL_TWB64_101_765PRO_PINK_UK NULL
 #define OPTION_VAL_TWB64_102_CINDERELLA_BLUE_UK NULL
-#define OPTION_VAL_TWB64_103_MILLION_YELLOW_UK NULL
+#define OPTION_VAL_TWB64_103_MILLION_YELLOW_UK "TWB64 103 - МІЛЬЙОНА Єллоу!"
 #define OPTION_VAL_TWB64_104_SIDEM_GREEN_UK NULL
-#define OPTION_VAL_TWB64_105_SHINY_SKY_BLUE_UK NULL
-#define OPTION_VAL_TWB64_106_ANGRY_VOLCANO_VER_UK NULL
+#define OPTION_VAL_TWB64_105_SHINY_SKY_BLUE_UK "TWB64 105 - Синє небо"
+#define OPTION_VAL_TWB64_106_ANGRY_VOLCANO_VER_UK "TWB64 106 - Злий вулкан Вер."
 #define OPTION_VAL_TWB64_107_NBA_VISION_UK NULL
-#define OPTION_VAL_TWB64_108_NFL_VISION_UK NULL
-#define OPTION_VAL_TWB64_109_MLB_VISION_UK NULL
-#define OPTION_VAL_TWB64_110_ANIME_DIGIVICE_VER_UK NULL
-#define OPTION_VAL_TWB64_111_AQUATIC_IRO_UK NULL
+#define OPTION_VAL_TWB64_108_NFL_VISION_UK "TWB64 108 - NFL"
+#define OPTION_VAL_TWB64_109_MLB_VISION_UK "TWB64 109 - МЛБ бачення"
+#define OPTION_VAL_TWB64_110_ANIME_DIGIVICE_VER_UK "TWB64 110 - Аніме Дівіз Ver."
+#define OPTION_VAL_TWB64_111_AQUATIC_IRO_UK "TWB64 111 - Акватичний іро"
 #define OPTION_VAL_TWB64_112_TEA_MIDORI_UK NULL
 #define OPTION_VAL_TWB64_113_SAKURA_PINK_UK NULL
 #define OPTION_VAL_TWB64_114_WISTERIA_MURASAKI_UK NULL
 #define OPTION_VAL_TWB64_115_ONI_AKA_UK NULL
 #define OPTION_VAL_TWB64_116_GOLDEN_KIIRO_UK NULL
-#define OPTION_VAL_TWB64_117_SILVER_SHIRO_UK NULL
-#define OPTION_VAL_TWB64_118_FRUITY_ORANGE_UK NULL
+#define OPTION_VAL_TWB64_117_SILVER_SHIRO_UK "TWB64 117 - Срібне Сіро"
+#define OPTION_VAL_TWB64_118_FRUITY_ORANGE_UK "TWB64 118 - Помаранчевий Фрукт"
 #define OPTION_VAL_TWB64_119_AKB48_PINK_UK NULL
 #define OPTION_VAL_TWB64_120_MIKU_BLUE_UK NULL
-#define OPTION_VAL_TWB64_121_TRI_DIGIVICE_VER_UK NULL
-#define OPTION_VAL_TWB64_122_SURVEY_CORPS_UNIFORM_UK NULL
-#define OPTION_VAL_TWB64_123_ISLAND_GREEN_UK NULL
-#define OPTION_VAL_TWB64_124_NOGIZAKA46_PURPLE_UK NULL
-#define OPTION_VAL_TWB64_125_NINJA_TURTLE_GREEN_UK NULL
+#define OPTION_VAL_TWB64_121_TRI_DIGIVICE_VER_UK "TWB64 121 - Три Дивізіони Ver."
+#define OPTION_VAL_TWB64_122_SURVEY_CORPS_UNIFORM_UK "TWB64 122 - Опитний корпус"
+#define OPTION_VAL_TWB64_123_ISLAND_GREEN_UK "TWB64 123 - Острівний Зелений"
+#define OPTION_VAL_TWB64_124_NOGIZAKA46_PURPLE_UK "TWB64 124 - Nogizaka46 Багряний"
+#define OPTION_VAL_TWB64_125_NINJA_TURTLE_GREEN_UK "TWB64 125 - Черепаха Ніндзя Зелена"
 #define OPTION_VAL_TWB64_126_SLIME_BLUE_UK NULL
 #define OPTION_VAL_TWB64_127_LIME_MIDORI_UK NULL
-#define OPTION_VAL_TWB64_128_GHOSTLY_AOI_UK NULL
+#define OPTION_VAL_TWB64_128_GHOSTLY_AOI_UK "TWB64 128 - Привид Аой"
 #define OPTION_VAL_TWB64_129_RETRO_BOGEDA_UK NULL
-#define OPTION_VAL_TWB64_130_ROYAL_BLUE_UK NULL
-#define OPTION_VAL_TWB64_131_NEON_PURPLE_UK NULL
-#define OPTION_VAL_TWB64_132_NEON_ORANGE_UK NULL
-#define OPTION_VAL_TWB64_133_MOONLIGHT_VISION_UK NULL
-#define OPTION_VAL_TWB64_134_RISING_SUN_RED_UK NULL
-#define OPTION_VAL_TWB64_135_BURGER_KING_COLOR_COMBO_UK NULL
-#define OPTION_VAL_TWB64_136_GRAND_ZENO_COAT_UK NULL
+#define OPTION_VAL_TWB64_130_ROYAL_BLUE_UK "TWB64 130 - Королівський Синій"
+#define OPTION_VAL_TWB64_131_NEON_PURPLE_UK "TWB64 131 - Неоновий пурпурний"
+#define OPTION_VAL_TWB64_132_NEON_ORANGE_UK "TWB64 132 - Неоновий Оранж"
+#define OPTION_VAL_TWB64_133_MOONLIGHT_VISION_UK "TWB64 133 - Бачення місячного світла"
+#define OPTION_VAL_TWB64_134_RISING_SUN_RED_UK "TWB64 134 - Підйом Сонця Червоний"
+#define OPTION_VAL_TWB64_135_BURGER_KING_COLOR_COMBO_UK "TWB64 135 - Бургер Король Кольору"
+#define OPTION_VAL_TWB64_136_GRAND_ZENO_COAT_UK "TWB64 136 - Гран-Пень Зено"
 #define OPTION_VAL_TWB64_137_PAC_MAN_YELLOW_UK NULL
-#define OPTION_VAL_TWB64_138_IRISH_GREEN_UK NULL
+#define OPTION_VAL_TWB64_138_IRISH_GREEN_UK "TWB64 138 - Ірландський Зелений"
 #define OPTION_VAL_TWB64_139_GOKU_GI_UK NULL
-#define OPTION_VAL_TWB64_140_DRAGON_BALL_ORANGE_UK NULL
-#define OPTION_VAL_TWB64_141_CHRISTMAS_GOLD_UK NULL
+#define OPTION_VAL_TWB64_140_DRAGON_BALL_ORANGE_UK "TWB64 140 - Драконячий Вибух"
+#define OPTION_VAL_TWB64_141_CHRISTMAS_GOLD_UK "TWB64 141 - Різдвяне золото"
 #define OPTION_VAL_TWB64_142_PEPSI_VISION_UK NULL
-#define OPTION_VAL_TWB64_143_BUBBLUN_GREEN_UK NULL
+#define OPTION_VAL_TWB64_143_BUBBLUN_GREEN_UK "TWB64 143 - Бублін Зелений"
 #define OPTION_VAL_TWB64_144_BOBBLUN_BLUE_UK NULL
 #define OPTION_VAL_TWB64_145_BAJA_BLAST_STORM_UK NULL
-#define OPTION_VAL_TWB64_146_OLYMPIC_GOLD_UK NULL
-#define OPTION_VAL_TWB64_147_LISANI_ORANGE_UK NULL
-#define OPTION_VAL_TWB64_148_LIELLA_PURPLE_UK NULL
-#define OPTION_VAL_TWB64_149_OLYMPIC_SILVER_UK NULL
-#define OPTION_VAL_TWB64_150_OLYMPIC_BRONZE_UK NULL
-#define OPTION_VAL_TWB64_151_ANA_FLIGHT_BLUE_UK NULL
-#define OPTION_VAL_TWB64_152_NIJIGASAKI_ORANGE_UK NULL
+#define OPTION_VAL_TWB64_146_OLYMPIC_GOLD_UK "TWB64 146 - Олімпійське золото"
+#define OPTION_VAL_TWB64_147_LISANI_ORANGE_UK "TWB64 147 - Лізані Оранг!"
+#define OPTION_VAL_TWB64_148_LIELLA_PURPLE_UK "TWB64 148 - Ліелла Пурпур!"
+#define OPTION_VAL_TWB64_149_OLYMPIC_SILVER_UK "TWB64 149 - Олімпійське Срібло"
+#define OPTION_VAL_TWB64_150_OLYMPIC_BRONZE_UK "TWB64 150 — Олімпійська бронза"
+#define OPTION_VAL_TWB64_151_ANA_FLIGHT_BLUE_UK "TWB64 151 - Синій політ ANA"
+#define OPTION_VAL_TWB64_152_NIJIGASAKI_ORANGE_UK "TWB64 152 - Ніджіґасакі Помаранчевий"
 #define OPTION_VAL_TWB64_153_HOLOBLUE_UK NULL
-#define OPTION_VAL_TWB64_154_WWE_WHITE_AND_RED_UK NULL
+#define OPTION_VAL_TWB64_154_WWE_WHITE_AND_RED_UK "TWB64 154 - WE Білий і червоний"
 #define OPTION_VAL_TWB64_155_YOSHI_EGG_GREEN_UK NULL
-#define OPTION_VAL_TWB64_156_POKEDEX_RED_UK NULL
-#define OPTION_VAL_TWB64_157_FAMILYMART_VISION_UK NULL
+#define OPTION_VAL_TWB64_156_POKEDEX_RED_UK "TWB64 156 - Покедекс червоний"
+#define OPTION_VAL_TWB64_157_FAMILYMART_VISION_UK "TWB64 157 - Видимість FamilyMart"
 #define OPTION_VAL_TWB64_158_XBOX_GREEN_UK NULL
 #define OPTION_VAL_TWB64_159_SONIC_MEGA_BLUE_UK NULL
 #define OPTION_VAL_TWB64_160_SPRITE_GREEN_UK NULL
 #define OPTION_VAL_TWB64_161_SCARLETT_GREEN_UK NULL
 #define OPTION_VAL_TWB64_162_GLITCHY_BLUE_UK NULL
-#define OPTION_VAL_TWB64_163_CLASSIC_LCD_UK NULL
+#define OPTION_VAL_TWB64_163_CLASSIC_LCD_UK "TWB64 163 - Класичний LCD"
 #define OPTION_VAL_TWB64_164_3DS_VIRTUAL_CONSOLE_VER_UK NULL
 #define OPTION_VAL_TWB64_165_POCKETSTATION_VER_UK NULL
-#define OPTION_VAL_TWB64_166_TIMELESS_GOLD_AND_RED_UK NULL
+#define OPTION_VAL_TWB64_166_TIMELESS_GOLD_AND_RED_UK "TWB64 166 - Тайм-аут Золота і Червоний"
 #define OPTION_VAL_TWB64_167_SMURFY_BLUE_UK NULL
 #define OPTION_VAL_TWB64_168_SWAMPY_OGRE_GREEN_UK NULL
-#define OPTION_VAL_TWB64_169_SAILOR_SPINACH_GREEN_UK NULL
+#define OPTION_VAL_TWB64_169_SAILOR_SPINACH_GREEN_UK "TWB64 169 - моряковий Шпінах Грін"
 #define OPTION_VAL_TWB64_170_SHENRON_GREEN_UK NULL
-#define OPTION_VAL_TWB64_171_BERSERK_BLOOD_UK NULL
-#define OPTION_VAL_TWB64_172_SUPER_STAR_PINK_UK NULL
-#define OPTION_VAL_TWB64_173_GAMEBUINO_CLASSIC_VER_UK NULL
+#define OPTION_VAL_TWB64_171_BERSERK_BLOOD_UK "TWB64 171 - Берсерк"
+#define OPTION_VAL_TWB64_172_SUPER_STAR_PINK_UK "TWB64 172 - Супер зірковий рожевий"
+#define OPTION_VAL_TWB64_173_GAMEBUINO_CLASSIC_VER_UK "TWB64 173 - Класичний Gamebuino Ver."
 #define OPTION_VAL_TWB64_174_BARBIE_PINK_UK NULL
 #define OPTION_VAL_TWB64_175_YOASOBI_AMARANTH_UK NULL
 #define OPTION_VAL_TWB64_176_NOKIA_3310_VER_UK NULL
-#define OPTION_VAL_TWB64_177_CLOVER_GREEN_UK NULL
+#define OPTION_VAL_TWB64_177_CLOVER_GREEN_UK "TWB64 177 - Зелений Конюшина"
 #define OPTION_VAL_TWB64_178_GOKU_GT_GI_UK NULL
-#define OPTION_VAL_TWB64_179_FAMICOM_DISK_YELLOW_UK NULL
-#define OPTION_VAL_TWB64_180_TEAM_ROCKET_UNIFORM_UK NULL
+#define OPTION_VAL_TWB64_179_FAMICOM_DISK_YELLOW_UK "TWB64 179 - Жовтий сімейний диск"
+#define OPTION_VAL_TWB64_180_TEAM_ROCKET_UNIFORM_UK "TWB64 180 - Команда Rocket Uniform"
 #define OPTION_VAL_TWB64_181_SEIKO_TIMELY_VISION_UK NULL
 #define OPTION_VAL_TWB64_182_PASTEL109_UK NULL
-#define OPTION_VAL_TWB64_183_DORAEMON_TRICOLOR_UK NULL
+#define OPTION_VAL_TWB64_183_DORAEMON_TRICOLOR_UK "TWB64 183 - Дораемон Триколор"
 #define OPTION_VAL_TWB64_184_FURY_BLUE_UK NULL
 #define OPTION_VAL_TWB64_185_GOOD_SMILE_VISION_UK NULL
 #define OPTION_VAL_TWB64_186_PUYO_PUYO_GREEN_UK NULL
-#define OPTION_VAL_TWB64_187_CIRCLE_K_COLOR_COMBO_UK NULL
-#define OPTION_VAL_TWB64_188_PIZZA_HUT_RED_UK NULL
-#define OPTION_VAL_TWB64_189_EMERALD_GREEN_UK NULL
+#define OPTION_VAL_TWB64_187_CIRCLE_K_COLOR_COMBO_UK "TWB64 187 - Комбо кольорів K"
+#define OPTION_VAL_TWB64_188_PIZZA_HUT_RED_UK "TWB64 188 - Піцца Хатовий"
+#define OPTION_VAL_TWB64_189_EMERALD_GREEN_UK "TWB64 189 - Смарагд-Зелений"
 #define OPTION_VAL_TWB64_190_GRAND_IVORY_UK NULL
-#define OPTION_VAL_TWB64_191_DEMON_S_GOLD_UK NULL
+#define OPTION_VAL_TWB64_191_DEMON_S_GOLD_UK "TWB64 191 - Золото Демона"
 #define OPTION_VAL_TWB64_192_SEGA_TOKYO_BLUE_UK NULL
-#define OPTION_VAL_TWB64_193_CHAMPION_S_TUNIC_UK NULL
+#define OPTION_VAL_TWB64_193_CHAMPION_S_TUNIC_UK "TWB64 193 - Туніка чемпіона"
 #define OPTION_VAL_TWB64_194_DK_BARREL_BROWN_UK NULL
 #define OPTION_VAL_TWB64_195_EVA_01_UK NULL
 #define OPTION_VAL_TWB64_196_WILD_WEST_VISION_UK NULL
-#define OPTION_VAL_TWB64_197_OPTIMUS_PRIME_PALETTE_UK NULL
+#define OPTION_VAL_TWB64_197_OPTIMUS_PRIME_PALETTE_UK "TWB64 197 - Оптимальна початкова палітра"
 #define OPTION_VAL_TWB64_198_NICONICO_SEA_GREEN_UK NULL
-#define OPTION_VAL_TWB64_199_DURACELL_COPPER_UK NULL
+#define OPTION_VAL_TWB64_199_DURACELL_COPPER_UK "TWB64 199 - Діракелл Міді"
 #define OPTION_VAL_TWB64_200_TOKYO_SKYTREE_CLOUDY_BLUE_UK NULL
 #define GAMBATTE_GB_PALETTE_TWB64_3_LABEL_UK NULL
-#define GAMBATTE_GB_PALETTE_TWB64_3_INFO_0_UK NULL
+#define GAMBATTE_GB_PALETTE_TWB64_3_INFO_0_UK "Вибирає внутрішню палітру колоризації, коли 'Внутрішній Палітта' встановлено у 'TWB64 - Pack 3'."
 #define OPTION_VAL_TWB64_201_DMG_GOLD_UK NULL
-#define OPTION_VAL_TWB64_202_LCD_CLOCK_GREEN_UK NULL
+#define OPTION_VAL_TWB64_202_LCD_CLOCK_GREEN_UK "TWB64 202 - LCD Clock Зелений"
 #define OPTION_VAL_TWB64_203_FAMICOM_FRENZY_UK NULL
 #define OPTION_VAL_TWB64_204_DK_ARCADE_BLUE_UK NULL
-#define OPTION_VAL_TWB64_205_ADVANCED_INDIGO_UK NULL
-#define OPTION_VAL_TWB64_206_ULTRA_BLACK_UK NULL
-#define OPTION_VAL_TWB64_207_CHAOS_EMERALD_GREEN_UK NULL
+#define OPTION_VAL_TWB64_205_ADVANCED_INDIGO_UK "TWB64 205 - Передова Індиго"
+#define OPTION_VAL_TWB64_206_ULTRA_BLACK_UK "TWB64 206 - Ультра чорний"
+#define OPTION_VAL_TWB64_207_CHAOS_EMERALD_GREEN_UK "TWB64 207 - Хаос Смарагд Зелений"
 #define OPTION_VAL_TWB64_208_BLUE_BOMBER_VISION_UK NULL
 #define OPTION_VAL_TWB64_209_KRISPY_KREME_VISION_UK NULL
-#define OPTION_VAL_TWB64_210_STEAM_GRAY_UK NULL
-#define OPTION_VAL_TWB64_211_DREAM_LAND_GB_VER_UK NULL
-#define OPTION_VAL_TWB64_212_POKEMON_PINBALL_VER_UK NULL
-#define OPTION_VAL_TWB64_213_POKETCH_VER_UK NULL
-#define OPTION_VAL_TWB64_214_COLLECTION_OF_SAGA_VER_UK NULL
-#define OPTION_VAL_TWB64_215_ROCKY_VALLEY_HOLIDAY_UK NULL
+#define OPTION_VAL_TWB64_210_STEAM_GRAY_UK "TWB64 210 - Steam Сірий"
+#define OPTION_VAL_TWB64_211_DREAM_LAND_GB_VER_UK "TWB64 211 - сновидіння землі ГБ."
+#define OPTION_VAL_TWB64_212_POKEMON_PINBALL_VER_UK "TWB64 212 - Покемон Пінболл Веер."
+#define OPTION_VAL_TWB64_213_POKETCH_VER_UK "TWB64 213 - Покетч Вер."
+#define OPTION_VAL_TWB64_214_COLLECTION_OF_SAGA_VER_UK "TWB64 214 - COLLECTION SaGa Ver."
+#define OPTION_VAL_TWB64_215_ROCKY_VALLEY_HOLIDAY_UK "TWB64 215 - Свято Роккі-Веллі"
 #define OPTION_VAL_TWB64_216_GIGA_KIWI_DMG_UK NULL
-#define OPTION_VAL_TWB64_217_DMG_PEA_GREEN_UK NULL
-#define OPTION_VAL_TWB64_218_TIMING_HERO_VER_UK NULL
-#define OPTION_VAL_TWB64_219_INVINCIBLE_YELLOW_AND_BLUE_UK NULL
+#define OPTION_VAL_TWB64_217_DMG_PEA_GREEN_UK "TWB64 217 - Sprite Green"
+#define OPTION_VAL_TWB64_218_TIMING_HERO_VER_UK "TWB64 218 - Перегляд героя Ver."
+#define OPTION_VAL_TWB64_219_INVINCIBLE_YELLOW_AND_BLUE_UK "TWB64 219 - Непереможний Жовтий та Синій"
 #define OPTION_VAL_TWB64_220_GRINCHY_GREEN_UK NULL
 #define OPTION_VAL_TWB64_221_ANIMATE_VISION_UK NULL
-#define OPTION_VAL_TWB64_222_SCHOOL_IDOL_MIX_UK NULL
+#define OPTION_VAL_TWB64_222_SCHOOL_IDOL_MIX_UK "TWB64 222 - Школа Айдол Мікс"
 #define OPTION_VAL_TWB64_223_GREEN_AWAKENING_UK NULL
-#define OPTION_VAL_TWB64_224_GOOMBA_BROWN_UK NULL
+#define OPTION_VAL_TWB64_224_GOOMBA_BROWN_UK "TWB64 224 - Гумба Браун"
 #define OPTION_VAL_TWB64_225_WARIOWARE_MICROBLUE_UK NULL
 #define OPTION_VAL_TWB64_226_KONOSUBA_SHERBET_UK NULL
-#define OPTION_VAL_TWB64_227_SPOOKY_PURPLE_UK NULL
-#define OPTION_VAL_TWB64_228_TREASURE_GOLD_UK NULL
+#define OPTION_VAL_TWB64_227_SPOOKY_PURPLE_UK "TWB64 227 - Бузковий"
+#define OPTION_VAL_TWB64_228_TREASURE_GOLD_UK "TWB64 228 - Золотий Скарб"
 #define OPTION_VAL_TWB64_229_CHERRY_BLOSSOM_PINK_UK NULL
-#define OPTION_VAL_TWB64_230_GOLDEN_TROPHY_UK NULL
-#define OPTION_VAL_TWB64_231_GLACIAL_WINTER_BLUE_UK NULL
-#define OPTION_VAL_TWB64_232_LEPRECHAUN_GREEN_UK NULL
+#define OPTION_VAL_TWB64_230_GOLDEN_TROPHY_UK "TWB64 230 - Золотий трофей"
+#define OPTION_VAL_TWB64_231_GLACIAL_WINTER_BLUE_UK "TWB64 231 - Зимова гола"
+#define OPTION_VAL_TWB64_232_LEPRECHAUN_GREEN_UK "TWB64 232 - Лепрекон Зелений"
 #define OPTION_VAL_TWB64_233_SAITAMA_SUPER_BLUE_UK NULL
 #define OPTION_VAL_TWB64_234_SAITAMA_SUPER_GREEN_UK NULL
 #define OPTION_VAL_TWB64_235_DUOLINGO_GREEN_UK NULL
-#define OPTION_VAL_TWB64_236_SUPER_MUSHROOM_VISION_UK NULL
-#define OPTION_VAL_TWB64_237_ANCIENT_HISUIAN_BROWN_UK NULL
+#define OPTION_VAL_TWB64_236_SUPER_MUSHROOM_VISION_UK "TWB64 236 - Супер гриб"
+#define OPTION_VAL_TWB64_237_ANCIENT_HISUIAN_BROWN_UK "TWB64 237 - Стародавній Гісуянь Браун"
 #define OPTION_VAL_TWB64_238_SKY_POP_IVORY_UK NULL
 #define OPTION_VAL_TWB64_239_LAWSON_BLUE_UK NULL
-#define OPTION_VAL_TWB64_240_ANIME_EXPO_RED_UK NULL
-#define OPTION_VAL_TWB64_241_BRILLIANT_DIAMOND_BLUE_UK NULL
+#define OPTION_VAL_TWB64_240_ANIME_EXPO_RED_UK "TWB64 240 - Аніме Expo Red"
+#define OPTION_VAL_TWB64_241_BRILLIANT_DIAMOND_BLUE_UK "TWB64 241 - Синій Алмаз"
 #define OPTION_VAL_TWB64_242_SHINING_PEARL_PINK_UK NULL
-#define OPTION_VAL_TWB64_243_FUNIMATION_MELON_UK NULL
-#define OPTION_VAL_TWB64_244_TEYVAT_BROWN_UK NULL
+#define OPTION_VAL_TWB64_243_FUNIMATION_MELON_UK "TWB64 243 - Мелон Фундації"
+#define OPTION_VAL_TWB64_244_TEYVAT_BROWN_UK "TWB64 244 - Тейват Браун"
 #define OPTION_VAL_TWB64_245_CHOZO_BLUE_UK NULL
-#define OPTION_VAL_TWB64_246_SPOTIFY_GREEN_UK NULL
+#define OPTION_VAL_TWB64_246_SPOTIFY_GREEN_UK "TWB64 246 - Spotify Зелений"
 #define OPTION_VAL_TWB64_247_DR_PEPPER_RED_UK NULL
 #define OPTION_VAL_TWB64_248_NHK_SILVER_GRAY_UK NULL
 #define OPTION_VAL_TWB64_249_DUNKIN_VISION_UK NULL
 #define OPTION_VAL_TWB64_250_DEKU_GAMMA_PALETTE_UK NULL
 #define OPTION_VAL_TWB64_251_UNIVERSAL_STUDIOS_BLUE_UK NULL
 #define OPTION_VAL_TWB64_252_HOGWARTS_GOLDIUS_UK NULL
-#define OPTION_VAL_TWB64_253_KENTUCKY_FRIED_RED_UK NULL
-#define OPTION_VAL_TWB64_254_CHEETO_ORANGE_UK NULL
+#define OPTION_VAL_TWB64_253_KENTUCKY_FRIED_RED_UK "TWB64 253 - Вантаккі червоний"
+#define OPTION_VAL_TWB64_254_CHEETO_ORANGE_UK "TWB64 254 - Помаранчевий Чето"
 #define OPTION_VAL_TWB64_255_NAMCO_IDOL_PINK_UK NULL
-#define OPTION_VAL_TWB64_256_DOMINO_S_PIZZA_VISION_UK NULL
+#define OPTION_VAL_TWB64_256_DOMINO_S_PIZZA_VISION_UK "TWB64 256 - Домініко Піцца"
 #define OPTION_VAL_TWB64_257_PAC_MAN_VISION_UK NULL
-#define OPTION_VAL_TWB64_258_BILL_S_PC_SCREEN_UK NULL
+#define OPTION_VAL_TWB64_258_BILL_S_PC_SCREEN_UK "TWB64 258 - Екран для Біла ПК"
 #define OPTION_VAL_TWB64_259_SONIC_MEGA_BLUE_UK NULL
-#define OPTION_VAL_TWB64_260_FOOL_S_GOLD_AND_SILVER_UK NULL
+#define OPTION_VAL_TWB64_260_FOOL_S_GOLD_AND_SILVER_UK "TWB64 260 - Золото і срібло Дуреня"
 #define OPTION_VAL_TWB64_261_UTA_VISION_UK NULL
-#define OPTION_VAL_TWB64_262_METALLIC_PALDEA_BRASS_UK NULL
-#define OPTION_VAL_TWB64_263_CLASSY_CHRISTMAS_UK NULL
-#define OPTION_VAL_TWB64_264_WINTER_CHRISTMAS_UK NULL
-#define OPTION_VAL_TWB64_265_IDOL_WORLD_TRICOLOR_UK NULL
-#define OPTION_VAL_TWB64_266_INKLING_TRICOLOR_UK NULL
-#define OPTION_VAL_TWB64_267_7_ELEVEN_COLOR_COMBO_UK NULL
+#define OPTION_VAL_TWB64_262_METALLIC_PALDEA_BRASS_UK "TWB64 262 - Металева Палдея Брас"
+#define OPTION_VAL_TWB64_263_CLASSY_CHRISTMAS_UK "TWB64 263 - Класичне Різдво"
+#define OPTION_VAL_TWB64_264_WINTER_CHRISTMAS_UK "TWB64 264 - Зимове Різдво"
+#define OPTION_VAL_TWB64_265_IDOL_WORLD_TRICOLOR_UK "TWB64 265 - IDOL СЛОВА СЛАНУ!!!"
+#define OPTION_VAL_TWB64_266_INKLING_TRICOLOR_UK "TWB64 266 - Інклінг Триколор"
+#define OPTION_VAL_TWB64_267_7_ELEVEN_COLOR_COMBO_UK "TWB64 267 - 7-одинадцять кольорів комбо"
 #define OPTION_VAL_TWB64_268_PAC_PALETTE_UK NULL
-#define OPTION_VAL_TWB64_269_VULNERABLE_BLUE_UK NULL
-#define OPTION_VAL_TWB64_270_NIGHTVISION_GREEN_UK NULL
+#define OPTION_VAL_TWB64_269_VULNERABLE_BLUE_UK "TWB64 269 - Вразливий Синій"
+#define OPTION_VAL_TWB64_270_NIGHTVISION_GREEN_UK "TWB64 270 - Зелений вигляд ночі"
 #define OPTION_VAL_TWB64_271_BANDAI_NAMCO_TRICOLOR_UK NULL
-#define OPTION_VAL_TWB64_272_GOLD_SILVER_AND_BRONZE_UK NULL
+#define OPTION_VAL_TWB64_272_GOLD_SILVER_AND_BRONZE_UK "TWB64 272 - Золото, Срібло, Бронза"
 #define OPTION_VAL_TWB64_273_DEKU_VIGILANTE_PALETTE_UK NULL
-#define OPTION_VAL_TWB64_274_SUPER_FAMICOM_SUPREME_UK NULL
-#define OPTION_VAL_TWB64_275_ABSORBENT_AND_YELLOW_UK NULL
+#define OPTION_VAL_TWB64_274_SUPER_FAMICOM_SUPREME_UK "TWB64 274 - Верховний знак Super Famicom"
+#define OPTION_VAL_TWB64_275_ABSORBENT_AND_YELLOW_UK "TWB64 275 - Абсорбент і Жовтий"
 #define OPTION_VAL_TWB64_276_765PRO_TRICOLOR_UK NULL
 #define OPTION_VAL_TWB64_277_GAMECUBE_GLIMMER_UK NULL
-#define OPTION_VAL_TWB64_278_1ST_VISION_PASTEL_UK NULL
-#define OPTION_VAL_TWB64_279_PERFECT_MAJIN_EMPEROR_UK NULL
-#define OPTION_VAL_TWB64_280_J_POP_IDOL_SHERBET_UK NULL
+#define OPTION_VAL_TWB64_278_1ST_VISION_PASTEL_UK "TWB64 278 - 1-ша пастель бачення"
+#define OPTION_VAL_TWB64_279_PERFECT_MAJIN_EMPEROR_UK "TWB64 279 - Ідеальний Маджін"
+#define OPTION_VAL_TWB64_280_J_POP_IDOL_SHERBET_UK "ТВБ64 280 - J-Pop Ідол Шербет"
 #define OPTION_VAL_TWB64_281_RYUUGUU_SUNSET_UK NULL
-#define OPTION_VAL_TWB64_282_TROPICAL_STARFALL_UK NULL
-#define OPTION_VAL_TWB64_283_COLORFUL_HORIZONS_UK NULL
+#define OPTION_VAL_TWB64_282_TROPICAL_STARFALL_UK "TWB64 282 - Тропічний Зірковий"
+#define OPTION_VAL_TWB64_283_COLORFUL_HORIZONS_UK "TWB64 283 - Барвисті горизонти"
 #define OPTION_VAL_TWB64_284_BLACKPINK_BLINK_PINK_UK NULL
 #define OPTION_VAL_TWB64_285_DMG_SWITCH_UK NULL
-#define OPTION_VAL_TWB64_286_POCKET_SWITCH_UK NULL
+#define OPTION_VAL_TWB64_286_POCKET_SWITCH_UK "TWB64 286 - POCKET Біг"
 #define OPTION_VAL_TWB64_287_SUNNY_PASSION_PARADISE_UK NULL
-#define OPTION_VAL_TWB64_288_SAIYAN_BEAST_SILVER_UK NULL
+#define OPTION_VAL_TWB64_288_SAIYAN_BEAST_SILVER_UK "TWB64 288 - Приморський Звір"
 #define OPTION_VAL_TWB64_289_RADIANT_SMILE_RAMP_UK NULL
 #define OPTION_VAL_TWB64_290_A_RISE_BLUE_UK NULL
 #define OPTION_VAL_TWB64_291_TROPICAL_TWICE_APRICOT_UK NULL
 #define OPTION_VAL_TWB64_292_ODYSSEY_BOY_UK NULL
-#define OPTION_VAL_TWB64_293_FROG_COIN_GREEN_UK NULL
+#define OPTION_VAL_TWB64_293_FROG_COIN_GREEN_UK "TWB64 293 - Зелений Жабка"
 #define OPTION_VAL_TWB64_294_GARFIELD_VISION_UK NULL
 #define OPTION_VAL_TWB64_295_BEDROCK_CAVEMAN_VISION_UK NULL
-#define OPTION_VAL_TWB64_296_BANGTAN_ARMY_PURPLE_UK NULL
+#define OPTION_VAL_TWB64_296_BANGTAN_ARMY_PURPLE_UK "TWB64 296 - БАНГТАНСЬКА ПОРУДА"
 #define OPTION_VAL_TWB64_297_LE_SSERAFIM_FEARLESS_BLUE_UK NULL
 #define OPTION_VAL_TWB64_298_BAJA_BLAST_BEACH_UK NULL
-#define OPTION_VAL_TWB64_299_3DS_VIRTUAL_CONSOLE_GREEN_UK NULL
-#define OPTION_VAL_TWB64_300_WONDER_PURPLE_UK NULL
-#define GAMBATTE_GB_PALETTE_PIXELSHIFT_1_LABEL_UK NULL
-#define GAMBATTE_GB_PALETTE_PIXELSHIFT_1_INFO_0_UK NULL
-#define OPTION_VAL_PIXELSHIFT_01_ARCTIC_GREEN_UK NULL
+#define OPTION_VAL_TWB64_299_3DS_VIRTUAL_CONSOLE_GREEN_UK "TWB64 299 - Віртуальна Консоль"
+#define OPTION_VAL_TWB64_300_WONDER_PURPLE_UK "TWB64 300 - Чудо-Багряний"
+#define GAMBATTE_GB_PALETTE_PIXELSHIFT_1_LABEL_UK "> PixelShift - пакет 1 палітра"
+#define GAMBATTE_GB_PALETTE_PIXELSHIFT_1_INFO_0_UK "Вибирає внутрішню палітру кольору, якщо параметр 'Внутрішній палітри' встановлено у 'PixelShift - Pack 1'."
+#define OPTION_VAL_PIXELSHIFT_01_ARCTIC_GREEN_UK "PixelShift 01 - Арктичний Зелений"
 #define OPTION_VAL_PIXELSHIFT_02_ARDUBOY_UK NULL
-#define OPTION_VAL_PIXELSHIFT_03_BGB_0_3_EMULATOR_UK NULL
+#define OPTION_VAL_PIXELSHIFT_03_BGB_0_3_EMULATOR_UK "PixelShift 03 - Емулятор BGB 0.3"
 #define OPTION_VAL_PIXELSHIFT_04_CAMOUFLAGE_UK NULL
-#define OPTION_VAL_PIXELSHIFT_05_CHOCOLATE_BAR_UK NULL
+#define OPTION_VAL_PIXELSHIFT_05_CHOCOLATE_BAR_UK "PixelShift 05 - шоколадна панель"
 #define OPTION_VAL_PIXELSHIFT_06_CMYK_UK NULL
-#define OPTION_VAL_PIXELSHIFT_07_COTTON_CANDY_UK NULL
-#define OPTION_VAL_PIXELSHIFT_08_EASY_GREENS_UK NULL
-#define OPTION_VAL_PIXELSHIFT_09_GAMATE_UK NULL
-#define OPTION_VAL_PIXELSHIFT_10_GAME_BOY_LIGHT_UK NULL
+#define OPTION_VAL_PIXELSHIFT_07_COTTON_CANDY_UK "PixelShift 07 - Цукерка Коттона"
+#define OPTION_VAL_PIXELSHIFT_08_EASY_GREENS_UK "PixelShift 08 - легкі зелені"
+#define OPTION_VAL_PIXELSHIFT_09_GAMATE_UK "PixelShift 09 - Ігровий вузол"
+#define OPTION_VAL_PIXELSHIFT_10_GAME_BOY_LIGHT_UK "PixelShift 10 - Світлий хлопчик гри"
 #define OPTION_VAL_PIXELSHIFT_11_GAME_BOY_POCKET_UK NULL
 #define OPTION_VAL_PIXELSHIFT_12_GAME_BOY_POCKET_ALT_UK NULL
-#define OPTION_VAL_PIXELSHIFT_13_GAME_POCKET_COMPUTER_UK NULL
-#define OPTION_VAL_PIXELSHIFT_14_GAME_WATCH_BALL_UK NULL
-#define OPTION_VAL_PIXELSHIFT_15_GB_BACKLIGHT_BLUE_UK NULL
-#define OPTION_VAL_PIXELSHIFT_16_GB_BACKLIGHT_FADED_UK NULL
-#define OPTION_VAL_PIXELSHIFT_17_GB_BACKLIGHT_ORANGE_UK NULL
-#define OPTION_VAL_PIXELSHIFT_18_GB_BACKLIGHT_WHITE__UK NULL
-#define OPTION_VAL_PIXELSHIFT_19_GB_BACKLIGHT_YELLOW_DARK_UK NULL
+#define OPTION_VAL_PIXELSHIFT_13_GAME_POCKET_COMPUTER_UK "PixelShift 13 - Ігровий Pocket Computer"
+#define OPTION_VAL_PIXELSHIFT_14_GAME_WATCH_BALL_UK "PixelShift 14 - Гра і зміна м'яча для спостереження"
+#define OPTION_VAL_PIXELSHIFT_15_GB_BACKLIGHT_BLUE_UK "PixelShift 15 - GB синього підсвічування"
+#define OPTION_VAL_PIXELSHIFT_16_GB_BACKLIGHT_FADED_UK "PixelShift 16 - GB Викинутого підсвічування"
+#define OPTION_VAL_PIXELSHIFT_17_GB_BACKLIGHT_ORANGE_UK "PixelShift 17 - GB помаранчевого підсвічування"
+#define OPTION_VAL_PIXELSHIFT_18_GB_BACKLIGHT_WHITE__UK "PixelShift 18 - GB значення підсвічування білих "
+#define OPTION_VAL_PIXELSHIFT_19_GB_BACKLIGHT_YELLOW_DARK_UK "PixelShift 19 - GB Темного підсвічування"
 #define OPTION_VAL_PIXELSHIFT_20_GB_BOOTLEG_UK NULL
-#define OPTION_VAL_PIXELSHIFT_21_GB_HUNTER_UK NULL
+#define OPTION_VAL_PIXELSHIFT_21_GB_HUNTER_UK "PixelShift 21 - ГБ мисливця"
 #define OPTION_VAL_PIXELSHIFT_22_GB_KIOSK_UK NULL
 #define OPTION_VAL_PIXELSHIFT_23_GB_KIOSK_2_UK NULL
-#define OPTION_VAL_PIXELSHIFT_24_GB_NEW_UK NULL
-#define OPTION_VAL_PIXELSHIFT_25_GB_NUKED_UK NULL
-#define OPTION_VAL_PIXELSHIFT_26_GB_OLD_UK NULL
+#define OPTION_VAL_PIXELSHIFT_24_GB_NEW_UK "PixelShift 24 - GB нового"
+#define OPTION_VAL_PIXELSHIFT_25_GB_NUKED_UK "PixelShift 25 - GB нуте"
+#define OPTION_VAL_PIXELSHIFT_26_GB_OLD_UK "PixelShift 26 - GB старого"
 #define OPTION_VAL_PIXELSHIFT_27_GBP_BIVERT_UK NULL
-#define OPTION_VAL_PIXELSHIFT_28_GB_WASHED_YELLOW_BACKLIGHT_UK NULL
+#define OPTION_VAL_PIXELSHIFT_28_GB_WASHED_YELLOW_BACKLIGHT_UK "PixelShift 28 - ГБ Жовтого підсвічування"
 #define OPTION_VAL_PIXELSHIFT_29_GHOST_UK NULL
-#define OPTION_VAL_PIXELSHIFT_30_GLOW_IN_THE_DARK_UK NULL
-#define OPTION_VAL_PIXELSHIFT_31_GOLD_BAR_UK NULL
-#define OPTION_VAL_PIXELSHIFT_32_GRAPEFRUIT_UK NULL
-#define OPTION_VAL_PIXELSHIFT_33_GRAY_GREEN_MIX_UK NULL
-#define OPTION_VAL_PIXELSHIFT_34_MISSINGNO_UK NULL
+#define OPTION_VAL_PIXELSHIFT_30_GLOW_IN_THE_DARK_UK "PixelShift 30 - світіння в темряві"
+#define OPTION_VAL_PIXELSHIFT_31_GOLD_BAR_UK "PixelShift 31 - Золотий бар"
+#define OPTION_VAL_PIXELSHIFT_32_GRAPEFRUIT_UK "PixelShift 32 - Грейпфрут"
+#define OPTION_VAL_PIXELSHIFT_33_GRAY_GREEN_MIX_UK "PixelShift 33 - Сірий зелений Мікс"
+#define OPTION_VAL_PIXELSHIFT_34_MISSINGNO_UK "PixelShift 34 - Інгно"
 #define OPTION_VAL_PIXELSHIFT_35_MS_DOS_UK NULL
-#define OPTION_VAL_PIXELSHIFT_36_NEWSPAPER_UK NULL
+#define OPTION_VAL_PIXELSHIFT_36_NEWSPAPER_UK "PixelShift 36 - Газета"
 #define OPTION_VAL_PIXELSHIFT_37_PIP_BOY_UK NULL
-#define OPTION_VAL_PIXELSHIFT_38_POCKET_GIRL_UK NULL
+#define OPTION_VAL_PIXELSHIFT_38_POCKET_GIRL_UK "PixelShift 38 - Кишенькова дівчина"
 #define OPTION_VAL_PIXELSHIFT_39_SILHOUETTE_UK NULL
-#define OPTION_VAL_PIXELSHIFT_40_SUNBURST_UK NULL
-#define OPTION_VAL_PIXELSHIFT_41_TECHNICOLOR_UK NULL
+#define OPTION_VAL_PIXELSHIFT_40_SUNBURST_UK "PixelShift 40 - сонячні імпульси"
+#define OPTION_VAL_PIXELSHIFT_41_TECHNICOLOR_UK "PixelShift 41 - Техніколор"
 #define OPTION_VAL_PIXELSHIFT_42_TRON_UK NULL
 #define OPTION_VAL_PIXELSHIFT_43_VAPORWAVE_UK NULL
-#define OPTION_VAL_PIXELSHIFT_44_VIRTUAL_BOY_UK NULL
-#define OPTION_VAL_PIXELSHIFT_45_WISH_UK NULL
+#define OPTION_VAL_PIXELSHIFT_44_VIRTUAL_BOY_UK "PixelShift 44 - Віртуальний хлопчик"
+#define OPTION_VAL_PIXELSHIFT_45_WISH_UK "PixelShift 45 - Бажання"
 #define GAMBATTE_GBC_COLOR_CORRECTION_LABEL_UK "Корекція кольору"
-#define GAMBATTE_GBC_COLOR_CORRECTION_INFO_0_UK NULL
-#define OPTION_VAL_GBC_ONLY_UK NULL
+#define GAMBATTE_GBC_COLOR_CORRECTION_INFO_0_UK "Змінює кольори виведення відповідно до вигляду реального обладнання кольору партії Boy. 'Тільки GBC гарантує, що коригування буде застосовано лише під час гри в ігровий хлопчик з кольорами, або при використанні кольорової палітри для хлопця гри в ігровий хлопець. 'Завжди' застосовується корекція кольорів до всіх контентів, і буде створювати несподівані/субоптимальні результати при використанні вбудованих палітри кольорів \"GB\" або \"SGB\"."
+#define OPTION_VAL_GBC_ONLY_UK "Тільки GBC"
 #define OPTION_VAL_ALWAYS_UK "Завжди"
-#define GAMBATTE_GBC_COLOR_CORRECTION_MODE_LABEL_UK NULL
-#define GAMBATTE_GBC_COLOR_CORRECTION_MODE_INFO_0_UK NULL
-#define OPTION_VAL_ACCURATE_UK NULL
+#define GAMBATTE_GBC_COLOR_CORRECTION_MODE_LABEL_UK "Режим коригування кольору"
+#define GAMBATTE_GBC_COLOR_CORRECTION_MODE_INFO_0_UK "Визначає метод, який використовується при виконанні зміни кольору бій. 'Accurate' видає результат майже не відрізняється від реального кольору хлопця з ігровим хлопцем. 'Швидше' - просто затемнений колір і зменшує насиченість, і може бути використаний на низькоекранному апаратному забезпеченні, якщо метод \"Accurate\" занадто повільний."
+#define OPTION_VAL_ACCURATE_UK "Точний"
 #define OPTION_VAL_FAST_UK "Швидко"
-#define GAMBATTE_GBC_FRONTLIGHT_POSITION_LABEL_UK NULL
-#define GAMBATTE_GBC_FRONTLIGHT_POSITION_INFO_0_UK NULL
-#define OPTION_VAL_CENTRAL_UK NULL
-#define OPTION_VAL_ABOVE_SCREEN_UK NULL
-#define OPTION_VAL_BELOW_SCREEN_UK NULL
-#define GAMBATTE_DARK_FILTER_LEVEL_LABEL_UK NULL
-#define GAMBATTE_DARK_FILTER_LEVEL_INFO_0_UK NULL
-#define GAMBATTE_MIX_FRAMES_LABEL_UK NULL
-#define GAMBATTE_MIX_FRAMES_INFO_0_UK NULL
+#define GAMBATTE_GBC_FRONTLIGHT_POSITION_LABEL_UK "Корекція кольору - Позиція фронтальної області"
+#define GAMBATTE_GBC_FRONTLIGHT_POSITION_INFO_0_UK "Імітує фізичну відповідь кольорової панелі Game LCD при освітленні різних кутів. \"Централ\" представляє стандартне відтворення кольору. 'Над екрана' збільшує яскравість. 'Нижче екрана' зменшує яскравість. Цей параметр застосовується тільки коли 'Режим корекції' встановлено в 'Точність'."
+#define OPTION_VAL_CENTRAL_UK "Сентрал"
+#define OPTION_VAL_ABOVE_SCREEN_UK "Над екраном"
+#define OPTION_VAL_BELOW_SCREEN_UK "Під екраном"
+#define GAMBATTE_DARK_FILTER_LEVEL_LABEL_UK "Рівень темного фільтру (%)"
+#define GAMBATTE_DARK_FILTER_LEVEL_INFO_0_UK "Увімкнути зменшення яскравості світла. Може використовуватися для уникнення напруження відблисків, коли граються в ігри з білим фоном, які призначені для відображення на кольору ігрового хлопчика і тому можуть з'являтися незручно яскраві при перегляді на сучасному екрані підсвічення."
+#define GAMBATTE_MIX_FRAMES_LABEL_UK "Взаємозмішування"
+#define GAMBATTE_MIX_FRAMES_INFO_0_UK "Імітує ефекти привида LCD. 'Simple' виконує 50:50 поєднання струму та попередніх кадрів. 'LCD Ghosting' імітує природну реакцію LCD разів комбінуючи кілька буферизованих кадрів. 'Simple' змішування потрібно, коли граються в ігри, які покладаються на привид LCD для ефектів прозорості (Wave Race, Ballistic, Chikyuu Kaihou Gun ZAS...)."
 #define OPTION_VAL_MIX_UK "Простий"
-#define OPTION_VAL_LCD_GHOSTING_UK NULL
-#define OPTION_VAL_LCD_GHOSTING_FAST_UK NULL
+#define OPTION_VAL_LCD_GHOSTING_UK "Ghosting LCD (Навчати)"
+#define OPTION_VAL_LCD_GHOSTING_FAST_UK "LCD Привид (найшвидший)"
 #define GAMBATTE_AUDIO_RESAMPLER_LABEL_UK "Перетворювач частоти"
-#define GAMBATTE_AUDIO_RESAMPLER_INFO_0_UK NULL
-#define OPTION_VAL_SINC_UK NULL
-#define OPTION_VAL_CC_UK NULL
-#define GAMBATTE_GB_HWMODE_LABEL_UK NULL
-#define GAMBATTE_GB_HWMODE_INFO_0_UK NULL
-#define OPTION_VAL_GB_UK NULL
+#define GAMBATTE_AUDIO_RESAMPLER_INFO_0_UK "Вкажіть, який алгоритм використовувати при зміні отриманого аудіо курсу Game Boy обмежено лише своєю швидкістю запису ЦП, таким чином, що частоти \"нативних\" є непрактичними на сучасних звукових пристроях і мають бути скорочені). 'Зінк' виробляє найвищу якість. 'Косинус' підвищує продуктивність на низькорівневому обладнанні."
+#define OPTION_VAL_SINC_UK "Синк"
+#define OPTION_VAL_CC_UK "Косинус"
+#define GAMBATTE_GB_HWMODE_LABEL_UK "Емуляція апаратного забезпечення (Потрібне перезавантаження)"
+#define GAMBATTE_GB_HWMODE_INFO_0_UK "Вкажіть, який тип обладнання для наслідування. 'Авто' рекомендується. Вибір 'GBA' розблоковує додаткові функції у деяких 'GBA Enhanced' ігрових хлопців (Shantae, Wendy - Every Witch Way, Legend Zelda: Oracle of easons/Ages...)."
+#define OPTION_VAL_GB_UK "ГБ"
 #define OPTION_VAL_GBA_UK NULL
-#define GAMBATTE_GB_BOOTLOADER_LABEL_UK NULL
-#define GAMBATTE_GB_BOOTLOADER_INFO_0_UK NULL
+#define GAMBATTE_GB_BOOTLOADER_LABEL_UK "Використовувати офіційний завантажувач (потрібен перезапуск)"
+#define GAMBATTE_GB_BOOTLOADER_INFO_0_UK "Увімкнути підтримку офіційних ігрових хлопців і завантажувачів кольору для ігрового завантаження з відповідними анімацією логотипу start-Up."
 #define GAMBATTE_UP_DOWN_ALLOWED_LABEL_UK "Дозволити протилежні напрямки"
-#define GAMBATTE_UP_DOWN_ALLOWED_INFO_0_UK NULL
-#define GAMBATTE_TURBO_PERIOD_LABEL_UK NULL
-#define GAMBATTE_TURBO_PERIOD_INFO_0_UK NULL
-#define GAMBATTE_RUMBLE_LEVEL_LABEL_UK NULL
-#define GAMBATTE_RUMBLE_LEVEL_INFO_0_UK NULL
-#define GAMBATTE_SHOW_GB_LINK_SETTINGS_LABEL_UK NULL
-#define GAMBATTE_SHOW_GB_LINK_SETTINGS_INFO_0_UK NULL
-#define GAMBATTE_GB_LINK_MODE_LABEL_UK NULL
-#define GAMBATTE_GB_LINK_MODE_LABEL_CAT_UK NULL
-#define GAMBATTE_GB_LINK_MODE_INFO_0_UK NULL
-#define OPTION_VAL_NOT_CONNECTED_UK NULL
-#define OPTION_VAL_NETWORK_SERVER_UK NULL
-#define OPTION_VAL_NETWORK_CLIENT_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_PORT_LABEL_UK NULL
+#define GAMBATTE_UP_DOWN_ALLOWED_INFO_0_UK "Увімкнення цієї опції дозволить одночасно натискати/швидко альтернативні/вмістити ліві (або праві та вниз) напрямки. Це може спричинити відблиски руху."
+#define GAMBATTE_TURBO_PERIOD_LABEL_UK "Період кнопки Турбо"
+#define GAMBATTE_TURBO_PERIOD_INFO_0_UK "Вкажіть інтервал повторення (в кадрах) при утриманні кнопки Turbo A / B."
+#define GAMBATTE_RUMBLE_LEVEL_LABEL_UK "Сила Рам'яних Контролів"
+#define GAMBATTE_RUMBLE_LEVEL_INFO_0_UK "Вмикає тактильні ефекти для підтримуваних ігор (Pokemon Pinball, Perfect Dark...)."
+#define GAMBATTE_SHOW_GB_LINK_SETTINGS_LABEL_UK "Показати параметри посилання до гри"
+#define GAMBATTE_SHOW_GB_LINK_SETTINGS_INFO_0_UK "Введіть конфігурацію низькорівних параметрів аудіоканалів. ПРИМІТКА: Швидке Меню потрібно перемкнути для застосування цього параметру."
+#define GAMBATTE_GB_LINK_MODE_LABEL_UK "Режим посилання на гру"
+#define GAMBATTE_GB_LINK_MODE_LABEL_CAT_UK "Режим посилань"
+#define GAMBATTE_GB_LINK_MODE_INFO_0_UK "При вмиканні функції мережних ігрових Link зазначте, чи повинен поточний екземпляр працювати як сервер чи клієнт."
+#define OPTION_VAL_NOT_CONNECTED_UK "Не підключено"
+#define OPTION_VAL_NETWORK_SERVER_UK "Мережевий сервер"
+#define OPTION_VAL_NETWORK_CLIENT_UK "Мережевий клієнт"
+#define GAMBATTE_GB_LINK_NETWORK_PORT_LABEL_UK "Порт мережевого посилання"
 #define GAMBATTE_GB_LINK_NETWORK_PORT_LABEL_CAT_UK "Порт"
-#define GAMBATTE_GB_LINK_NETWORK_PORT_INFO_0_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_LABEL_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_LABEL_CAT_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_INFO_0_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_INFO_1_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_LABEL_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_LABEL_CAT_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_INFO_0_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_INFO_1_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_LABEL_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_LABEL_CAT_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_INFO_0_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_INFO_1_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_LABEL_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_LABEL_CAT_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_INFO_0_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_INFO_1_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_LABEL_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_LABEL_CAT_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_INFO_0_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_INFO_1_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_LABEL_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_LABEL_CAT_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_INFO_0_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_INFO_1_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_LABEL_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_LABEL_CAT_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_INFO_0_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_INFO_1_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_LABEL_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_LABEL_CAT_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_INFO_0_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_INFO_1_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_LABEL_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_LABEL_CAT_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_INFO_0_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_INFO_1_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_LABEL_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_LABEL_CAT_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_INFO_0_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_INFO_1_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_LABEL_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_LABEL_CAT_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_INFO_0_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_INFO_1_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_LABEL_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_LABEL_CAT_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_INFO_0_UK NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_INFO_1_UK NULL
+#define GAMBATTE_GB_LINK_NETWORK_PORT_INFO_0_UK "Вкажіть порт, який використовується для зв'язку з ігровим посиланням."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_LABEL_UK "Мережеве посилання на сервер адреса. 01: x___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_LABEL_CAT_UK "Порт сервера 01: x___.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_INFO_0_UK "1-ша цифра IP-адреси віддаленого ігрового з'єднання з IP-адресою. Використовується тільки коли режим \"Ігрового посилання\" встановлено для \"Мережевого клієнта\"."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_INFO_1_UK "1-ша цифра IP-адреси віддаленого ігрового з'єднання з IP-адресою. Використовується тільки коли в режимі 'Режим з'єднання' встановлено 'Мережевий клієнт'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_LABEL_UK "Мережеве посилання на сервер адреса. 02: _x_.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_LABEL_CAT_UK "Адреса сервера. 02: _x_.___.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_INFO_0_UK "2-га цифра IP-адреси віддаленого ігрового з'єднання з IP-адресою. Використовується лише тоді, коли в режимі \"Ігровий посилання\" встановлено \"Мережевий клієнт\"."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_INFO_1_UK "2-га цифра IP-адреси віддаленого ігрового з'єднання з IP-адресою. Використовується тільки коли в режимі 'Режим з'єднання' встановлено 'Мережевий клієнт'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_LABEL_UK "Мережеве посилання на сервер. 03: __x.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_LABEL_CAT_UK "Порт сервера. 03: __x.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_INFO_0_UK "3-тя цифра IP-адреси віддаленого мережевого сервера Game Link. Використовується тільки тоді, коли \"Режим ігор\" налаштовано на \"Мережевий клієнт\"."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_INFO_1_UK "3-тя цифра IP-адреси віддаленого ігрового з'єднання з IP-адресою. Використовується тільки коли в режимі 'Режим з'єднання' встановлено 'Мережевий клієнт'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_LABEL_UK "Мережеве посилання на сервер - Pt. 04: ___.x___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_LABEL_CAT_UK "Порт сервера - 04: ___.x___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_INFO_0_UK "4-та цифра віддаленої IP-адреси сервера ігрового з'єднання. Використовується лише тоді, коли \"Режим ігор\" налаштовано на \"Мережевий клієнт\"."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_INFO_1_UK "4-та цифра віддаленої IP-адреси сервера ігрового зв'язку з IP-адресою. Використовується тільки коли в режимі 'Режим з'єднання' встановлено 'Мережевий клієнт'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_LABEL_UK "Мережеве посилання на сервер - Pt. 05: ___._x_.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_LABEL_CAT_UK "Адреса сервера. 05: ___._x_.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_INFO_0_UK "5-та цифра віддаленої IP-адреси сервера ігрового зв'язку з IP-адресою. Використовується лише тоді, коли \"Режим ігор\" налаштовано на \"Мережевий клієнт\"."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_INFO_1_UK "5-та цифра віддаленої IP-адреси сервера ігрового зв'язку з IP-адресою. Використовується тільки коли в режимі 'Режим з'єднання' встановлено 'Мережевий клієнт'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_LABEL_UK "Адреса сервера мережевого посилання 06: ___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_LABEL_CAT_UK "Адреса сервера. 06: ___.__x.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_INFO_0_UK "6-а цифра віддаленої IP-адреси сервера ігрового з'єднання. Використовується тільки тоді, коли \"Режим ігор\" налаштований на \"Мережевий клієнт\"."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_INFO_1_UK "6-а цифра віддаленої IP-адреси віддаленого ігрового зв'язку з IP-адресою. Використовується тільки коли в режимі 'Режим з'єднання' встановлено 'Мережевий клієнт'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_LABEL_UK "Адреса сервера з'єднання мережі - Pt. 07: ___.___.x___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_LABEL_CAT_UK "Адреса сервера - Pt. 07: ___.___.x__.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_INFO_0_UK "7-ма цифра віддаленої IP-адреси сервера ігрового з'єднання. Використовується тільки тоді, коли \"Режим ігор\" налаштований на \"Мережевий клієнт\"."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_INFO_1_UK "7-ма цифра віддаленої IP-адреси сервера ігрового зв'язку з IP-адресою. Використовується тільки коли в режимі 'Режим з'єднання' встановлено 'Мережевий клієнт'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_LABEL_UK "Мережеве посилання на сервер - Pt. 08: ___.___x_.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_LABEL_CAT_UK "Адреса сервера. 08: ___.___._x_.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_INFO_0_UK "8-ма цифра віддаленої IP-адреси сервера ігрового з'єднання. Використовується тільки тоді, коли \"Режим ігор\" налаштований на \"Мережевий клієнт\"."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_INFO_1_UK "8-ма цифра віддаленої IP-адреси сервера ігрового зв'язку з IP-адресою. Використовується тільки коли в режимі 'Режим з'єднання' встановлено 'Мережевий клієнт'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_LABEL_UK "Адреса сервера мережевого посилання №. 09: ___.___.__x.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_LABEL_CAT_UK "Порт сервера - 09: ___.___.__x.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_INFO_0_UK "9-а цифра віддаленої IP-адреси сервера ігрового з'єднання. Використовується тільки тоді, коли \"Режим ігор\" налаштований на 'Мережевий клієнт\"."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_INFO_1_UK "9-а цифра віддаленої IP-адреси віддаленого ігрового зв'язку з IP-адресою. Використовується тільки коли в режимі 'Режим з'єднання' встановлено 'Мережевий клієнт'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_LABEL_UK "Адреса сервера мережевого посилання 10: ___.___.___.x__"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_LABEL_CAT_UK "Адреса серверу Pt. 10: ___.___.___.x__"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_INFO_0_UK "10-а цифра віддаленої IP-адреси сервера ігрового з'єднання. Використовується тільки тоді, коли \"Режим ігор\" налаштований на \"Мережевий клієнт\"."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_INFO_1_UK "10-а цифра віддаленої IP-адреси віддаленого мережевого сервера Game Link. Використовується тільки тоді, коли \"Режим з'єднання\" встановлено для \"Мережевого клієнта\"."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_LABEL_UK "Мережеве посилання на сервер - Pt. 11: ___.___._x_"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_LABEL_CAT_UK "Порт сервера 11: ___.___.___._x_"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_INFO_0_UK "11-та цифра віддаленої IP-адреси сервера ігрового з'єднання. Використовується лише тоді, коли \"Режим ігор\" налаштовано на \"Мережевий клієнт\"."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_INFO_1_UK "11-та цифра віддаленої IP-адреси сервера ігрового з'єднання. Використовується лише тоді, коли \"Режим з'єднання\" встановлено для \"Мережевого клієнта\"."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_LABEL_UK "Мережеве посилання на сервер адреса. 12: ___.___.___.__x"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_LABEL_CAT_UK "Порт сервера - 12: ___.___.___.__x"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_INFO_0_UK "12-й цифра віддаленої IP-адреси сервера ігрового з'єднання. Використовується лише тоді, коли \"Режим ігор\" налаштований на \"Мережевий клієнт\"."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_INFO_1_UK "12-й цифра віддаленої IP-адреси сервера ігрового зв'язку з IP-адресою. Використовується лише тоді, коли \"Режим з'єднання\" встановлено для \"Мережевого клієнта\"."
 
 struct retro_core_option_v2_category option_cats_uk[] = {
    {
