@@ -2123,7 +2123,7 @@ struct retro_core_options_v2 options_ar = {
 #define OPTION_VAL_GB_AST NULL
 #define OPTION_VAL_GBA_AST NULL
 #define GAMBATTE_GB_BOOTLOADER_LABEL_AST "Usar el cargador d'arrinque oficial (ye obligatorio reaniciar)"
-#define GAMBATTE_GB_BOOTLOADER_INFO_0_AST "Activa la compatibilidá colos xestores d'arrinque de Game Boy y Game Boy Color xunto colos sos logos animaos del aniciu."
+#define GAMBATTE_GB_BOOTLOADER_INFO_0_AST "Activa la compatibilidá colos xestores d'arrinque de Game Boy ya Game Boy Color xunto colos sos logos animaos del aniciu."
 #define GAMBATTE_UP_DOWN_ALLOWED_LABEL_AST "Permitir les direiciones opuestes"
 #define GAMBATTE_UP_DOWN_ALLOWED_INFO_0_AST NULL
 #define GAMBATTE_TURBO_PERIOD_LABEL_AST NULL
@@ -29485,6 +29485,1642 @@ struct retro_core_options_v2 options_fr = {
    option_defs_fr
 };
 
+/* RETRO_LANGUAGE_GA */
+
+#define CATEGORY_GB_LINK_LABEL_GA "Nasc Cluiche"
+#define CATEGORY_GB_LINK_INFO_0_GA "Athraigh socruithe líonraithe Game Link (il-imreoir)."
+#define GAMBATTE_GB_COLORIZATION_LABEL_GA "Dathú GB"
+#define GAMBATTE_GB_COLORIZATION_INFO_0_GA "Cumasaíonn sé dathú cluichí Game Boy. Roghnaíonn 'Auto' an pailéad 'is fearr' (is ildaite/is oiriúnaí). Roghnaíonn 'GBC' pailéad datha Game Boy atá sainiúil don chluiche má tá sé sainmhínithe, nó 'GBC - Glas Dorcha'. Roghnaíonn 'SGB' pailéad Super Game Boy atá sainiúil don chluiche má tá sé sainmhínithe, nó 'SGB - 1A'. Úsáideann 'Internal' an rogha lárnach 'Internal Palette'. Luchtóidh 'Saincheaptha' pailéad a chruthaigh an t-úsáideoir ón eolaire córais."
+#define OPTION_VAL_AUTO_GA "Uathoibríoch"
+#define OPTION_VAL_GBC_GA NULL
+#define OPTION_VAL_SGB_GA NULL
+#define OPTION_VAL_INTERNAL_GA "Inmheánach"
+#define OPTION_VAL_CUSTOM_GA "Saincheaptha"
+#define GAMBATTE_GB_INTERNAL_PALETTE_LABEL_GA "Pailéad Inmheánach"
+#define GAMBATTE_GB_INTERNAL_PALETTE_INFO_0_GA "Roghnaíonn sé seo an pailéad a úsáidtear chun cluichí Game Boy a dhathú nuair a bhíonn 'GB Colorization' socraithe go 'Internal', nó nuair a bhíonn 'GB Colorization' socraithe go 'Auto' agus nach bhfuil pailéad SGB/GBC réamhshainithe ag an gcluiche. Déanann pailéid 'GB' aithris ar thaispeántas crua-earraí bunaidh Game Boy. Tá pailéid 'GBC' comhionann leis na réamhshocruithe ionsuite den Game Boy Color. Tá pailéid 'SGB' comhionann leis na réamhshocruithe ionsuite den Super Game Boy."
+#define OPTION_VAL_GB_DMG_GA NULL
+#define OPTION_VAL_GB_POCKET_GA NULL
+#define OPTION_VAL_GB_LIGHT_GA NULL
+#define OPTION_VAL_GBC_BLUE_GA "GBC - Gorm"
+#define OPTION_VAL_GBC_BROWN_GA "GBC - Donn"
+#define OPTION_VAL_GBC_DARK_BLUE_GA "GBC - Gorm Dorcha"
+#define OPTION_VAL_GBC_DARK_BROWN_GA "GBC - Donn Dorcha"
+#define OPTION_VAL_GBC_DARK_GREEN_GA "GBC - Glas Dorcha"
+#define OPTION_VAL_GBC_GRAYSCALE_GA "GBC - Liathscála"
+#define OPTION_VAL_GBC_GREEN_GA "GBC - Glas"
+#define OPTION_VAL_GBC_INVERTED_GA "GBC - Inbhéartaithe"
+#define OPTION_VAL_GBC_ORANGE_GA "GBC - Oráiste"
+#define OPTION_VAL_GBC_PASTEL_MIX_GA "GBC - Meascán Pastel"
+#define OPTION_VAL_GBC_RED_GA "GBC - Dearg"
+#define OPTION_VAL_GBC_YELLOW_GA "GBC - Buí"
+#define OPTION_VAL_SGB_1A_GA NULL
+#define OPTION_VAL_SGB_1B_GA NULL
+#define OPTION_VAL_SGB_1C_GA NULL
+#define OPTION_VAL_SGB_1D_GA NULL
+#define OPTION_VAL_SGB_1E_GA NULL
+#define OPTION_VAL_SGB_1F_GA NULL
+#define OPTION_VAL_SGB_1G_GA NULL
+#define OPTION_VAL_SGB_1H_GA NULL
+#define OPTION_VAL_SGB_2A_GA NULL
+#define OPTION_VAL_SGB_2B_GA NULL
+#define OPTION_VAL_SGB_2C_GA NULL
+#define OPTION_VAL_SGB_2D_GA NULL
+#define OPTION_VAL_SGB_2E_GA NULL
+#define OPTION_VAL_SGB_2F_GA NULL
+#define OPTION_VAL_SGB_2G_GA NULL
+#define OPTION_VAL_SGB_2H_GA NULL
+#define OPTION_VAL_SGB_3A_GA NULL
+#define OPTION_VAL_SGB_3B_GA NULL
+#define OPTION_VAL_SGB_3C_GA NULL
+#define OPTION_VAL_SGB_3D_GA NULL
+#define OPTION_VAL_SGB_3E_GA NULL
+#define OPTION_VAL_SGB_3F_GA NULL
+#define OPTION_VAL_SGB_3G_GA NULL
+#define OPTION_VAL_SGB_3H_GA NULL
+#define OPTION_VAL_SGB_4A_GA NULL
+#define OPTION_VAL_SGB_4B_GA NULL
+#define OPTION_VAL_SGB_4C_GA NULL
+#define OPTION_VAL_SGB_4D_GA NULL
+#define OPTION_VAL_SGB_4E_GA NULL
+#define OPTION_VAL_SGB_4F_GA NULL
+#define OPTION_VAL_SGB_4G_GA NULL
+#define OPTION_VAL_SGB_4H_GA NULL
+#define OPTION_VAL_SPECIAL_1_GA "Speisialta 1"
+#define OPTION_VAL_SPECIAL_2_GA "Speisialta 2"
+#define OPTION_VAL_SPECIAL_3_GA "Speisialta 3"
+#define OPTION_VAL_SPECIAL_4_TI_83_LEGACY_GA "Speisialta 4 (TI-83 Oidhreacht)"
+#define OPTION_VAL_TWB64_PACK_1_GA "TWB64 - Pacáiste 1"
+#define OPTION_VAL_TWB64_PACK_2_GA "TWB64 - Pacáiste 2"
+#define OPTION_VAL_TWB64_PACK_3_GA "TWB64 - Pacáiste 3"
+#define OPTION_VAL_PIXELSHIFT_PACK_1_GA "PicteilínShift - Pacáiste 1"
+#define GAMBATTE_GB_PALETTE_TWB64_1_LABEL_GA "> TWB64 - Pacáiste 1 Pailéad"
+#define GAMBATTE_GB_PALETTE_TWB64_1_INFO_0_GA "Roghnaíonn sé pailéad dathanna inmheánach nuair a bhíonn 'Pailéad Inmheánach' socraithe go 'TWB64 - Pacáiste 1'."
+#define OPTION_VAL_TWB64_001_AQOURS_BLUE_GA NULL
+#define OPTION_VAL_TWB64_002_ANIME_EXPO_VER_GA NULL
+#define OPTION_VAL_TWB64_003_SPONGEBOB_YELLOW_GA NULL
+#define OPTION_VAL_TWB64_004_PATRICK_STAR_PINK_GA NULL
+#define OPTION_VAL_TWB64_005_NEON_RED_GA NULL
+#define OPTION_VAL_TWB64_006_NEON_BLUE_GA NULL
+#define OPTION_VAL_TWB64_007_NEON_YELLOW_GA NULL
+#define OPTION_VAL_TWB64_008_NEON_GREEN_GA NULL
+#define OPTION_VAL_TWB64_009_NEON_PINK_GA NULL
+#define OPTION_VAL_TWB64_010_MARIO_RED_GA NULL
+#define OPTION_VAL_TWB64_011_NICK_ORANGE_GA NULL
+#define OPTION_VAL_TWB64_012_VIRTUAL_VISION_GA NULL
+#define OPTION_VAL_TWB64_013_GOLDEN_WILD_GA NULL
+#define OPTION_VAL_TWB64_014_DMG_099_GA NULL
+#define OPTION_VAL_TWB64_015_CLASSIC_BLURPLE_GA NULL
+#define OPTION_VAL_TWB64_016_765_PRODUCTION_VER_GA NULL
+#define OPTION_VAL_TWB64_017_SUPERBALL_IVORY_GA NULL
+#define OPTION_VAL_TWB64_018_CRUNCHYROLL_ORANGE_GA NULL
+#define OPTION_VAL_TWB64_019_MUSE_PINK_GA NULL
+#define OPTION_VAL_TWB64_020_SCHOOL_IDOL_BLUE_GA NULL
+#define OPTION_VAL_TWB64_021_GAMATE_VER_GA NULL
+#define OPTION_VAL_TWB64_022_GREENSCALE_VER_GA NULL
+#define OPTION_VAL_TWB64_023_ODYSSEY_GOLD_GA NULL
+#define OPTION_VAL_TWB64_024_SUPER_SAIYAN_GOD_GA NULL
+#define OPTION_VAL_TWB64_025_SUPER_SAIYAN_BLUE_GA NULL
+#define OPTION_VAL_TWB64_026_ANIMAX_BLUE_GA NULL
+#define OPTION_VAL_TWB64_027_BMO_VER_GA "TWB64 027 - BMO Leagan."
+#define OPTION_VAL_TWB64_028_GAME_COM_VER_GA "TWB64 028 - Game.com Leagan."
+#define OPTION_VAL_TWB64_029_SANRIO_PINK_GA "TWB64 029 - Sanrio Bándearg"
+#define OPTION_VAL_TWB64_030_TIMMY_TURNER_PINK_GA "TWB64 030 - Timmy Turner Bándearg"
+#define OPTION_VAL_TWB64_031_FAIRLY_ODDPALETTE_GA NULL
+#define OPTION_VAL_TWB64_032_DANNY_PHANTOM_SILVER_GA NULL
+#define OPTION_VAL_TWB64_033_LINK_S_AWAKENING_DX_VER_GA NULL
+#define OPTION_VAL_TWB64_034_TRAVEL_WOOD_GA NULL
+#define OPTION_VAL_TWB64_035_POKEMON_VER_GA NULL
+#define OPTION_VAL_TWB64_036_GAME_GRUMP_ORANGE_GA NULL
+#define OPTION_VAL_TWB64_037_SCOOBY_DOO_MYSTERY_VER_GA NULL
+#define OPTION_VAL_TWB64_038_POKEMON_MINI_VER_GA NULL
+#define OPTION_VAL_TWB64_039_SUPERVISION_VER_GA NULL
+#define OPTION_VAL_TWB64_040_DMG_VER_GA NULL
+#define OPTION_VAL_TWB64_041_POCKET_VER_GA NULL
+#define OPTION_VAL_TWB64_042_LIGHT_VER_GA NULL
+#define OPTION_VAL_TWB64_043_ALL_MIGHT_HERO_PALETTE_GA NULL
+#define OPTION_VAL_TWB64_044_U_A_HIGH_SCHOOL_UNIFORM_GA NULL
+#define OPTION_VAL_TWB64_045_PIKACHU_YELLOW_GA NULL
+#define OPTION_VAL_TWB64_046_EEVEE_BROWN_GA NULL
+#define OPTION_VAL_TWB64_047_MICROVISION_VER_GA NULL
+#define OPTION_VAL_TWB64_048_TI_83_VER_GA NULL
+#define OPTION_VAL_TWB64_049_AEGIS_CHERRY_GA NULL
+#define OPTION_VAL_TWB64_050_LABO_FAWN_GA NULL
+#define OPTION_VAL_TWB64_051_MILLION_LIVE_GOLD_GA NULL
+#define OPTION_VAL_TWB64_052_SQUIDWARD_SEA_FOAM_GREEN_GA NULL
+#define OPTION_VAL_TWB64_053_VMU_VER_GA NULL
+#define OPTION_VAL_TWB64_054_GAME_MASTER_VER_GA NULL
+#define OPTION_VAL_TWB64_055_ANDROID_GREEN_GA NULL
+#define OPTION_VAL_TWB64_056_AMAZON_VISION_GA NULL
+#define OPTION_VAL_TWB64_057_GOOGLE_RED_GA NULL
+#define OPTION_VAL_TWB64_058_GOOGLE_BLUE_GA NULL
+#define OPTION_VAL_TWB64_059_GOOGLE_YELLOW_GA NULL
+#define OPTION_VAL_TWB64_060_GOOGLE_GREEN_GA NULL
+#define OPTION_VAL_TWB64_061_WONDERSWAN_VER_GA NULL
+#define OPTION_VAL_TWB64_062_NEO_GEO_POCKET_VER_GA NULL
+#define OPTION_VAL_TWB64_063_DEW_GREEN_GA NULL
+#define OPTION_VAL_TWB64_064_COCA_COLA_VISION_GA NULL
+#define OPTION_VAL_TWB64_065_GAMEKING_VER_GA NULL
+#define OPTION_VAL_TWB64_066_DO_THE_DEW_VER_GA NULL
+#define OPTION_VAL_TWB64_067_DIGIVICE_VER_GA NULL
+#define OPTION_VAL_TWB64_068_BIKINI_BOTTOM_VER_GA NULL
+#define OPTION_VAL_TWB64_069_BLOSSOM_PINK_GA NULL
+#define OPTION_VAL_TWB64_070_BUBBLES_BLUE_GA NULL
+#define OPTION_VAL_TWB64_071_BUTTERCUP_GREEN_GA NULL
+#define OPTION_VAL_TWB64_072_NASCAR_VER_GA NULL
+#define OPTION_VAL_TWB64_073_LEMON_LIME_GREEN_GA NULL
+#define OPTION_VAL_TWB64_074_MEGA_MAN_V_VER_GA NULL
+#define OPTION_VAL_TWB64_075_TAMAGOTCHI_VER_GA NULL
+#define OPTION_VAL_TWB64_076_PHANTOM_RED_GA NULL
+#define OPTION_VAL_TWB64_077_HALLOWEEN_VER_GA NULL
+#define OPTION_VAL_TWB64_078_CHRISTMAS_VER_GA NULL
+#define OPTION_VAL_TWB64_079_CARDCAPTOR_PINK_GA NULL
+#define OPTION_VAL_TWB64_080_PRETTY_GUARDIAN_GOLD_GA NULL
+#define OPTION_VAL_TWB64_081_CAMOUFLAGE_VER_GA NULL
+#define OPTION_VAL_TWB64_082_LEGENDARY_SUPER_SAIYAN_GA NULL
+#define OPTION_VAL_TWB64_083_SUPER_SAIYAN_ROSE_GA NULL
+#define OPTION_VAL_TWB64_084_SUPER_SAIYAN_GA NULL
+#define OPTION_VAL_TWB64_085_PERFECTED_ULTRA_INSTINCT_GA NULL
+#define OPTION_VAL_TWB64_086_SAINT_SNOW_RED_GA NULL
+#define OPTION_VAL_TWB64_087_YELLOW_BANANA_GA NULL
+#define OPTION_VAL_TWB64_088_GREEN_BANANA_GA NULL
+#define OPTION_VAL_TWB64_089_SUPER_SAIYAN_3_GA NULL
+#define OPTION_VAL_TWB64_090_SUPER_SAIYAN_BLUE_EVOLVED_GA NULL
+#define OPTION_VAL_TWB64_091_POCKET_TALES_VER_GA NULL
+#define OPTION_VAL_TWB64_092_INVESTIGATION_YELLOW_GA NULL
+#define OPTION_VAL_TWB64_093_S_E_E_S_BLUE_GA NULL
+#define OPTION_VAL_TWB64_094_ULTRA_INSTINCT_SIGN_GA NULL
+#define OPTION_VAL_TWB64_095_HOKAGE_ORANGE_GA NULL
+#define OPTION_VAL_TWB64_096_STRAW_HAT_RED_GA NULL
+#define OPTION_VAL_TWB64_097_SWORD_ART_CYAN_GA NULL
+#define OPTION_VAL_TWB64_098_DEKU_ALPHA_EMERALD_GA NULL
+#define OPTION_VAL_TWB64_099_BLUE_STRIPES_VER_GA NULL
+#define OPTION_VAL_TWB64_100_PRECURE_MARBLE_RASPBERRY_GA NULL
+#define GAMBATTE_GB_PALETTE_TWB64_2_LABEL_GA NULL
+#define GAMBATTE_GB_PALETTE_TWB64_2_INFO_0_GA "Roghnaíonn sé pailéad dathanna inmheánach nuair a bhíonn 'Pailéad Inmheánach' socraithe go 'TWB64 - Pacáiste 2'."
+#define OPTION_VAL_TWB64_101_765PRO_PINK_GA NULL
+#define OPTION_VAL_TWB64_102_CINDERELLA_BLUE_GA NULL
+#define OPTION_VAL_TWB64_103_MILLION_YELLOW_GA NULL
+#define OPTION_VAL_TWB64_104_SIDEM_GREEN_GA NULL
+#define OPTION_VAL_TWB64_105_SHINY_SKY_BLUE_GA NULL
+#define OPTION_VAL_TWB64_106_ANGRY_VOLCANO_VER_GA NULL
+#define OPTION_VAL_TWB64_107_NBA_VISION_GA NULL
+#define OPTION_VAL_TWB64_108_NFL_VISION_GA NULL
+#define OPTION_VAL_TWB64_109_MLB_VISION_GA NULL
+#define OPTION_VAL_TWB64_110_ANIME_DIGIVICE_VER_GA NULL
+#define OPTION_VAL_TWB64_111_AQUATIC_IRO_GA NULL
+#define OPTION_VAL_TWB64_112_TEA_MIDORI_GA NULL
+#define OPTION_VAL_TWB64_113_SAKURA_PINK_GA NULL
+#define OPTION_VAL_TWB64_114_WISTERIA_MURASAKI_GA NULL
+#define OPTION_VAL_TWB64_115_ONI_AKA_GA NULL
+#define OPTION_VAL_TWB64_116_GOLDEN_KIIRO_GA NULL
+#define OPTION_VAL_TWB64_117_SILVER_SHIRO_GA NULL
+#define OPTION_VAL_TWB64_118_FRUITY_ORANGE_GA NULL
+#define OPTION_VAL_TWB64_119_AKB48_PINK_GA NULL
+#define OPTION_VAL_TWB64_120_MIKU_BLUE_GA NULL
+#define OPTION_VAL_TWB64_121_TRI_DIGIVICE_VER_GA NULL
+#define OPTION_VAL_TWB64_122_SURVEY_CORPS_UNIFORM_GA NULL
+#define OPTION_VAL_TWB64_123_ISLAND_GREEN_GA NULL
+#define OPTION_VAL_TWB64_124_NOGIZAKA46_PURPLE_GA NULL
+#define OPTION_VAL_TWB64_125_NINJA_TURTLE_GREEN_GA NULL
+#define OPTION_VAL_TWB64_126_SLIME_BLUE_GA NULL
+#define OPTION_VAL_TWB64_127_LIME_MIDORI_GA NULL
+#define OPTION_VAL_TWB64_128_GHOSTLY_AOI_GA NULL
+#define OPTION_VAL_TWB64_129_RETRO_BOGEDA_GA NULL
+#define OPTION_VAL_TWB64_130_ROYAL_BLUE_GA NULL
+#define OPTION_VAL_TWB64_131_NEON_PURPLE_GA NULL
+#define OPTION_VAL_TWB64_132_NEON_ORANGE_GA NULL
+#define OPTION_VAL_TWB64_133_MOONLIGHT_VISION_GA NULL
+#define OPTION_VAL_TWB64_134_RISING_SUN_RED_GA NULL
+#define OPTION_VAL_TWB64_135_BURGER_KING_COLOR_COMBO_GA NULL
+#define OPTION_VAL_TWB64_136_GRAND_ZENO_COAT_GA NULL
+#define OPTION_VAL_TWB64_137_PAC_MAN_YELLOW_GA NULL
+#define OPTION_VAL_TWB64_138_IRISH_GREEN_GA NULL
+#define OPTION_VAL_TWB64_139_GOKU_GI_GA NULL
+#define OPTION_VAL_TWB64_140_DRAGON_BALL_ORANGE_GA NULL
+#define OPTION_VAL_TWB64_141_CHRISTMAS_GOLD_GA NULL
+#define OPTION_VAL_TWB64_142_PEPSI_VISION_GA NULL
+#define OPTION_VAL_TWB64_143_BUBBLUN_GREEN_GA NULL
+#define OPTION_VAL_TWB64_144_BOBBLUN_BLUE_GA NULL
+#define OPTION_VAL_TWB64_145_BAJA_BLAST_STORM_GA NULL
+#define OPTION_VAL_TWB64_146_OLYMPIC_GOLD_GA NULL
+#define OPTION_VAL_TWB64_147_LISANI_ORANGE_GA NULL
+#define OPTION_VAL_TWB64_148_LIELLA_PURPLE_GA NULL
+#define OPTION_VAL_TWB64_149_OLYMPIC_SILVER_GA NULL
+#define OPTION_VAL_TWB64_150_OLYMPIC_BRONZE_GA NULL
+#define OPTION_VAL_TWB64_151_ANA_FLIGHT_BLUE_GA NULL
+#define OPTION_VAL_TWB64_152_NIJIGASAKI_ORANGE_GA NULL
+#define OPTION_VAL_TWB64_153_HOLOBLUE_GA NULL
+#define OPTION_VAL_TWB64_154_WWE_WHITE_AND_RED_GA NULL
+#define OPTION_VAL_TWB64_155_YOSHI_EGG_GREEN_GA NULL
+#define OPTION_VAL_TWB64_156_POKEDEX_RED_GA NULL
+#define OPTION_VAL_TWB64_157_FAMILYMART_VISION_GA NULL
+#define OPTION_VAL_TWB64_158_XBOX_GREEN_GA NULL
+#define OPTION_VAL_TWB64_159_SONIC_MEGA_BLUE_GA NULL
+#define OPTION_VAL_TWB64_160_SPRITE_GREEN_GA NULL
+#define OPTION_VAL_TWB64_161_SCARLETT_GREEN_GA NULL
+#define OPTION_VAL_TWB64_162_GLITCHY_BLUE_GA NULL
+#define OPTION_VAL_TWB64_163_CLASSIC_LCD_GA NULL
+#define OPTION_VAL_TWB64_164_3DS_VIRTUAL_CONSOLE_VER_GA NULL
+#define OPTION_VAL_TWB64_165_POCKETSTATION_VER_GA NULL
+#define OPTION_VAL_TWB64_166_TIMELESS_GOLD_AND_RED_GA NULL
+#define OPTION_VAL_TWB64_167_SMURFY_BLUE_GA NULL
+#define OPTION_VAL_TWB64_168_SWAMPY_OGRE_GREEN_GA NULL
+#define OPTION_VAL_TWB64_169_SAILOR_SPINACH_GREEN_GA NULL
+#define OPTION_VAL_TWB64_170_SHENRON_GREEN_GA NULL
+#define OPTION_VAL_TWB64_171_BERSERK_BLOOD_GA NULL
+#define OPTION_VAL_TWB64_172_SUPER_STAR_PINK_GA NULL
+#define OPTION_VAL_TWB64_173_GAMEBUINO_CLASSIC_VER_GA NULL
+#define OPTION_VAL_TWB64_174_BARBIE_PINK_GA NULL
+#define OPTION_VAL_TWB64_175_YOASOBI_AMARANTH_GA NULL
+#define OPTION_VAL_TWB64_176_NOKIA_3310_VER_GA NULL
+#define OPTION_VAL_TWB64_177_CLOVER_GREEN_GA NULL
+#define OPTION_VAL_TWB64_178_GOKU_GT_GI_GA NULL
+#define OPTION_VAL_TWB64_179_FAMICOM_DISK_YELLOW_GA NULL
+#define OPTION_VAL_TWB64_180_TEAM_ROCKET_UNIFORM_GA NULL
+#define OPTION_VAL_TWB64_181_SEIKO_TIMELY_VISION_GA NULL
+#define OPTION_VAL_TWB64_182_PASTEL109_GA NULL
+#define OPTION_VAL_TWB64_183_DORAEMON_TRICOLOR_GA NULL
+#define OPTION_VAL_TWB64_184_FURY_BLUE_GA NULL
+#define OPTION_VAL_TWB64_185_GOOD_SMILE_VISION_GA NULL
+#define OPTION_VAL_TWB64_186_PUYO_PUYO_GREEN_GA NULL
+#define OPTION_VAL_TWB64_187_CIRCLE_K_COLOR_COMBO_GA NULL
+#define OPTION_VAL_TWB64_188_PIZZA_HUT_RED_GA NULL
+#define OPTION_VAL_TWB64_189_EMERALD_GREEN_GA NULL
+#define OPTION_VAL_TWB64_190_GRAND_IVORY_GA NULL
+#define OPTION_VAL_TWB64_191_DEMON_S_GOLD_GA NULL
+#define OPTION_VAL_TWB64_192_SEGA_TOKYO_BLUE_GA NULL
+#define OPTION_VAL_TWB64_193_CHAMPION_S_TUNIC_GA NULL
+#define OPTION_VAL_TWB64_194_DK_BARREL_BROWN_GA NULL
+#define OPTION_VAL_TWB64_195_EVA_01_GA NULL
+#define OPTION_VAL_TWB64_196_WILD_WEST_VISION_GA NULL
+#define OPTION_VAL_TWB64_197_OPTIMUS_PRIME_PALETTE_GA NULL
+#define OPTION_VAL_TWB64_198_NICONICO_SEA_GREEN_GA NULL
+#define OPTION_VAL_TWB64_199_DURACELL_COPPER_GA NULL
+#define OPTION_VAL_TWB64_200_TOKYO_SKYTREE_CLOUDY_BLUE_GA NULL
+#define GAMBATTE_GB_PALETTE_TWB64_3_LABEL_GA NULL
+#define GAMBATTE_GB_PALETTE_TWB64_3_INFO_0_GA NULL
+#define OPTION_VAL_TWB64_201_DMG_GOLD_GA NULL
+#define OPTION_VAL_TWB64_202_LCD_CLOCK_GREEN_GA NULL
+#define OPTION_VAL_TWB64_203_FAMICOM_FRENZY_GA NULL
+#define OPTION_VAL_TWB64_204_DK_ARCADE_BLUE_GA NULL
+#define OPTION_VAL_TWB64_205_ADVANCED_INDIGO_GA NULL
+#define OPTION_VAL_TWB64_206_ULTRA_BLACK_GA NULL
+#define OPTION_VAL_TWB64_207_CHAOS_EMERALD_GREEN_GA NULL
+#define OPTION_VAL_TWB64_208_BLUE_BOMBER_VISION_GA NULL
+#define OPTION_VAL_TWB64_209_KRISPY_KREME_VISION_GA NULL
+#define OPTION_VAL_TWB64_210_STEAM_GRAY_GA NULL
+#define OPTION_VAL_TWB64_211_DREAM_LAND_GB_VER_GA NULL
+#define OPTION_VAL_TWB64_212_POKEMON_PINBALL_VER_GA NULL
+#define OPTION_VAL_TWB64_213_POKETCH_VER_GA NULL
+#define OPTION_VAL_TWB64_214_COLLECTION_OF_SAGA_VER_GA NULL
+#define OPTION_VAL_TWB64_215_ROCKY_VALLEY_HOLIDAY_GA NULL
+#define OPTION_VAL_TWB64_216_GIGA_KIWI_DMG_GA NULL
+#define OPTION_VAL_TWB64_217_DMG_PEA_GREEN_GA NULL
+#define OPTION_VAL_TWB64_218_TIMING_HERO_VER_GA NULL
+#define OPTION_VAL_TWB64_219_INVINCIBLE_YELLOW_AND_BLUE_GA NULL
+#define OPTION_VAL_TWB64_220_GRINCHY_GREEN_GA NULL
+#define OPTION_VAL_TWB64_221_ANIMATE_VISION_GA NULL
+#define OPTION_VAL_TWB64_222_SCHOOL_IDOL_MIX_GA NULL
+#define OPTION_VAL_TWB64_223_GREEN_AWAKENING_GA NULL
+#define OPTION_VAL_TWB64_224_GOOMBA_BROWN_GA NULL
+#define OPTION_VAL_TWB64_225_WARIOWARE_MICROBLUE_GA NULL
+#define OPTION_VAL_TWB64_226_KONOSUBA_SHERBET_GA NULL
+#define OPTION_VAL_TWB64_227_SPOOKY_PURPLE_GA NULL
+#define OPTION_VAL_TWB64_228_TREASURE_GOLD_GA NULL
+#define OPTION_VAL_TWB64_229_CHERRY_BLOSSOM_PINK_GA NULL
+#define OPTION_VAL_TWB64_230_GOLDEN_TROPHY_GA NULL
+#define OPTION_VAL_TWB64_231_GLACIAL_WINTER_BLUE_GA NULL
+#define OPTION_VAL_TWB64_232_LEPRECHAUN_GREEN_GA NULL
+#define OPTION_VAL_TWB64_233_SAITAMA_SUPER_BLUE_GA NULL
+#define OPTION_VAL_TWB64_234_SAITAMA_SUPER_GREEN_GA NULL
+#define OPTION_VAL_TWB64_235_DUOLINGO_GREEN_GA NULL
+#define OPTION_VAL_TWB64_236_SUPER_MUSHROOM_VISION_GA NULL
+#define OPTION_VAL_TWB64_237_ANCIENT_HISUIAN_BROWN_GA NULL
+#define OPTION_VAL_TWB64_238_SKY_POP_IVORY_GA NULL
+#define OPTION_VAL_TWB64_239_LAWSON_BLUE_GA NULL
+#define OPTION_VAL_TWB64_240_ANIME_EXPO_RED_GA NULL
+#define OPTION_VAL_TWB64_241_BRILLIANT_DIAMOND_BLUE_GA NULL
+#define OPTION_VAL_TWB64_242_SHINING_PEARL_PINK_GA NULL
+#define OPTION_VAL_TWB64_243_FUNIMATION_MELON_GA NULL
+#define OPTION_VAL_TWB64_244_TEYVAT_BROWN_GA NULL
+#define OPTION_VAL_TWB64_245_CHOZO_BLUE_GA NULL
+#define OPTION_VAL_TWB64_246_SPOTIFY_GREEN_GA NULL
+#define OPTION_VAL_TWB64_247_DR_PEPPER_RED_GA NULL
+#define OPTION_VAL_TWB64_248_NHK_SILVER_GRAY_GA NULL
+#define OPTION_VAL_TWB64_249_DUNKIN_VISION_GA NULL
+#define OPTION_VAL_TWB64_250_DEKU_GAMMA_PALETTE_GA NULL
+#define OPTION_VAL_TWB64_251_UNIVERSAL_STUDIOS_BLUE_GA NULL
+#define OPTION_VAL_TWB64_252_HOGWARTS_GOLDIUS_GA NULL
+#define OPTION_VAL_TWB64_253_KENTUCKY_FRIED_RED_GA NULL
+#define OPTION_VAL_TWB64_254_CHEETO_ORANGE_GA NULL
+#define OPTION_VAL_TWB64_255_NAMCO_IDOL_PINK_GA NULL
+#define OPTION_VAL_TWB64_256_DOMINO_S_PIZZA_VISION_GA NULL
+#define OPTION_VAL_TWB64_257_PAC_MAN_VISION_GA NULL
+#define OPTION_VAL_TWB64_258_BILL_S_PC_SCREEN_GA NULL
+#define OPTION_VAL_TWB64_259_SONIC_MEGA_BLUE_GA NULL
+#define OPTION_VAL_TWB64_260_FOOL_S_GOLD_AND_SILVER_GA NULL
+#define OPTION_VAL_TWB64_261_UTA_VISION_GA NULL
+#define OPTION_VAL_TWB64_262_METALLIC_PALDEA_BRASS_GA NULL
+#define OPTION_VAL_TWB64_263_CLASSY_CHRISTMAS_GA NULL
+#define OPTION_VAL_TWB64_264_WINTER_CHRISTMAS_GA NULL
+#define OPTION_VAL_TWB64_265_IDOL_WORLD_TRICOLOR_GA NULL
+#define OPTION_VAL_TWB64_266_INKLING_TRICOLOR_GA NULL
+#define OPTION_VAL_TWB64_267_7_ELEVEN_COLOR_COMBO_GA NULL
+#define OPTION_VAL_TWB64_268_PAC_PALETTE_GA NULL
+#define OPTION_VAL_TWB64_269_VULNERABLE_BLUE_GA NULL
+#define OPTION_VAL_TWB64_270_NIGHTVISION_GREEN_GA NULL
+#define OPTION_VAL_TWB64_271_BANDAI_NAMCO_TRICOLOR_GA NULL
+#define OPTION_VAL_TWB64_272_GOLD_SILVER_AND_BRONZE_GA NULL
+#define OPTION_VAL_TWB64_273_DEKU_VIGILANTE_PALETTE_GA NULL
+#define OPTION_VAL_TWB64_274_SUPER_FAMICOM_SUPREME_GA NULL
+#define OPTION_VAL_TWB64_275_ABSORBENT_AND_YELLOW_GA NULL
+#define OPTION_VAL_TWB64_276_765PRO_TRICOLOR_GA NULL
+#define OPTION_VAL_TWB64_277_GAMECUBE_GLIMMER_GA NULL
+#define OPTION_VAL_TWB64_278_1ST_VISION_PASTEL_GA NULL
+#define OPTION_VAL_TWB64_279_PERFECT_MAJIN_EMPEROR_GA NULL
+#define OPTION_VAL_TWB64_280_J_POP_IDOL_SHERBET_GA NULL
+#define OPTION_VAL_TWB64_281_RYUUGUU_SUNSET_GA NULL
+#define OPTION_VAL_TWB64_282_TROPICAL_STARFALL_GA NULL
+#define OPTION_VAL_TWB64_283_COLORFUL_HORIZONS_GA NULL
+#define OPTION_VAL_TWB64_284_BLACKPINK_BLINK_PINK_GA NULL
+#define OPTION_VAL_TWB64_285_DMG_SWITCH_GA NULL
+#define OPTION_VAL_TWB64_286_POCKET_SWITCH_GA NULL
+#define OPTION_VAL_TWB64_287_SUNNY_PASSION_PARADISE_GA NULL
+#define OPTION_VAL_TWB64_288_SAIYAN_BEAST_SILVER_GA NULL
+#define OPTION_VAL_TWB64_289_RADIANT_SMILE_RAMP_GA NULL
+#define OPTION_VAL_TWB64_290_A_RISE_BLUE_GA NULL
+#define OPTION_VAL_TWB64_291_TROPICAL_TWICE_APRICOT_GA NULL
+#define OPTION_VAL_TWB64_292_ODYSSEY_BOY_GA NULL
+#define OPTION_VAL_TWB64_293_FROG_COIN_GREEN_GA NULL
+#define OPTION_VAL_TWB64_294_GARFIELD_VISION_GA NULL
+#define OPTION_VAL_TWB64_295_BEDROCK_CAVEMAN_VISION_GA NULL
+#define OPTION_VAL_TWB64_296_BANGTAN_ARMY_PURPLE_GA NULL
+#define OPTION_VAL_TWB64_297_LE_SSERAFIM_FEARLESS_BLUE_GA NULL
+#define OPTION_VAL_TWB64_298_BAJA_BLAST_BEACH_GA NULL
+#define OPTION_VAL_TWB64_299_3DS_VIRTUAL_CONSOLE_GREEN_GA NULL
+#define OPTION_VAL_TWB64_300_WONDER_PURPLE_GA NULL
+#define GAMBATTE_GB_PALETTE_PIXELSHIFT_1_LABEL_GA NULL
+#define GAMBATTE_GB_PALETTE_PIXELSHIFT_1_INFO_0_GA "Roghnaíonn sé pailéad dathanna inmheánach nuair a bhíonn 'Pailéad Inmheánach' socraithe go 'AistriúPicteilíní - Pacáiste 1'."
+#define OPTION_VAL_PIXELSHIFT_01_ARCTIC_GREEN_GA NULL
+#define OPTION_VAL_PIXELSHIFT_02_ARDUBOY_GA NULL
+#define OPTION_VAL_PIXELSHIFT_03_BGB_0_3_EMULATOR_GA NULL
+#define OPTION_VAL_PIXELSHIFT_04_CAMOUFLAGE_GA NULL
+#define OPTION_VAL_PIXELSHIFT_05_CHOCOLATE_BAR_GA NULL
+#define OPTION_VAL_PIXELSHIFT_06_CMYK_GA NULL
+#define OPTION_VAL_PIXELSHIFT_07_COTTON_CANDY_GA NULL
+#define OPTION_VAL_PIXELSHIFT_08_EASY_GREENS_GA NULL
+#define OPTION_VAL_PIXELSHIFT_09_GAMATE_GA NULL
+#define OPTION_VAL_PIXELSHIFT_10_GAME_BOY_LIGHT_GA NULL
+#define OPTION_VAL_PIXELSHIFT_11_GAME_BOY_POCKET_GA NULL
+#define OPTION_VAL_PIXELSHIFT_12_GAME_BOY_POCKET_ALT_GA NULL
+#define OPTION_VAL_PIXELSHIFT_13_GAME_POCKET_COMPUTER_GA NULL
+#define OPTION_VAL_PIXELSHIFT_14_GAME_WATCH_BALL_GA NULL
+#define OPTION_VAL_PIXELSHIFT_15_GB_BACKLIGHT_BLUE_GA NULL
+#define OPTION_VAL_PIXELSHIFT_16_GB_BACKLIGHT_FADED_GA NULL
+#define OPTION_VAL_PIXELSHIFT_17_GB_BACKLIGHT_ORANGE_GA NULL
+#define OPTION_VAL_PIXELSHIFT_18_GB_BACKLIGHT_WHITE__GA NULL
+#define OPTION_VAL_PIXELSHIFT_19_GB_BACKLIGHT_YELLOW_DARK_GA NULL
+#define OPTION_VAL_PIXELSHIFT_20_GB_BOOTLEG_GA NULL
+#define OPTION_VAL_PIXELSHIFT_21_GB_HUNTER_GA NULL
+#define OPTION_VAL_PIXELSHIFT_22_GB_KIOSK_GA NULL
+#define OPTION_VAL_PIXELSHIFT_23_GB_KIOSK_2_GA NULL
+#define OPTION_VAL_PIXELSHIFT_24_GB_NEW_GA NULL
+#define OPTION_VAL_PIXELSHIFT_25_GB_NUKED_GA NULL
+#define OPTION_VAL_PIXELSHIFT_26_GB_OLD_GA NULL
+#define OPTION_VAL_PIXELSHIFT_27_GBP_BIVERT_GA NULL
+#define OPTION_VAL_PIXELSHIFT_28_GB_WASHED_YELLOW_BACKLIGHT_GA NULL
+#define OPTION_VAL_PIXELSHIFT_29_GHOST_GA NULL
+#define OPTION_VAL_PIXELSHIFT_30_GLOW_IN_THE_DARK_GA NULL
+#define OPTION_VAL_PIXELSHIFT_31_GOLD_BAR_GA NULL
+#define OPTION_VAL_PIXELSHIFT_32_GRAPEFRUIT_GA NULL
+#define OPTION_VAL_PIXELSHIFT_33_GRAY_GREEN_MIX_GA NULL
+#define OPTION_VAL_PIXELSHIFT_34_MISSINGNO_GA NULL
+#define OPTION_VAL_PIXELSHIFT_35_MS_DOS_GA NULL
+#define OPTION_VAL_PIXELSHIFT_36_NEWSPAPER_GA NULL
+#define OPTION_VAL_PIXELSHIFT_37_PIP_BOY_GA NULL
+#define OPTION_VAL_PIXELSHIFT_38_POCKET_GIRL_GA NULL
+#define OPTION_VAL_PIXELSHIFT_39_SILHOUETTE_GA NULL
+#define OPTION_VAL_PIXELSHIFT_40_SUNBURST_GA NULL
+#define OPTION_VAL_PIXELSHIFT_41_TECHNICOLOR_GA NULL
+#define OPTION_VAL_PIXELSHIFT_42_TRON_GA NULL
+#define OPTION_VAL_PIXELSHIFT_43_VAPORWAVE_GA NULL
+#define OPTION_VAL_PIXELSHIFT_44_VIRTUAL_BOY_GA NULL
+#define OPTION_VAL_PIXELSHIFT_45_WISH_GA NULL
+#define GAMBATTE_GBC_COLOR_CORRECTION_LABEL_GA "Ceartú Dath"
+#define GAMBATTE_GBC_COLOR_CORRECTION_INFO_0_GA "Coigeartaíonn sé dathanna an aschuir chun iad a mheaitseáil le taispeáint fíor-chrua-earraí Game Boy Color. Cinntíonn 'GBC Amháin' nach gcuirfear ceartú i bhfeidhm ach amháin nuair a bhíonn cluichí Game Boy Color á n-imirt, nó nuair a úsáidtear pailéad Game Boy Color chun cluiche Game Boy a dhathú. Cuireann 'I gcónaí' ceartú datha i bhfeidhm ar an ábhar go léir, agus tabharfaidh sé torthaí gan choinne/fo-optamacha nuair a úsáidtear pailéid dathanna inmheánacha 'GB' nó 'SGB'."
+#define OPTION_VAL_GBC_ONLY_GA NULL
+#define OPTION_VAL_ALWAYS_GA "I gcónaí"
+#define GAMBATTE_GBC_COLOR_CORRECTION_MODE_LABEL_GA "Mód Ceartúcháin Dathanna"
+#define GAMBATTE_GBC_COLOR_CORRECTION_MODE_INFO_0_GA "Sonraíonn sé an modh a úsáidtear agus ceartú datha á dhéanamh. Táirgeann 'Cruinn' aschur nach féidir a idirdhealú ó phainéal LCD Game Boy Color fíor. Ní dhéanann 'Measg' ach dathanna a dhorchú agus sáithiú a laghdú, agus féadfar é a úsáid ar chrua-earraí íseal-deireadh má tá an modh 'Cruinn' ró-mhall."
+#define OPTION_VAL_ACCURATE_GA "Cruinn"
+#define OPTION_VAL_FAST_GA "Tapa"
+#define GAMBATTE_GBC_FRONTLIGHT_POSITION_LABEL_GA "Ceartú Datha - Suíomh an tSolais Tosaigh"
+#define GAMBATTE_GBC_FRONTLIGHT_POSITION_INFO_0_GA "Insamhlaíonn sé freagairt fhisiciúil phainéal LCD an Game Boy Color nuair a shoilsithear é ó uillinneacha difriúla. Seasann 'Lárnach' don atáirgeadh datha caighdeánach. Méadaíonn 'Os cionn an Scáileáin' an gile. Laghdaíonn 'Faoi bhun an Scáileáin' an gile. Ní bhaineann an socrú seo ach nuair a bhíonn 'Mód Ceartúcháin Datha' socraithe go 'Cruinn'."
+#define OPTION_VAL_CENTRAL_GA "Lárnach"
+#define OPTION_VAL_ABOVE_SCREEN_GA "Os cionn an Scáileáin"
+#define OPTION_VAL_BELOW_SCREEN_GA "Faoin Scáileán"
+#define GAMBATTE_DARK_FILTER_LEVEL_LABEL_GA "Leibhéal Scagaire Dorcha (%)"
+#define GAMBATTE_DARK_FILTER_LEVEL_INFO_0_GA "Cumasaigh laghdú gile bunaithe ar lonrúlacht. Is féidir é seo a úsáid chun dalladh/strus súl a sheachaint agus cluichí á n-imirt le cúlra bán, atá beartaithe lena thaispeáint ar Game Boy Color gan chúlra agus dá bhrí sin is féidir leo a bheith geal go míchompordach nuair a fhéachtar orthu ar scáileán cúlra nua-aimseartha."
+#define GAMBATTE_MIX_FRAMES_LABEL_GA "Cumasc Idirfhráma"
+#define GAMBATTE_MIX_FRAMES_INFO_0_GA "Insamhlaíonn sé éifeachtaí taibhsí LCD. Déanann 'Simple' meascán 50:50 de na frámaí reatha agus roimhe seo. Déanann 'LCD Ghosting' aithris ar amanna freagartha nádúrtha LCD trí ilfhrámaí maolánaithe a chomhcheangal. Tá cumasc 'Simple' ag teastáil agus cluichí á n-imirt a bhraitheann ar thaibhsí LCD le haghaidh éifeachtaí trédhearcachta (Wave Race, Ballistic, Chikyuu Kaihou Gun ZAS...)."
+#define OPTION_VAL_MIX_GA "Simplí"
+#define OPTION_VAL_LCD_GHOSTING_GA "LCD Ghosting (Cruinn)"
+#define OPTION_VAL_LCD_GHOSTING_FAST_GA "LCD Ghosting (Gasta)"
+#define GAMBATTE_AUDIO_RESAMPLER_LABEL_GA "Athshamplóir Fuaime"
+#define GAMBATTE_AUDIO_RESAMPLER_INFO_0_GA "Sonraigh cén algartam atá le húsáid agus fuaim ghinte á hathshampláil (níl teorainn le ráta fuaime an Game Boy ach amháin ag luas scríbhneoireachta a LAP, sa chaoi is nach bhfuil minicíochtaí 'dúchasacha' praiticiúil ar fheistí fuaime nua-aimseartha agus ní mór iad a laghdú). Tugann 'Sinc' an caighdeán is airde. Feabhsaíonn 'Cosine' feidhmíocht ar chrua-earraí íseal-deireadh."
+#define OPTION_VAL_SINC_GA NULL
+#define OPTION_VAL_CC_GA "Comhshíneas"
+#define GAMBATTE_GB_HWMODE_LABEL_GA "Crua-earraí Aithrisithe (Atosú Riachtanach)"
+#define GAMBATTE_GB_HWMODE_INFO_0_GA "Sonraigh cén cineál crua-earraí atá le haithris. Moltar 'Auto'. Díghlasálann roghnú 'GBA' gnéithe breise i gcluichí Game Boy Color áirithe 'GBA Enhanced' (Shantae, Wendy - Every Witch Way, Legend of Zelda: Oracle of Seasons/Ages...)."
+#define OPTION_VAL_GB_GA NULL
+#define OPTION_VAL_GBA_GA NULL
+#define GAMBATTE_GB_BOOTLOADER_LABEL_GA "Bain úsáid as an Tosaitheoir Oifigiúil (Atosú Riachtanach)"
+#define GAMBATTE_GB_BOOTLOADER_INFO_0_GA "Cumasaigh tacaíocht do luchtóirí tosaithe oifigiúla Game Boy agus Game Boy Color, le beochana lógó tosaithe comhfhreagracha."
+#define GAMBATTE_UP_DOWN_ALLOWED_LABEL_GA "Ceadaigh Treoracha Codarsnacha"
+#define GAMBATTE_UP_DOWN_ALLOWED_INFO_0_GA "Trí seo a chumasú, beidh tú in ann an dá threo ar chlé agus ar dheis (nó suas agus síos) a bhrú/a mhalartú go tapa/a choinneáil ag an am céanna. D’fhéadfadh sé seo fabhtanna gluaiseachta a chur faoi deara."
+#define GAMBATTE_TURBO_PERIOD_LABEL_GA "Tréimhse Cnaipe Turbo"
+#define GAMBATTE_TURBO_PERIOD_INFO_0_GA "Sonraigh an t-eatramh athrá (i bhfrámaí) agus na cnaipí Turbo A/B á gcoinneáil síos."
+#define GAMBATTE_RUMBLE_LEVEL_LABEL_GA "Neart Rumble an Rialaitheora"
+#define GAMBATTE_RUMBLE_LEVEL_INFO_0_GA "Cumasaíonn sé éifeachtaí aiseolais haptic do chluichí a dtacaítear leo (Pokémon Pinball, Perfect Dark...)."
+#define GAMBATTE_SHOW_GB_LINK_SETTINGS_LABEL_GA "Taispeáin Socruithe Nasc Cluiche"
+#define GAMBATTE_SHOW_GB_LINK_SETTINGS_INFO_0_GA "Cumasaigh cumraíocht roghanna Game Link líonraithe (il-imreoir). TABHAIR FAOI DEARA: B’fhéidir go mbeadh ort an Roghchlár Tapa a athrú chun an socrú seo a chur i bhfeidhm."
+#define GAMBATTE_GB_LINK_MODE_LABEL_GA "Mód Nasc Cluiche"
+#define GAMBATTE_GB_LINK_MODE_LABEL_CAT_GA "Mód Nasc"
+#define GAMBATTE_GB_LINK_MODE_INFO_0_GA "Agus feidhmiúlacht Game Link líonraithe á cumasú, sonraigh an rithfidh an t-eiseamláir reatha mar fhreastalaí nó mar chliant."
+#define OPTION_VAL_NOT_CONNECTED_GA "Gan Ceangail"
+#define OPTION_VAL_NETWORK_SERVER_GA "Freastalaí Líonra"
+#define OPTION_VAL_NETWORK_CLIENT_GA "Cliant Líonra"
+#define GAMBATTE_GB_LINK_NETWORK_PORT_LABEL_GA "Port Nasc Líonra"
+#define GAMBATTE_GB_LINK_NETWORK_PORT_LABEL_CAT_GA NULL
+#define GAMBATTE_GB_LINK_NETWORK_PORT_INFO_0_GA "Sonraigh an port a úsáidtear le haghaidh cumarsáide líonra Game Link."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_LABEL_GA "Seoladh Freastalaí Nasc Líonra Cuid 01: x__.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_LABEL_CAT_GA "Seoladh an Fhreastalaí Cuid 01: x__.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_INFO_0_GA "1ú dhigit de sheoladh IP freastalaí líonra iargúlta Game Link. Ní úsáidtear é ach amháin nuair a bhíonn 'Mód Game Link' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_INFO_1_GA "1ú dhigit de sheoladh IP freastalaí líonra iargúlta Game Link. Ní úsáidtear é ach amháin nuair atá 'Mód Nasc' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_LABEL_GA "Seoladh Freastalaí Nasc Líonra Cuid 02: _x_.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_LABEL_CAT_GA "Seoladh an Fhreastalaí Cuid 02: _x_.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_INFO_0_GA "An dara dhigit de sheoladh IP an fhreastalaí líonra Game Link iargúlta. Ní úsáidtear é ach amháin nuair a bhíonn 'Mód Game Link' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_INFO_1_GA "An dara dhigit de sheoladh IP an fhreastalaí líonra iargúlta Game Link. Ní úsáidtear é ach amháin nuair atá 'Mód Nasc' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_LABEL_GA "Seoladh Freastalaí Nasc Líonra Cuid 03: __x.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_LABEL_CAT_GA "Seoladh an Fhreastalaí Cuid 03: __x.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_INFO_0_GA "3ú dhigit de sheoladh IP freastalaí líonra iargúlta Game Link. Ní úsáidtear é ach amháin nuair atá 'Mód Game Link' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_INFO_1_GA "An 3ú dhigit de sheoladh IP an fhreastalaí líonra Game Link iargúlta. Ní úsáidtear é ach amháin nuair atá 'Mód Nasc' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_LABEL_GA "Seoladh Freastalaí Nasc Líonra Cuid 04: ___.x__.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_LABEL_CAT_GA "Seoladh an Fhreastalaí Cuid 04: ___.x__.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_INFO_0_GA "An 4ú dhigit de sheoladh IP an fhreastalaí líonra Game Link iargúlta. Ní úsáidtear é ach amháin nuair atá 'Mód Game Link' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_INFO_1_GA "An 4ú dhigit de sheoladh IP an fhreastalaí líonra iargúlta Game Link. Ní úsáidtear é ach amháin nuair atá 'Mód Nasc' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_LABEL_GA "Seoladh Freastalaí Nasc Líonra Cuid 05: ___._x_.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_LABEL_CAT_GA "Seoladh an Fhreastalaí Cuid 05: ___._x_.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_INFO_0_GA "5ú dhigit de sheoladh IP freastalaí líonra iargúlta Game Link. Ní úsáidtear é ach amháin nuair a bhíonn 'Mód Game Link' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_INFO_1_GA "5ú dhigit de sheoladh IP freastalaí líonra iargúlta Game Link. Ní úsáidtear é ach amháin nuair atá 'Mód Nasc' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_LABEL_GA "Seoladh Freastalaí Nasc Líonra Cuid 06: ___.__x.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_LABEL_CAT_GA "Seoladh an Fhreastalaí Cuid 06: ___.__x.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_INFO_0_GA "6ú dhigit de sheoladh IP freastalaí líonra iargúlta Game Link. Ní úsáidtear é ach amháin nuair a bhíonn 'Mód Game Link' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_INFO_1_GA "6ú dhigit de sheoladh IP freastalaí líonra iargúlta Game Link. Ní úsáidtear é ach amháin nuair a bhíonn 'Mód Nasc' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_LABEL_GA "Seoladh Freastalaí Nasc Líonra Cuid 07: ___.___.x__.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_LABEL_CAT_GA "Seoladh an Fhreastalaí Cuid 07: ___.___.x__.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_INFO_0_GA "7ú dhigit de sheoladh IP freastalaí líonra iargúlta Game Link. Ní úsáidtear é ach amháin nuair a bhíonn 'Mód Game Link' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_INFO_1_GA "7ú dhigit de sheoladh IP freastalaí líonra iargúlta Game Link. Ní úsáidtear é ach amháin nuair atá 'Mód Nasc' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_LABEL_GA "Seoladh Freastalaí Nasc Líonra Cuid 08: ___.___._x_.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_LABEL_CAT_GA "Seoladh an Fhreastalaí Cuid 08: ___.___._x_.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_INFO_0_GA "An 8ú digit de sheoladh IP an fhreastalaí líonra iargúlta Game Link. Ní úsáidtear é ach amháin nuair atá 'Mód Game Link' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_INFO_1_GA "An 8ú digit de sheoladh IP an fhreastalaí líonra Game Link iargúlta. Ní úsáidtear é ach amháin nuair atá 'Mód Nasc' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_LABEL_GA "Seoladh Freastalaí Nasc Líonra Cuid 09: ___.___.__x.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_LABEL_CAT_GA "Seoladh an Fhreastalaí Cuid 09: ___.___.__x.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_INFO_0_GA "9ú digit de sheoladh IP freastalaí líonra cianda Game Link. Ní úsáidtear é ach amháin nuair a bhíonn 'Mód Game Link' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_INFO_1_GA "9ú digit de sheoladh IP freastalaí líonra iargúlta Game Link. Ní úsáidtear é ach amháin nuair a bhíonn 'Mód Nasc' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_LABEL_GA "Seoladh Freastalaí Nasc Líonra Cuid 10: ___.___.___.x__"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_LABEL_CAT_GA "Seoladh an Fhreastalaí Cuid 10: ___.___.___.x__"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_INFO_0_GA "10ú digit de sheoladh IP freastalaí líonra cianda Game Link. Ní úsáidtear é ach amháin nuair a bhíonn 'Mód Game Link' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_INFO_1_GA "10ú digit de sheoladh IP freastalaí líonra iargúlta Game Link. Ní úsáidtear é ach amháin nuair atá 'Mód Nasc' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_LABEL_GA "Seoladh Freastalaí Nasc Líonra Cuid 11: ___.___.___._x_"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_LABEL_CAT_GA "Seoladh an Fhreastalaí Cuid 11: ___.___.___._x_"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_INFO_0_GA "11ú dhigit de sheoladh IP freastalaí líonra iargúlta Game Link. Ní úsáidtear é ach amháin nuair a bhíonn 'Mód Game Link' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_INFO_1_GA "11ú dhigit de sheoladh IP freastalaí líonra iargúlta Game Link. Ní úsáidtear é ach amháin nuair a bhíonn 'Mód Nasc' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_LABEL_GA "Seoladh Freastalaí Nasc Líonra Cuid 12: ___.___.___.__x"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_LABEL_CAT_GA "Seoladh an Fhreastalaí Cuid 12: ___.___.___.__x"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_INFO_0_GA "An 12ú dhigit de sheoladh IP an fhreastalaí líonra iargúlta Game Link. Ní úsáidtear é ach amháin nuair atá 'Mód Game Link' socraithe go 'Cliant Líonra'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_INFO_1_GA "An 12ú dhigit de sheoladh IP freastalaí líonra iargúlta Game Link. Ní úsáidtear é ach amháin nuair atá 'Mód Nasc' socraithe go 'Cliant Líonra'."
+
+struct retro_core_option_v2_category option_cats_ga[] = {
+   {
+      "gb_link",
+      CATEGORY_GB_LINK_LABEL_GA,
+      CATEGORY_GB_LINK_INFO_0_GA
+   },
+   { NULL, NULL, NULL },
+};
+struct retro_core_option_v2_definition option_defs_ga[] = {
+   {
+      "gambatte_gb_colorization",
+      GAMBATTE_GB_COLORIZATION_LABEL_GA,
+      NULL,
+      GAMBATTE_GB_COLORIZATION_INFO_0_GA,
+      NULL,
+      NULL,
+      {
+         { "disabled", NULL },
+         { "auto",     OPTION_VAL_AUTO_GA },
+         { "GBC",      OPTION_VAL_GBC_GA },
+         { "SGB",      OPTION_VAL_SGB_GA },
+         { "internal", OPTION_VAL_INTERNAL_GA },
+         { "custom",   OPTION_VAL_CUSTOM_GA },
+         { NULL, NULL },
+      },
+      "disabled"
+   },
+   {
+      "gambatte_gb_internal_palette",
+      GAMBATTE_GB_INTERNAL_PALETTE_LABEL_GA,
+      NULL,
+      GAMBATTE_GB_INTERNAL_PALETTE_INFO_0_GA,
+      NULL,
+      NULL,
+      {
+         { "GB - DMG",                 OPTION_VAL_GB_DMG_GA },
+         { "GB - Pocket",              OPTION_VAL_GB_POCKET_GA },
+         { "GB - Light",               OPTION_VAL_GB_LIGHT_GA },
+         { "GBC - Blue",               OPTION_VAL_GBC_BLUE_GA },
+         { "GBC - Brown",              OPTION_VAL_GBC_BROWN_GA },
+         { "GBC - Dark Blue",          OPTION_VAL_GBC_DARK_BLUE_GA },
+         { "GBC - Dark Brown",         OPTION_VAL_GBC_DARK_BROWN_GA },
+         { "GBC - Dark Green",         OPTION_VAL_GBC_DARK_GREEN_GA },
+         { "GBC - Grayscale",          OPTION_VAL_GBC_GRAYSCALE_GA },
+         { "GBC - Green",              OPTION_VAL_GBC_GREEN_GA },
+         { "GBC - Inverted",           OPTION_VAL_GBC_INVERTED_GA },
+         { "GBC - Orange",             OPTION_VAL_GBC_ORANGE_GA },
+         { "GBC - Pastel Mix",         OPTION_VAL_GBC_PASTEL_MIX_GA },
+         { "GBC - Red",                OPTION_VAL_GBC_RED_GA },
+         { "GBC - Yellow",             OPTION_VAL_GBC_YELLOW_GA },
+         { "SGB - 1A",                 OPTION_VAL_SGB_1A_GA },
+         { "SGB - 1B",                 OPTION_VAL_SGB_1B_GA },
+         { "SGB - 1C",                 OPTION_VAL_SGB_1C_GA },
+         { "SGB - 1D",                 OPTION_VAL_SGB_1D_GA },
+         { "SGB - 1E",                 OPTION_VAL_SGB_1E_GA },
+         { "SGB - 1F",                 OPTION_VAL_SGB_1F_GA },
+         { "SGB - 1G",                 OPTION_VAL_SGB_1G_GA },
+         { "SGB - 1H",                 OPTION_VAL_SGB_1H_GA },
+         { "SGB - 2A",                 OPTION_VAL_SGB_2A_GA },
+         { "SGB - 2B",                 OPTION_VAL_SGB_2B_GA },
+         { "SGB - 2C",                 OPTION_VAL_SGB_2C_GA },
+         { "SGB - 2D",                 OPTION_VAL_SGB_2D_GA },
+         { "SGB - 2E",                 OPTION_VAL_SGB_2E_GA },
+         { "SGB - 2F",                 OPTION_VAL_SGB_2F_GA },
+         { "SGB - 2G",                 OPTION_VAL_SGB_2G_GA },
+         { "SGB - 2H",                 OPTION_VAL_SGB_2H_GA },
+         { "SGB - 3A",                 OPTION_VAL_SGB_3A_GA },
+         { "SGB - 3B",                 OPTION_VAL_SGB_3B_GA },
+         { "SGB - 3C",                 OPTION_VAL_SGB_3C_GA },
+         { "SGB - 3D",                 OPTION_VAL_SGB_3D_GA },
+         { "SGB - 3E",                 OPTION_VAL_SGB_3E_GA },
+         { "SGB - 3F",                 OPTION_VAL_SGB_3F_GA },
+         { "SGB - 3G",                 OPTION_VAL_SGB_3G_GA },
+         { "SGB - 3H",                 OPTION_VAL_SGB_3H_GA },
+         { "SGB - 4A",                 OPTION_VAL_SGB_4A_GA },
+         { "SGB - 4B",                 OPTION_VAL_SGB_4B_GA },
+         { "SGB - 4C",                 OPTION_VAL_SGB_4C_GA },
+         { "SGB - 4D",                 OPTION_VAL_SGB_4D_GA },
+         { "SGB - 4E",                 OPTION_VAL_SGB_4E_GA },
+         { "SGB - 4F",                 OPTION_VAL_SGB_4F_GA },
+         { "SGB - 4G",                 OPTION_VAL_SGB_4G_GA },
+         { "SGB - 4H",                 OPTION_VAL_SGB_4H_GA },
+         { "Special 1",                OPTION_VAL_SPECIAL_1_GA },
+         { "Special 2",                OPTION_VAL_SPECIAL_2_GA },
+         { "Special 3",                OPTION_VAL_SPECIAL_3_GA },
+         { "Special 4 (TI-83 Legacy)", OPTION_VAL_SPECIAL_4_TI_83_LEGACY_GA },
+         { "TWB64 - Pack 1",           OPTION_VAL_TWB64_PACK_1_GA },
+         { "TWB64 - Pack 2",           OPTION_VAL_TWB64_PACK_2_GA },
+         { "TWB64 - Pack 3",           OPTION_VAL_TWB64_PACK_3_GA },
+         { "PixelShift - Pack 1",      OPTION_VAL_PIXELSHIFT_PACK_1_GA },
+         { NULL, NULL },
+      },
+      "GB - DMG"
+   },
+   {
+      "gambatte_gb_palette_twb64_1",
+      GAMBATTE_GB_PALETTE_TWB64_1_LABEL_GA,
+      NULL,
+      GAMBATTE_GB_PALETTE_TWB64_1_INFO_0_GA,
+      NULL,
+      NULL,
+      {
+         { "TWB64 001 - Aqours Blue",               OPTION_VAL_TWB64_001_AQOURS_BLUE_GA },
+         { "TWB64 002 - Anime Expo Ver.",           OPTION_VAL_TWB64_002_ANIME_EXPO_VER_GA },
+         { "TWB64 003 - SpongeBob Yellow",          OPTION_VAL_TWB64_003_SPONGEBOB_YELLOW_GA },
+         { "TWB64 004 - Patrick Star Pink",         OPTION_VAL_TWB64_004_PATRICK_STAR_PINK_GA },
+         { "TWB64 005 - Neon Red",                  OPTION_VAL_TWB64_005_NEON_RED_GA },
+         { "TWB64 006 - Neon Blue",                 OPTION_VAL_TWB64_006_NEON_BLUE_GA },
+         { "TWB64 007 - Neon Yellow",               OPTION_VAL_TWB64_007_NEON_YELLOW_GA },
+         { "TWB64 008 - Neon Green",                OPTION_VAL_TWB64_008_NEON_GREEN_GA },
+         { "TWB64 009 - Neon Pink",                 OPTION_VAL_TWB64_009_NEON_PINK_GA },
+         { "TWB64 010 - Mario Red",                 OPTION_VAL_TWB64_010_MARIO_RED_GA },
+         { "TWB64 011 - Nick Orange",               OPTION_VAL_TWB64_011_NICK_ORANGE_GA },
+         { "TWB64 012 - Virtual Vision",            OPTION_VAL_TWB64_012_VIRTUAL_VISION_GA },
+         { "TWB64 013 - Golden Wild",               OPTION_VAL_TWB64_013_GOLDEN_WILD_GA },
+         { "TWB64 014 - DMG-099",                   OPTION_VAL_TWB64_014_DMG_099_GA },
+         { "TWB64 015 - Classic Blurple",           OPTION_VAL_TWB64_015_CLASSIC_BLURPLE_GA },
+         { "TWB64 016 - 765 Production Ver.",       OPTION_VAL_TWB64_016_765_PRODUCTION_VER_GA },
+         { "TWB64 017 - Superball Ivory",           OPTION_VAL_TWB64_017_SUPERBALL_IVORY_GA },
+         { "TWB64 018 - Crunchyroll Orange",        OPTION_VAL_TWB64_018_CRUNCHYROLL_ORANGE_GA },
+         { "TWB64 019 - Muse Pink",                 OPTION_VAL_TWB64_019_MUSE_PINK_GA },
+         { "TWB64 020 - School Idol Blue",          OPTION_VAL_TWB64_020_SCHOOL_IDOL_BLUE_GA },
+         { "TWB64 021 - Gamate Ver.",               OPTION_VAL_TWB64_021_GAMATE_VER_GA },
+         { "TWB64 022 - Greenscale Ver.",           OPTION_VAL_TWB64_022_GREENSCALE_VER_GA },
+         { "TWB64 023 - Odyssey Gold",              OPTION_VAL_TWB64_023_ODYSSEY_GOLD_GA },
+         { "TWB64 024 - Super Saiyan God",          OPTION_VAL_TWB64_024_SUPER_SAIYAN_GOD_GA },
+         { "TWB64 025 - Super Saiyan Blue",         OPTION_VAL_TWB64_025_SUPER_SAIYAN_BLUE_GA },
+         { "TWB64 026 - ANIMAX BLUE",               OPTION_VAL_TWB64_026_ANIMAX_BLUE_GA },
+         { "TWB64 027 - BMO Ver.",                  OPTION_VAL_TWB64_027_BMO_VER_GA },
+         { "TWB64 028 - Game.com Ver.",             OPTION_VAL_TWB64_028_GAME_COM_VER_GA },
+         { "TWB64 029 - Sanrio Pink",               OPTION_VAL_TWB64_029_SANRIO_PINK_GA },
+         { "TWB64 030 - Timmy Turner Pink",         OPTION_VAL_TWB64_030_TIMMY_TURNER_PINK_GA },
+         { "TWB64 031 - Fairly OddPalette",         OPTION_VAL_TWB64_031_FAIRLY_ODDPALETTE_GA },
+         { "TWB64 032 - Danny Phantom Silver",      OPTION_VAL_TWB64_032_DANNY_PHANTOM_SILVER_GA },
+         { "TWB64 033 - Link's Awakening DX Ver.",  OPTION_VAL_TWB64_033_LINK_S_AWAKENING_DX_VER_GA },
+         { "TWB64 034 - Travel Wood",               OPTION_VAL_TWB64_034_TRAVEL_WOOD_GA },
+         { "TWB64 035 - Pokemon Ver.",              OPTION_VAL_TWB64_035_POKEMON_VER_GA },
+         { "TWB64 036 - Game Grump Orange",         OPTION_VAL_TWB64_036_GAME_GRUMP_ORANGE_GA },
+         { "TWB64 037 - Scooby-Doo Mystery Ver.",   OPTION_VAL_TWB64_037_SCOOBY_DOO_MYSTERY_VER_GA },
+         { "TWB64 038 - Pokemon mini Ver.",         OPTION_VAL_TWB64_038_POKEMON_MINI_VER_GA },
+         { "TWB64 039 - Supervision Ver.",          OPTION_VAL_TWB64_039_SUPERVISION_VER_GA },
+         { "TWB64 040 - DMG Ver.",                  OPTION_VAL_TWB64_040_DMG_VER_GA },
+         { "TWB64 041 - Pocket Ver.",               OPTION_VAL_TWB64_041_POCKET_VER_GA },
+         { "TWB64 042 - Light Ver.",                OPTION_VAL_TWB64_042_LIGHT_VER_GA },
+         { "TWB64 043 - All Might Hero Palette",    OPTION_VAL_TWB64_043_ALL_MIGHT_HERO_PALETTE_GA },
+         { "TWB64 044 - U.A. High School Uniform",  OPTION_VAL_TWB64_044_U_A_HIGH_SCHOOL_UNIFORM_GA },
+         { "TWB64 045 - Pikachu Yellow",            OPTION_VAL_TWB64_045_PIKACHU_YELLOW_GA },
+         { "TWB64 046 - Eevee Brown",               OPTION_VAL_TWB64_046_EEVEE_BROWN_GA },
+         { "TWB64 047 - Microvision Ver.",          OPTION_VAL_TWB64_047_MICROVISION_VER_GA },
+         { "TWB64 048 - TI-83 Ver.",                OPTION_VAL_TWB64_048_TI_83_VER_GA },
+         { "TWB64 049 - Aegis Cherry",              OPTION_VAL_TWB64_049_AEGIS_CHERRY_GA },
+         { "TWB64 050 - Labo Fawn",                 OPTION_VAL_TWB64_050_LABO_FAWN_GA },
+         { "TWB64 051 - MILLION LIVE GOLD!",        OPTION_VAL_TWB64_051_MILLION_LIVE_GOLD_GA },
+         { "TWB64 052 - Squidward Sea Foam Green",  OPTION_VAL_TWB64_052_SQUIDWARD_SEA_FOAM_GREEN_GA },
+         { "TWB64 053 - VMU Ver.",                  OPTION_VAL_TWB64_053_VMU_VER_GA },
+         { "TWB64 054 - Game Master Ver.",          OPTION_VAL_TWB64_054_GAME_MASTER_VER_GA },
+         { "TWB64 055 - Android Green",             OPTION_VAL_TWB64_055_ANDROID_GREEN_GA },
+         { "TWB64 056 - Amazon Vision",             OPTION_VAL_TWB64_056_AMAZON_VISION_GA },
+         { "TWB64 057 - Google Red",                OPTION_VAL_TWB64_057_GOOGLE_RED_GA },
+         { "TWB64 058 - Google Blue",               OPTION_VAL_TWB64_058_GOOGLE_BLUE_GA },
+         { "TWB64 059 - Google Yellow",             OPTION_VAL_TWB64_059_GOOGLE_YELLOW_GA },
+         { "TWB64 060 - Google Green",              OPTION_VAL_TWB64_060_GOOGLE_GREEN_GA },
+         { "TWB64 061 - WonderSwan Ver.",           OPTION_VAL_TWB64_061_WONDERSWAN_VER_GA },
+         { "TWB64 062 - Neo Geo Pocket Ver.",       OPTION_VAL_TWB64_062_NEO_GEO_POCKET_VER_GA },
+         { "TWB64 063 - Dew Green",                 OPTION_VAL_TWB64_063_DEW_GREEN_GA },
+         { "TWB64 064 - Coca-Cola Vision",          OPTION_VAL_TWB64_064_COCA_COLA_VISION_GA },
+         { "TWB64 065 - GameKing Ver.",             OPTION_VAL_TWB64_065_GAMEKING_VER_GA },
+         { "TWB64 066 - Do The Dew Ver.",           OPTION_VAL_TWB64_066_DO_THE_DEW_VER_GA },
+         { "TWB64 067 - Digivice Ver.",             OPTION_VAL_TWB64_067_DIGIVICE_VER_GA },
+         { "TWB64 068 - Bikini Bottom Ver.",        OPTION_VAL_TWB64_068_BIKINI_BOTTOM_VER_GA },
+         { "TWB64 069 - Blossom Pink",              OPTION_VAL_TWB64_069_BLOSSOM_PINK_GA },
+         { "TWB64 070 - Bubbles Blue",              OPTION_VAL_TWB64_070_BUBBLES_BLUE_GA },
+         { "TWB64 071 - Buttercup Green",           OPTION_VAL_TWB64_071_BUTTERCUP_GREEN_GA },
+         { "TWB64 072 - NASCAR Ver.",               OPTION_VAL_TWB64_072_NASCAR_VER_GA },
+         { "TWB64 073 - Lemon-Lime Green",          OPTION_VAL_TWB64_073_LEMON_LIME_GREEN_GA },
+         { "TWB64 074 - Mega Man V Ver.",           OPTION_VAL_TWB64_074_MEGA_MAN_V_VER_GA },
+         { "TWB64 075 - Tamagotchi Ver.",           OPTION_VAL_TWB64_075_TAMAGOTCHI_VER_GA },
+         { "TWB64 076 - Phantom Red",               OPTION_VAL_TWB64_076_PHANTOM_RED_GA },
+         { "TWB64 077 - Halloween Ver.",            OPTION_VAL_TWB64_077_HALLOWEEN_VER_GA },
+         { "TWB64 078 - Christmas Ver.",            OPTION_VAL_TWB64_078_CHRISTMAS_VER_GA },
+         { "TWB64 079 - Cardcaptor Pink",           OPTION_VAL_TWB64_079_CARDCAPTOR_PINK_GA },
+         { "TWB64 080 - Pretty Guardian Gold",      OPTION_VAL_TWB64_080_PRETTY_GUARDIAN_GOLD_GA },
+         { "TWB64 081 - Camouflage Ver.",           OPTION_VAL_TWB64_081_CAMOUFLAGE_VER_GA },
+         { "TWB64 082 - Legendary Super Saiyan",    OPTION_VAL_TWB64_082_LEGENDARY_SUPER_SAIYAN_GA },
+         { "TWB64 083 - Super Saiyan Rose",         OPTION_VAL_TWB64_083_SUPER_SAIYAN_ROSE_GA },
+         { "TWB64 084 - Super Saiyan",              OPTION_VAL_TWB64_084_SUPER_SAIYAN_GA },
+         { "TWB64 085 - Perfected Ultra Instinct",  OPTION_VAL_TWB64_085_PERFECTED_ULTRA_INSTINCT_GA },
+         { "TWB64 086 - Saint Snow Red",            OPTION_VAL_TWB64_086_SAINT_SNOW_RED_GA },
+         { "TWB64 087 - Yellow Banana",             OPTION_VAL_TWB64_087_YELLOW_BANANA_GA },
+         { "TWB64 088 - Green Banana",              OPTION_VAL_TWB64_088_GREEN_BANANA_GA },
+         { "TWB64 089 - Super Saiyan 3",            OPTION_VAL_TWB64_089_SUPER_SAIYAN_3_GA },
+         { "TWB64 090 - Super Saiyan Blue Evolved", OPTION_VAL_TWB64_090_SUPER_SAIYAN_BLUE_EVOLVED_GA },
+         { "TWB64 091 - Pocket Tales Ver.",         OPTION_VAL_TWB64_091_POCKET_TALES_VER_GA },
+         { "TWB64 092 - Investigation Yellow",      OPTION_VAL_TWB64_092_INVESTIGATION_YELLOW_GA },
+         { "TWB64 093 - S.E.E.S. Blue",             OPTION_VAL_TWB64_093_S_E_E_S_BLUE_GA },
+         { "TWB64 094 - Ultra Instinct Sign",       OPTION_VAL_TWB64_094_ULTRA_INSTINCT_SIGN_GA },
+         { "TWB64 095 - Hokage Orange",             OPTION_VAL_TWB64_095_HOKAGE_ORANGE_GA },
+         { "TWB64 096 - Straw Hat Red",             OPTION_VAL_TWB64_096_STRAW_HAT_RED_GA },
+         { "TWB64 097 - Sword Art Cyan",            OPTION_VAL_TWB64_097_SWORD_ART_CYAN_GA },
+         { "TWB64 098 - Deku Alpha Emerald",        OPTION_VAL_TWB64_098_DEKU_ALPHA_EMERALD_GA },
+         { "TWB64 099 - Blue Stripes Ver.",         OPTION_VAL_TWB64_099_BLUE_STRIPES_VER_GA },
+         { "TWB64 100 - Precure Marble Raspberry",  OPTION_VAL_TWB64_100_PRECURE_MARBLE_RASPBERRY_GA },
+         { NULL, NULL },
+      },
+      "TWB64 001 - Aqours Blue"
+   },
+   {
+      "gambatte_gb_palette_twb64_2",
+      GAMBATTE_GB_PALETTE_TWB64_2_LABEL_GA,
+      NULL,
+      GAMBATTE_GB_PALETTE_TWB64_2_INFO_0_GA,
+      NULL,
+      NULL,
+      {
+         { "TWB64 101 - 765PRO Pink",               OPTION_VAL_TWB64_101_765PRO_PINK_GA },
+         { "TWB64 102 - CINDERELLA Blue",           OPTION_VAL_TWB64_102_CINDERELLA_BLUE_GA },
+         { "TWB64 103 - MILLION Yellow!",           OPTION_VAL_TWB64_103_MILLION_YELLOW_GA },
+         { "TWB64 104 - SideM Green",               OPTION_VAL_TWB64_104_SIDEM_GREEN_GA },
+         { "TWB64 105 - SHINY Sky Blue",            OPTION_VAL_TWB64_105_SHINY_SKY_BLUE_GA },
+         { "TWB64 106 - Angry Volcano Ver.",        OPTION_VAL_TWB64_106_ANGRY_VOLCANO_VER_GA },
+         { "TWB64 107 - NBA Vision",                OPTION_VAL_TWB64_107_NBA_VISION_GA },
+         { "TWB64 108 - NFL Vision",                OPTION_VAL_TWB64_108_NFL_VISION_GA },
+         { "TWB64 109 - MLB Vision",                OPTION_VAL_TWB64_109_MLB_VISION_GA },
+         { "TWB64 110 - Anime Digivice Ver.",       OPTION_VAL_TWB64_110_ANIME_DIGIVICE_VER_GA },
+         { "TWB64 111 - Aquatic Iro",               OPTION_VAL_TWB64_111_AQUATIC_IRO_GA },
+         { "TWB64 112 - Tea Midori",                OPTION_VAL_TWB64_112_TEA_MIDORI_GA },
+         { "TWB64 113 - Sakura Pink",               OPTION_VAL_TWB64_113_SAKURA_PINK_GA },
+         { "TWB64 114 - Wisteria Murasaki",         OPTION_VAL_TWB64_114_WISTERIA_MURASAKI_GA },
+         { "TWB64 115 - Oni Aka",                   OPTION_VAL_TWB64_115_ONI_AKA_GA },
+         { "TWB64 116 - Golden Kiiro",              OPTION_VAL_TWB64_116_GOLDEN_KIIRO_GA },
+         { "TWB64 117 - Silver Shiro",              OPTION_VAL_TWB64_117_SILVER_SHIRO_GA },
+         { "TWB64 118 - Fruity Orange",             OPTION_VAL_TWB64_118_FRUITY_ORANGE_GA },
+         { "TWB64 119 - AKB48 Pink",                OPTION_VAL_TWB64_119_AKB48_PINK_GA },
+         { "TWB64 120 - Miku Blue",                 OPTION_VAL_TWB64_120_MIKU_BLUE_GA },
+         { "TWB64 121 - Tri Digivice Ver.",         OPTION_VAL_TWB64_121_TRI_DIGIVICE_VER_GA },
+         { "TWB64 122 - Survey Corps Uniform",      OPTION_VAL_TWB64_122_SURVEY_CORPS_UNIFORM_GA },
+         { "TWB64 123 - Island Green",              OPTION_VAL_TWB64_123_ISLAND_GREEN_GA },
+         { "TWB64 124 - Nogizaka46 Purple",         OPTION_VAL_TWB64_124_NOGIZAKA46_PURPLE_GA },
+         { "TWB64 125 - Ninja Turtle Green",        OPTION_VAL_TWB64_125_NINJA_TURTLE_GREEN_GA },
+         { "TWB64 126 - Slime Blue",                OPTION_VAL_TWB64_126_SLIME_BLUE_GA },
+         { "TWB64 127 - Lime Midori",               OPTION_VAL_TWB64_127_LIME_MIDORI_GA },
+         { "TWB64 128 - Ghostly Aoi",               OPTION_VAL_TWB64_128_GHOSTLY_AOI_GA },
+         { "TWB64 129 - Retro Bogeda",              OPTION_VAL_TWB64_129_RETRO_BOGEDA_GA },
+         { "TWB64 130 - Royal Blue",                OPTION_VAL_TWB64_130_ROYAL_BLUE_GA },
+         { "TWB64 131 - Neon Purple",               OPTION_VAL_TWB64_131_NEON_PURPLE_GA },
+         { "TWB64 132 - Neon Orange",               OPTION_VAL_TWB64_132_NEON_ORANGE_GA },
+         { "TWB64 133 - Moonlight Vision",          OPTION_VAL_TWB64_133_MOONLIGHT_VISION_GA },
+         { "TWB64 134 - Rising Sun Red",            OPTION_VAL_TWB64_134_RISING_SUN_RED_GA },
+         { "TWB64 135 - Burger King Color Combo",   OPTION_VAL_TWB64_135_BURGER_KING_COLOR_COMBO_GA },
+         { "TWB64 136 - Grand Zeno Coat",           OPTION_VAL_TWB64_136_GRAND_ZENO_COAT_GA },
+         { "TWB64 137 - Pac-Man Yellow",            OPTION_VAL_TWB64_137_PAC_MAN_YELLOW_GA },
+         { "TWB64 138 - Irish Green",               OPTION_VAL_TWB64_138_IRISH_GREEN_GA },
+         { "TWB64 139 - Goku Gi",                   OPTION_VAL_TWB64_139_GOKU_GI_GA },
+         { "TWB64 140 - Dragon Ball Orange",        OPTION_VAL_TWB64_140_DRAGON_BALL_ORANGE_GA },
+         { "TWB64 141 - Christmas Gold",            OPTION_VAL_TWB64_141_CHRISTMAS_GOLD_GA },
+         { "TWB64 142 - Pepsi Vision",              OPTION_VAL_TWB64_142_PEPSI_VISION_GA },
+         { "TWB64 143 - Bubblun Green",             OPTION_VAL_TWB64_143_BUBBLUN_GREEN_GA },
+         { "TWB64 144 - Bobblun Blue",              OPTION_VAL_TWB64_144_BOBBLUN_BLUE_GA },
+         { "TWB64 145 - Baja Blast Storm",          OPTION_VAL_TWB64_145_BAJA_BLAST_STORM_GA },
+         { "TWB64 146 - Olympic Gold",              OPTION_VAL_TWB64_146_OLYMPIC_GOLD_GA },
+         { "TWB64 147 - LisAni Orange!",            OPTION_VAL_TWB64_147_LISANI_ORANGE_GA },
+         { "TWB64 148 - Liella Purple!",            OPTION_VAL_TWB64_148_LIELLA_PURPLE_GA },
+         { "TWB64 149 - Olympic Silver",            OPTION_VAL_TWB64_149_OLYMPIC_SILVER_GA },
+         { "TWB64 150 - Olympic Bronze",            OPTION_VAL_TWB64_150_OLYMPIC_BRONZE_GA },
+         { "TWB64 151 - ANA Flight Blue",           OPTION_VAL_TWB64_151_ANA_FLIGHT_BLUE_GA },
+         { "TWB64 152 - Nijigasaki Orange",         OPTION_VAL_TWB64_152_NIJIGASAKI_ORANGE_GA },
+         { "TWB64 153 - holoblue",                  OPTION_VAL_TWB64_153_HOLOBLUE_GA },
+         { "TWB64 154 - WWE White and Red",         OPTION_VAL_TWB64_154_WWE_WHITE_AND_RED_GA },
+         { "TWB64 155 - Yoshi Egg Green",           OPTION_VAL_TWB64_155_YOSHI_EGG_GREEN_GA },
+         { "TWB64 156 - Pokedex Red",               OPTION_VAL_TWB64_156_POKEDEX_RED_GA },
+         { "TWB64 157 - FamilyMart Vision",         OPTION_VAL_TWB64_157_FAMILYMART_VISION_GA },
+         { "TWB64 158 - Xbox Green",                OPTION_VAL_TWB64_158_XBOX_GREEN_GA },
+         { "TWB64 159 - Sonic Mega Blue",           OPTION_VAL_TWB64_159_SONIC_MEGA_BLUE_GA },
+         { "TWB64 160 - Sprite Green",              OPTION_VAL_TWB64_160_SPRITE_GREEN_GA },
+         { "TWB64 161 - Scarlett Green",            OPTION_VAL_TWB64_161_SCARLETT_GREEN_GA },
+         { "TWB64 162 - Glitchy Blue",              OPTION_VAL_TWB64_162_GLITCHY_BLUE_GA },
+         { "TWB64 163 - Classic LCD",               OPTION_VAL_TWB64_163_CLASSIC_LCD_GA },
+         { "TWB64 164 - 3DS Virtual Console Ver.",  OPTION_VAL_TWB64_164_3DS_VIRTUAL_CONSOLE_VER_GA },
+         { "TWB64 165 - PocketStation Ver.",        OPTION_VAL_TWB64_165_POCKETSTATION_VER_GA },
+         { "TWB64 166 - Timeless Gold and Red",     OPTION_VAL_TWB64_166_TIMELESS_GOLD_AND_RED_GA },
+         { "TWB64 167 - Smurfy Blue",               OPTION_VAL_TWB64_167_SMURFY_BLUE_GA },
+         { "TWB64 168 - Swampy Ogre Green",         OPTION_VAL_TWB64_168_SWAMPY_OGRE_GREEN_GA },
+         { "TWB64 169 - Sailor Spinach Green",      OPTION_VAL_TWB64_169_SAILOR_SPINACH_GREEN_GA },
+         { "TWB64 170 - Shenron Green",             OPTION_VAL_TWB64_170_SHENRON_GREEN_GA },
+         { "TWB64 171 - Berserk Blood",             OPTION_VAL_TWB64_171_BERSERK_BLOOD_GA },
+         { "TWB64 172 - Super Star Pink",           OPTION_VAL_TWB64_172_SUPER_STAR_PINK_GA },
+         { "TWB64 173 - Gamebuino Classic Ver.",    OPTION_VAL_TWB64_173_GAMEBUINO_CLASSIC_VER_GA },
+         { "TWB64 174 - Barbie Pink",               OPTION_VAL_TWB64_174_BARBIE_PINK_GA },
+         { "TWB64 175 - YOASOBI AMARANTH",          OPTION_VAL_TWB64_175_YOASOBI_AMARANTH_GA },
+         { "TWB64 176 - Nokia 3310 Ver.",           OPTION_VAL_TWB64_176_NOKIA_3310_VER_GA },
+         { "TWB64 177 - Clover Green",              OPTION_VAL_TWB64_177_CLOVER_GREEN_GA },
+         { "TWB64 178 - Goku GT Gi",                OPTION_VAL_TWB64_178_GOKU_GT_GI_GA },
+         { "TWB64 179 - Famicom Disk Yellow",       OPTION_VAL_TWB64_179_FAMICOM_DISK_YELLOW_GA },
+         { "TWB64 180 - Team Rocket Uniform",       OPTION_VAL_TWB64_180_TEAM_ROCKET_UNIFORM_GA },
+         { "TWB64 181 - SEIKO Timely Vision",       OPTION_VAL_TWB64_181_SEIKO_TIMELY_VISION_GA },
+         { "TWB64 182 - PASTEL109",                 OPTION_VAL_TWB64_182_PASTEL109_GA },
+         { "TWB64 183 - Doraemon Tricolor",         OPTION_VAL_TWB64_183_DORAEMON_TRICOLOR_GA },
+         { "TWB64 184 - Fury Blue",                 OPTION_VAL_TWB64_184_FURY_BLUE_GA },
+         { "TWB64 185 - GOOD SMILE VISION",         OPTION_VAL_TWB64_185_GOOD_SMILE_VISION_GA },
+         { "TWB64 186 - Puyo Puyo Green",           OPTION_VAL_TWB64_186_PUYO_PUYO_GREEN_GA },
+         { "TWB64 187 - Circle K Color Combo",      OPTION_VAL_TWB64_187_CIRCLE_K_COLOR_COMBO_GA },
+         { "TWB64 188 - Pizza Hut Red",             OPTION_VAL_TWB64_188_PIZZA_HUT_RED_GA },
+         { "TWB64 189 - Emerald Green",             OPTION_VAL_TWB64_189_EMERALD_GREEN_GA },
+         { "TWB64 190 - Grand Ivory",               OPTION_VAL_TWB64_190_GRAND_IVORY_GA },
+         { "TWB64 191 - Demon's Gold",              OPTION_VAL_TWB64_191_DEMON_S_GOLD_GA },
+         { "TWB64 192 - SEGA Tokyo Blue",           OPTION_VAL_TWB64_192_SEGA_TOKYO_BLUE_GA },
+         { "TWB64 193 - Champion's Tunic",          OPTION_VAL_TWB64_193_CHAMPION_S_TUNIC_GA },
+         { "TWB64 194 - DK Barrel Brown",           OPTION_VAL_TWB64_194_DK_BARREL_BROWN_GA },
+         { "TWB64 195 - EVA-01",                    OPTION_VAL_TWB64_195_EVA_01_GA },
+         { "TWB64 196 - Wild West Vision",          OPTION_VAL_TWB64_196_WILD_WEST_VISION_GA },
+         { "TWB64 197 - Optimus Prime Palette",     OPTION_VAL_TWB64_197_OPTIMUS_PRIME_PALETTE_GA },
+         { "TWB64 198 - niconico sea green",        OPTION_VAL_TWB64_198_NICONICO_SEA_GREEN_GA },
+         { "TWB64 199 - Duracell Copper",           OPTION_VAL_TWB64_199_DURACELL_COPPER_GA },
+         { "TWB64 200 - TOKYO SKYTREE CLOUDY BLUE", OPTION_VAL_TWB64_200_TOKYO_SKYTREE_CLOUDY_BLUE_GA },
+         { NULL, NULL },
+      },
+      "TWB64 101 - 765PRO Pink"
+   },
+   {
+      "gambatte_gb_palette_twb64_3",
+      GAMBATTE_GB_PALETTE_TWB64_3_LABEL_GA,
+      NULL,
+      GAMBATTE_GB_PALETTE_TWB64_3_INFO_0_GA,
+      NULL,
+      NULL,
+      {
+         { "TWB64 201 - DMG-GOLD",                  OPTION_VAL_TWB64_201_DMG_GOLD_GA },
+         { "TWB64 202 - LCD Clock Green",           OPTION_VAL_TWB64_202_LCD_CLOCK_GREEN_GA },
+         { "TWB64 203 - Famicom Frenzy",            OPTION_VAL_TWB64_203_FAMICOM_FRENZY_GA },
+         { "TWB64 204 - DK Arcade Blue",            OPTION_VAL_TWB64_204_DK_ARCADE_BLUE_GA },
+         { "TWB64 205 - Advanced Indigo",           OPTION_VAL_TWB64_205_ADVANCED_INDIGO_GA },
+         { "TWB64 206 - Ultra Black",               OPTION_VAL_TWB64_206_ULTRA_BLACK_GA },
+         { "TWB64 207 - Chaos Emerald Green",       OPTION_VAL_TWB64_207_CHAOS_EMERALD_GREEN_GA },
+         { "TWB64 208 - Blue Bomber Vision",        OPTION_VAL_TWB64_208_BLUE_BOMBER_VISION_GA },
+         { "TWB64 209 - Krispy Kreme Vision",       OPTION_VAL_TWB64_209_KRISPY_KREME_VISION_GA },
+         { "TWB64 210 - Steam Gray",                OPTION_VAL_TWB64_210_STEAM_GRAY_GA },
+         { "TWB64 211 - Dream Land GB Ver.",        OPTION_VAL_TWB64_211_DREAM_LAND_GB_VER_GA },
+         { "TWB64 212 - Pokemon Pinball Ver.",      OPTION_VAL_TWB64_212_POKEMON_PINBALL_VER_GA },
+         { "TWB64 213 - Poketch Ver.",              OPTION_VAL_TWB64_213_POKETCH_VER_GA },
+         { "TWB64 214 - COLLECTION of SaGa Ver.",   OPTION_VAL_TWB64_214_COLLECTION_OF_SAGA_VER_GA },
+         { "TWB64 215 - Rocky-Valley Holiday",      OPTION_VAL_TWB64_215_ROCKY_VALLEY_HOLIDAY_GA },
+         { "TWB64 216 - Giga Kiwi DMG",             OPTION_VAL_TWB64_216_GIGA_KIWI_DMG_GA },
+         { "TWB64 217 - DMG Pea Green",             OPTION_VAL_TWB64_217_DMG_PEA_GREEN_GA },
+         { "TWB64 218 - Timing Hero Ver.",          OPTION_VAL_TWB64_218_TIMING_HERO_VER_GA },
+         { "TWB64 219 - Invincible Yellow and Blue",OPTION_VAL_TWB64_219_INVINCIBLE_YELLOW_AND_BLUE_GA },
+         { "TWB64 220 - Grinchy Green",             OPTION_VAL_TWB64_220_GRINCHY_GREEN_GA },
+         { "TWB64 221 - animate vision",            OPTION_VAL_TWB64_221_ANIMATE_VISION_GA },
+         { "TWB64 222 - School Idol Mix",           OPTION_VAL_TWB64_222_SCHOOL_IDOL_MIX_GA },
+         { "TWB64 223 - Green Awakening",           OPTION_VAL_TWB64_223_GREEN_AWAKENING_GA },
+         { "TWB64 224 - Goomba Brown",              OPTION_VAL_TWB64_224_GOOMBA_BROWN_GA },
+         { "TWB64 225 - WarioWare MicroBlue",       OPTION_VAL_TWB64_225_WARIOWARE_MICROBLUE_GA },
+         { "TWB64 226 - KonoSuba Sherbet",          OPTION_VAL_TWB64_226_KONOSUBA_SHERBET_GA },
+         { "TWB64 227 - Spooky Purple",             OPTION_VAL_TWB64_227_SPOOKY_PURPLE_GA },
+         { "TWB64 228 - Treasure Gold",             OPTION_VAL_TWB64_228_TREASURE_GOLD_GA },
+         { "TWB64 229 - Cherry Blossom Pink",       OPTION_VAL_TWB64_229_CHERRY_BLOSSOM_PINK_GA },
+         { "TWB64 230 - Golden Trophy",             OPTION_VAL_TWB64_230_GOLDEN_TROPHY_GA },
+         { "TWB64 231 - Glacial Winter Blue",       OPTION_VAL_TWB64_231_GLACIAL_WINTER_BLUE_GA },
+         { "TWB64 232 - Leprechaun Green",          OPTION_VAL_TWB64_232_LEPRECHAUN_GREEN_GA },
+         { "TWB64 233 - SAITAMA SUPER BLUE",        OPTION_VAL_TWB64_233_SAITAMA_SUPER_BLUE_GA },
+         { "TWB64 234 - SAITAMA SUPER GREEN",       OPTION_VAL_TWB64_234_SAITAMA_SUPER_GREEN_GA },
+         { "TWB64 235 - Duolingo Green",            OPTION_VAL_TWB64_235_DUOLINGO_GREEN_GA },
+         { "TWB64 236 - Super Mushroom Vision",     OPTION_VAL_TWB64_236_SUPER_MUSHROOM_VISION_GA },
+         { "TWB64 237 - Ancient Hisuian Brown",     OPTION_VAL_TWB64_237_ANCIENT_HISUIAN_BROWN_GA },
+         { "TWB64 238 - Sky Pop Ivory",             OPTION_VAL_TWB64_238_SKY_POP_IVORY_GA },
+         { "TWB64 239 - LAWSON BLUE",               OPTION_VAL_TWB64_239_LAWSON_BLUE_GA },
+         { "TWB64 240 - Anime Expo Red",            OPTION_VAL_TWB64_240_ANIME_EXPO_RED_GA },
+         { "TWB64 241 - Brilliant Diamond Blue",    OPTION_VAL_TWB64_241_BRILLIANT_DIAMOND_BLUE_GA },
+         { "TWB64 242 - Shining Pearl Pink",        OPTION_VAL_TWB64_242_SHINING_PEARL_PINK_GA },
+         { "TWB64 243 - Funimation Melon",          OPTION_VAL_TWB64_243_FUNIMATION_MELON_GA },
+         { "TWB64 244 - Teyvat Brown",              OPTION_VAL_TWB64_244_TEYVAT_BROWN_GA },
+         { "TWB64 245 - Chozo Blue",                OPTION_VAL_TWB64_245_CHOZO_BLUE_GA },
+         { "TWB64 246 - Spotify Green",             OPTION_VAL_TWB64_246_SPOTIFY_GREEN_GA },
+         { "TWB64 247 - Dr Pepper Red",             OPTION_VAL_TWB64_247_DR_PEPPER_RED_GA },
+         { "TWB64 248 - NHK Silver Gray",           OPTION_VAL_TWB64_248_NHK_SILVER_GRAY_GA },
+         { "TWB64 249 - Dunkin' Vision",            OPTION_VAL_TWB64_249_DUNKIN_VISION_GA },
+         { "TWB64 250 - Deku Gamma Palette",        OPTION_VAL_TWB64_250_DEKU_GAMMA_PALETTE_GA },
+         { "TWB64 251 - Universal Studios Blue",    OPTION_VAL_TWB64_251_UNIVERSAL_STUDIOS_BLUE_GA },
+         { "TWB64 252 - Hogwarts Goldius",          OPTION_VAL_TWB64_252_HOGWARTS_GOLDIUS_GA },
+         { "TWB64 253 - Kentucky Fried Red",        OPTION_VAL_TWB64_253_KENTUCKY_FRIED_RED_GA },
+         { "TWB64 254 - Cheeto Orange",             OPTION_VAL_TWB64_254_CHEETO_ORANGE_GA },
+         { "TWB64 255 - Namco Idol Pink",           OPTION_VAL_TWB64_255_NAMCO_IDOL_PINK_GA },
+         { "TWB64 256 - Domino's Pizza Vision",     OPTION_VAL_TWB64_256_DOMINO_S_PIZZA_VISION_GA },
+         { "TWB64 257 - Pac-Man Vision",            OPTION_VAL_TWB64_257_PAC_MAN_VISION_GA },
+         { "TWB64 258 - Bill's PC Screen",          OPTION_VAL_TWB64_258_BILL_S_PC_SCREEN_GA },
+         { "TWB64 259 - Sonic Mega Blue",           OPTION_VAL_TWB64_259_SONIC_MEGA_BLUE_GA },
+         { "TWB64 260 - Fool's Gold and Silver",    OPTION_VAL_TWB64_260_FOOL_S_GOLD_AND_SILVER_GA },
+         { "TWB64 261 - UTA VISION",                OPTION_VAL_TWB64_261_UTA_VISION_GA },
+         { "TWB64 262 - Metallic Paldea Brass",     OPTION_VAL_TWB64_262_METALLIC_PALDEA_BRASS_GA },
+         { "TWB64 263 - Classy Christmas",          OPTION_VAL_TWB64_263_CLASSY_CHRISTMAS_GA },
+         { "TWB64 264 - Winter Christmas",          OPTION_VAL_TWB64_264_WINTER_CHRISTMAS_GA },
+         { "TWB64 265 - IDOL WORLD TRICOLOR!!!",    OPTION_VAL_TWB64_265_IDOL_WORLD_TRICOLOR_GA },
+         { "TWB64 266 - Inkling Tricolor",          OPTION_VAL_TWB64_266_INKLING_TRICOLOR_GA },
+         { "TWB64 267 - 7-Eleven Color Combo",      OPTION_VAL_TWB64_267_7_ELEVEN_COLOR_COMBO_GA },
+         { "TWB64 268 - PAC-PALETTE",               OPTION_VAL_TWB64_268_PAC_PALETTE_GA },
+         { "TWB64 269 - Vulnerable Blue",           OPTION_VAL_TWB64_269_VULNERABLE_BLUE_GA },
+         { "TWB64 270 - Nightvision Green",         OPTION_VAL_TWB64_270_NIGHTVISION_GREEN_GA },
+         { "TWB64 271 - Bandai Namco Tricolor",     OPTION_VAL_TWB64_271_BANDAI_NAMCO_TRICOLOR_GA },
+         { "TWB64 272 - Gold, Silver, and Bronze",  OPTION_VAL_TWB64_272_GOLD_SILVER_AND_BRONZE_GA },
+         { "TWB64 273 - Deku Vigilante Palette",    OPTION_VAL_TWB64_273_DEKU_VIGILANTE_PALETTE_GA },
+         { "TWB64 274 - Super Famicom Supreme",     OPTION_VAL_TWB64_274_SUPER_FAMICOM_SUPREME_GA },
+         { "TWB64 275 - Absorbent and Yellow",      OPTION_VAL_TWB64_275_ABSORBENT_AND_YELLOW_GA },
+         { "TWB64 276 - 765PRO TRICOLOR",           OPTION_VAL_TWB64_276_765PRO_TRICOLOR_GA },
+         { "TWB64 277 - GameCube Glimmer",          OPTION_VAL_TWB64_277_GAMECUBE_GLIMMER_GA },
+         { "TWB64 278 - 1st Vision Pastel",         OPTION_VAL_TWB64_278_1ST_VISION_PASTEL_GA },
+         { "TWB64 279 - Perfect Majin Emperor",     OPTION_VAL_TWB64_279_PERFECT_MAJIN_EMPEROR_GA },
+         { "TWB64 280 - J-Pop Idol Sherbet",        OPTION_VAL_TWB64_280_J_POP_IDOL_SHERBET_GA },
+         { "TWB64 281 - Ryuuguu Sunset",            OPTION_VAL_TWB64_281_RYUUGUU_SUNSET_GA },
+         { "TWB64 282 - Tropical Starfall",         OPTION_VAL_TWB64_282_TROPICAL_STARFALL_GA },
+         { "TWB64 283 - Colorful Horizons",         OPTION_VAL_TWB64_283_COLORFUL_HORIZONS_GA },
+         { "TWB64 284 - BLACKPINK BLINK PINK",      OPTION_VAL_TWB64_284_BLACKPINK_BLINK_PINK_GA },
+         { "TWB64 285 - DMG-SWITCH",                OPTION_VAL_TWB64_285_DMG_SWITCH_GA },
+         { "TWB64 286 - POCKET SWITCH",             OPTION_VAL_TWB64_286_POCKET_SWITCH_GA },
+         { "TWB64 287 - Sunny Passion Paradise",    OPTION_VAL_TWB64_287_SUNNY_PASSION_PARADISE_GA },
+         { "TWB64 288 - Saiyan Beast Silver",       OPTION_VAL_TWB64_288_SAIYAN_BEAST_SILVER_GA },
+         { "TWB64 289 - RADIANT SMILE RAMP",        OPTION_VAL_TWB64_289_RADIANT_SMILE_RAMP_GA },
+         { "TWB64 290 - A-RISE BLUE",               OPTION_VAL_TWB64_290_A_RISE_BLUE_GA },
+         { "TWB64 291 - TROPICAL TWICE APRICOT",    OPTION_VAL_TWB64_291_TROPICAL_TWICE_APRICOT_GA },
+         { "TWB64 292 - Odyssey Boy",               OPTION_VAL_TWB64_292_ODYSSEY_BOY_GA },
+         { "TWB64 293 - Frog Coin Green",           OPTION_VAL_TWB64_293_FROG_COIN_GREEN_GA },
+         { "TWB64 294 - Garfield Vision",           OPTION_VAL_TWB64_294_GARFIELD_VISION_GA },
+         { "TWB64 295 - Bedrock Caveman Vision",    OPTION_VAL_TWB64_295_BEDROCK_CAVEMAN_VISION_GA },
+         { "TWB64 296 - BANGTAN ARMY PURPLE",       OPTION_VAL_TWB64_296_BANGTAN_ARMY_PURPLE_GA },
+         { "TWB64 297 - LE SSERAFIM FEARLESS BLUE", OPTION_VAL_TWB64_297_LE_SSERAFIM_FEARLESS_BLUE_GA },
+         { "TWB64 298 - Baja Blast Beach",          OPTION_VAL_TWB64_298_BAJA_BLAST_BEACH_GA },
+         { "TWB64 299 - 3DS Virtual Console Green", OPTION_VAL_TWB64_299_3DS_VIRTUAL_CONSOLE_GREEN_GA },
+         { "TWB64 300 - Wonder Purple",             OPTION_VAL_TWB64_300_WONDER_PURPLE_GA },
+         { NULL, NULL },
+      },
+      "TWB64 201 - DMG-GOLD"
+   },
+   {
+      "gambatte_gb_palette_pixelshift_1",
+      GAMBATTE_GB_PALETTE_PIXELSHIFT_1_LABEL_GA,
+      NULL,
+      GAMBATTE_GB_PALETTE_PIXELSHIFT_1_INFO_0_GA,
+      NULL,
+      NULL,
+      {
+         { "PixelShift 01 - Arctic Green",               OPTION_VAL_PIXELSHIFT_01_ARCTIC_GREEN_GA },
+         { "PixelShift 02 - Arduboy",                    OPTION_VAL_PIXELSHIFT_02_ARDUBOY_GA },
+         { "PixelShift 03 - BGB 0.3 Emulator",           OPTION_VAL_PIXELSHIFT_03_BGB_0_3_EMULATOR_GA },
+         { "PixelShift 04 - Camouflage",                 OPTION_VAL_PIXELSHIFT_04_CAMOUFLAGE_GA },
+         { "PixelShift 05 - Chocolate Bar",              OPTION_VAL_PIXELSHIFT_05_CHOCOLATE_BAR_GA },
+         { "PixelShift 06 - CMYK",                       OPTION_VAL_PIXELSHIFT_06_CMYK_GA },
+         { "PixelShift 07 - Cotton Candy",               OPTION_VAL_PIXELSHIFT_07_COTTON_CANDY_GA },
+         { "PixelShift 08 - Easy Greens",                OPTION_VAL_PIXELSHIFT_08_EASY_GREENS_GA },
+         { "PixelShift 09 - Gamate",                     OPTION_VAL_PIXELSHIFT_09_GAMATE_GA },
+         { "PixelShift 10 - Game Boy Light",             OPTION_VAL_PIXELSHIFT_10_GAME_BOY_LIGHT_GA },
+         { "PixelShift 11 - Game Boy Pocket",            OPTION_VAL_PIXELSHIFT_11_GAME_BOY_POCKET_GA },
+         { "PixelShift 12 - Game Boy Pocket Alt",        OPTION_VAL_PIXELSHIFT_12_GAME_BOY_POCKET_ALT_GA },
+         { "PixelShift 13 - Game Pocket Computer",       OPTION_VAL_PIXELSHIFT_13_GAME_POCKET_COMPUTER_GA },
+         { "PixelShift 14 - Game & Watch Ball",          OPTION_VAL_PIXELSHIFT_14_GAME_WATCH_BALL_GA },
+         { "PixelShift 15 - GB Backlight Blue",          OPTION_VAL_PIXELSHIFT_15_GB_BACKLIGHT_BLUE_GA },
+         { "PixelShift 16 - GB Backlight Faded",         OPTION_VAL_PIXELSHIFT_16_GB_BACKLIGHT_FADED_GA },
+         { "PixelShift 17 - GB Backlight Orange",        OPTION_VAL_PIXELSHIFT_17_GB_BACKLIGHT_ORANGE_GA },
+         { "PixelShift 18 - GB Backlight White ",        OPTION_VAL_PIXELSHIFT_18_GB_BACKLIGHT_WHITE__GA },
+         { "PixelShift 19 - GB Backlight Yellow Dark",   OPTION_VAL_PIXELSHIFT_19_GB_BACKLIGHT_YELLOW_DARK_GA },
+         { "PixelShift 20 - GB Bootleg",                 OPTION_VAL_PIXELSHIFT_20_GB_BOOTLEG_GA },
+         { "PixelShift 21 - GB Hunter",                  OPTION_VAL_PIXELSHIFT_21_GB_HUNTER_GA },
+         { "PixelShift 22 - GB Kiosk",                   OPTION_VAL_PIXELSHIFT_22_GB_KIOSK_GA },
+         { "PixelShift 23 - GB Kiosk 2",                 OPTION_VAL_PIXELSHIFT_23_GB_KIOSK_2_GA },
+         { "PixelShift 24 - GB New",                     OPTION_VAL_PIXELSHIFT_24_GB_NEW_GA },
+         { "PixelShift 25 - GB Nuked",                   OPTION_VAL_PIXELSHIFT_25_GB_NUKED_GA },
+         { "PixelShift 26 - GB Old",                     OPTION_VAL_PIXELSHIFT_26_GB_OLD_GA },
+         { "PixelShift 27 - GBP Bivert",                 OPTION_VAL_PIXELSHIFT_27_GBP_BIVERT_GA },
+         { "PixelShift 28 - GB Washed Yellow Backlight", OPTION_VAL_PIXELSHIFT_28_GB_WASHED_YELLOW_BACKLIGHT_GA },
+         { "PixelShift 29 - Ghost",                      OPTION_VAL_PIXELSHIFT_29_GHOST_GA },
+         { "PixelShift 30 - Glow In The Dark",           OPTION_VAL_PIXELSHIFT_30_GLOW_IN_THE_DARK_GA },
+         { "PixelShift 31 - Gold Bar",                   OPTION_VAL_PIXELSHIFT_31_GOLD_BAR_GA },
+         { "PixelShift 32 - Grapefruit",                 OPTION_VAL_PIXELSHIFT_32_GRAPEFRUIT_GA },
+         { "PixelShift 33 - Gray Green Mix",             OPTION_VAL_PIXELSHIFT_33_GRAY_GREEN_MIX_GA },
+         { "PixelShift 34 - Missingno",                  OPTION_VAL_PIXELSHIFT_34_MISSINGNO_GA },
+         { "PixelShift 35 - MS-Dos",                     OPTION_VAL_PIXELSHIFT_35_MS_DOS_GA },
+         { "PixelShift 36 - Newspaper",                  OPTION_VAL_PIXELSHIFT_36_NEWSPAPER_GA },
+         { "PixelShift 37 - Pip-Boy",                    OPTION_VAL_PIXELSHIFT_37_PIP_BOY_GA },
+         { "PixelShift 38 - Pocket Girl",                OPTION_VAL_PIXELSHIFT_38_POCKET_GIRL_GA },
+         { "PixelShift 39 - Silhouette",                 OPTION_VAL_PIXELSHIFT_39_SILHOUETTE_GA },
+         { "PixelShift 40 - Sunburst",                   OPTION_VAL_PIXELSHIFT_40_SUNBURST_GA },
+         { "PixelShift 41 - Technicolor",                OPTION_VAL_PIXELSHIFT_41_TECHNICOLOR_GA },
+         { "PixelShift 42 - Tron",                       OPTION_VAL_PIXELSHIFT_42_TRON_GA },
+         { "PixelShift 43 - Vaporwave",                  OPTION_VAL_PIXELSHIFT_43_VAPORWAVE_GA },
+         { "PixelShift 44 - Virtual Boy",                OPTION_VAL_PIXELSHIFT_44_VIRTUAL_BOY_GA },
+         { "PixelShift 45 - Wish",                       OPTION_VAL_PIXELSHIFT_45_WISH_GA },
+         { NULL, NULL },
+      },
+      "PixelShift 01 - Arctic Green"
+   },
+   {
+      "gambatte_gbc_color_correction",
+      GAMBATTE_GBC_COLOR_CORRECTION_LABEL_GA,
+      NULL,
+      GAMBATTE_GBC_COLOR_CORRECTION_INFO_0_GA,
+      NULL,
+      NULL,
+      {
+         { "GBC only", OPTION_VAL_GBC_ONLY_GA },
+         { "always",   OPTION_VAL_ALWAYS_GA },
+         { "disabled", NULL },
+         { NULL, NULL },
+      },
+      "GBC only"
+   },
+   {
+      "gambatte_gbc_color_correction_mode",
+      GAMBATTE_GBC_COLOR_CORRECTION_MODE_LABEL_GA,
+      NULL,
+      GAMBATTE_GBC_COLOR_CORRECTION_MODE_INFO_0_GA,
+      NULL,
+      NULL,
+      {
+         { "accurate", OPTION_VAL_ACCURATE_GA },
+         { "fast",     OPTION_VAL_FAST_GA },
+         { NULL, NULL },
+      },
+      "accurate"
+   },
+   {
+      "gambatte_gbc_frontlight_position",
+      GAMBATTE_GBC_FRONTLIGHT_POSITION_LABEL_GA,
+      NULL,
+      GAMBATTE_GBC_FRONTLIGHT_POSITION_INFO_0_GA,
+      NULL,
+      NULL,
+      {
+         { "central",      OPTION_VAL_CENTRAL_GA },
+         { "above screen", OPTION_VAL_ABOVE_SCREEN_GA },
+         { "below screen", OPTION_VAL_BELOW_SCREEN_GA },
+         { NULL, NULL },
+      },
+      "central"
+   },
+   {
+      "gambatte_dark_filter_level",
+      GAMBATTE_DARK_FILTER_LEVEL_LABEL_GA,
+      NULL,
+      GAMBATTE_DARK_FILTER_LEVEL_INFO_0_GA,
+      NULL,
+      NULL,
+      {
+         { "0",  NULL },
+         { "5",  NULL },
+         { "10", NULL },
+         { "15", NULL },
+         { "20", NULL },
+         { "25", NULL },
+         { "30", NULL },
+         { "35", NULL },
+         { "40", NULL },
+         { "45", NULL },
+         { "50", NULL },
+         { NULL, NULL },
+      },
+      "0"
+   },
+   {
+      "gambatte_mix_frames",
+      GAMBATTE_MIX_FRAMES_LABEL_GA,
+      NULL,
+      GAMBATTE_MIX_FRAMES_INFO_0_GA,
+      NULL,
+      NULL,
+      {
+         { "disabled",          NULL },
+         { "mix",               OPTION_VAL_MIX_GA },
+         { "lcd_ghosting",      OPTION_VAL_LCD_GHOSTING_GA },
+         { "lcd_ghosting_fast", OPTION_VAL_LCD_GHOSTING_FAST_GA },
+         { NULL, NULL },
+      },
+      "disabled"
+   },
+   {
+      "gambatte_audio_resampler",
+      GAMBATTE_AUDIO_RESAMPLER_LABEL_GA,
+      NULL,
+      GAMBATTE_AUDIO_RESAMPLER_INFO_0_GA,
+      NULL,
+      NULL,
+      {
+         { "sinc", OPTION_VAL_SINC_GA },
+         { "cc",   OPTION_VAL_CC_GA },
+         { NULL, NULL },
+      },
+#if (defined(PS2) || defined(PSP) || defined(VITA) || defined(_3DS) || defined(DINGUX))
+      "cc"
+#else
+      "sinc"
+#endif
+   },
+   {
+      "gambatte_gb_hwmode",
+      GAMBATTE_GB_HWMODE_LABEL_GA,
+      NULL,
+      GAMBATTE_GB_HWMODE_INFO_0_GA,
+      NULL,
+      NULL,
+      {
+         { "Auto", OPTION_VAL_AUTO_GA },
+         { "GB",   OPTION_VAL_GB_GA },
+         { "GBC",  OPTION_VAL_GBC_GA },
+         { "GBA",  OPTION_VAL_GBA_GA },
+         { NULL, NULL },
+      },
+      "Auto"
+   },
+   {
+      "gambatte_gb_bootloader",
+      GAMBATTE_GB_BOOTLOADER_LABEL_GA,
+      NULL,
+      GAMBATTE_GB_BOOTLOADER_INFO_0_GA,
+      NULL,
+      NULL,
+      {
+         { "enabled",  NULL },
+         { "disabled", NULL },
+         { NULL, NULL },
+      },
+      "enabled"
+   },
+   {
+      "gambatte_up_down_allowed",
+      GAMBATTE_UP_DOWN_ALLOWED_LABEL_GA,
+      NULL,
+      GAMBATTE_UP_DOWN_ALLOWED_INFO_0_GA,
+      NULL,
+      NULL,
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled"
+   },
+   {
+      "gambatte_turbo_period",
+      GAMBATTE_TURBO_PERIOD_LABEL_GA,
+      NULL,
+      GAMBATTE_TURBO_PERIOD_INFO_0_GA,
+      NULL,
+      NULL,
+      {
+         { "4",   NULL },
+         { "5",   NULL },
+         { "6",   NULL },
+         { "7",   NULL },
+         { "8",   NULL },
+         { "9",   NULL },
+         { "10",  NULL },
+         { "11",  NULL },
+         { "12",  NULL },
+         { "13",  NULL },
+         { "14",  NULL },
+         { "15",  NULL },
+         { "16",  NULL },
+         { "17",  NULL },
+         { "18",  NULL },
+         { "19",  NULL },
+         { "20",  NULL },
+         { "21",  NULL },
+         { "22",  NULL },
+         { "23",  NULL },
+         { "24",  NULL },
+         { "25",  NULL },
+         { "26",  NULL },
+         { "27",  NULL },
+         { "28",  NULL },
+         { "29",  NULL },
+         { "30",  NULL },
+         { "31",  NULL },
+         { "32",  NULL },
+         { "33",  NULL },
+         { "34",  NULL },
+         { "35",  NULL },
+         { "36",  NULL },
+         { "37",  NULL },
+         { "38",  NULL },
+         { "39",  NULL },
+         { "40",  NULL },
+         { "41",  NULL },
+         { "42",  NULL },
+         { "43",  NULL },
+         { "44",  NULL },
+         { "45",  NULL },
+         { "46",  NULL },
+         { "47",  NULL },
+         { "48",  NULL },
+         { "49",  NULL },
+         { "50",  NULL },
+         { "51",  NULL },
+         { "52",  NULL },
+         { "53",  NULL },
+         { "54",  NULL },
+         { "55",  NULL },
+         { "56",  NULL },
+         { "57",  NULL },
+         { "58",  NULL },
+         { "59",  NULL },
+         { "60",  NULL },
+         { "61",  NULL },
+         { "62",  NULL },
+         { "63",  NULL },
+         { "64",  NULL },
+         { "65",  NULL },
+         { "66",  NULL },
+         { "67",  NULL },
+         { "68",  NULL },
+         { "69",  NULL },
+         { "70",  NULL },
+         { "71",  NULL },
+         { "72",  NULL },
+         { "73",  NULL },
+         { "74",  NULL },
+         { "75",  NULL },
+         { "76",  NULL },
+         { "77",  NULL },
+         { "78",  NULL },
+         { "79",  NULL },
+         { "80",  NULL },
+         { "81",  NULL },
+         { "82",  NULL },
+         { "83",  NULL },
+         { "84",  NULL },
+         { "85",  NULL },
+         { "86",  NULL },
+         { "87",  NULL },
+         { "88",  NULL },
+         { "89",  NULL },
+         { "90",  NULL },
+         { "91",  NULL },
+         { "92",  NULL },
+         { "93",  NULL },
+         { "94",  NULL },
+         { "95",  NULL },
+         { "96",  NULL },
+         { "97",  NULL },
+         { "98",  NULL },
+         { "99",  NULL },
+         { "100", NULL },
+         { "101", NULL },
+         { "102", NULL },
+         { "103", NULL },
+         { "104", NULL },
+         { "105", NULL },
+         { "106", NULL },
+         { "107", NULL },
+         { "108", NULL },
+         { "109", NULL },
+         { "110", NULL },
+         { "111", NULL },
+         { "112", NULL },
+         { "113", NULL },
+         { "114", NULL },
+         { "115", NULL },
+         { "116", NULL },
+         { "117", NULL },
+         { "118", NULL },
+         { "119", NULL },
+         { "120", NULL },
+         { NULL, NULL },
+      },
+      "4"
+   },
+   {
+      "gambatte_rumble_level",
+      GAMBATTE_RUMBLE_LEVEL_LABEL_GA,
+      NULL,
+      GAMBATTE_RUMBLE_LEVEL_INFO_0_GA,
+      NULL,
+      NULL,
+      {
+         { "0",  NULL },
+         { "1",  NULL },
+         { "2",  NULL },
+         { "3",  NULL },
+         { "4",  NULL },
+         { "5",  NULL },
+         { "6",  NULL },
+         { "7",  NULL },
+         { "8",  NULL },
+         { "9",  NULL },
+         { "10", NULL },
+         { NULL, NULL },
+      },
+      "10"
+   },
+#ifdef HAVE_NETWORK
+   {
+      "gambatte_show_gb_link_settings",
+      GAMBATTE_SHOW_GB_LINK_SETTINGS_LABEL_GA,
+      NULL,
+      GAMBATTE_SHOW_GB_LINK_SETTINGS_INFO_0_GA,
+      NULL,
+      NULL,
+      {
+         { "enabled",  NULL },
+         { "disabled", NULL },
+         { NULL, NULL },
+      },
+      "disabled"
+   },
+   {
+      "gambatte_gb_link_mode",
+      GAMBATTE_GB_LINK_MODE_LABEL_GA,
+      GAMBATTE_GB_LINK_MODE_LABEL_CAT_GA,
+      GAMBATTE_GB_LINK_MODE_INFO_0_GA,
+      NULL,
+      "gb_link",
+      {
+         { "Not Connected",  OPTION_VAL_NOT_CONNECTED_GA },
+         { "Network Server", OPTION_VAL_NETWORK_SERVER_GA },
+         { "Network Client", OPTION_VAL_NETWORK_CLIENT_GA },
+         { NULL, NULL },
+      },
+      "Not Connected"
+   },
+   {
+      "gambatte_gb_link_network_port",
+      GAMBATTE_GB_LINK_NETWORK_PORT_LABEL_GA,
+      GAMBATTE_GB_LINK_NETWORK_PORT_LABEL_CAT_GA,
+      GAMBATTE_GB_LINK_NETWORK_PORT_INFO_0_GA,
+      NULL,
+      "gb_link",
+      {
+         { "56400", NULL },
+         { "56401", NULL },
+         { "56402", NULL },
+         { "56403", NULL },
+         { "56404", NULL },
+         { "56405", NULL },
+         { "56406", NULL },
+         { "56407", NULL },
+         { "56408", NULL },
+         { "56409", NULL },
+         { "56410", NULL },
+         { "56411", NULL },
+         { "56412", NULL },
+         { "56413", NULL },
+         { "56414", NULL },
+         { "56415", NULL },
+         { "56416", NULL },
+         { "56417", NULL },
+         { "56418", NULL },
+         { "56419", NULL },
+         { "56420", NULL },
+         { NULL, NULL },
+      },
+      "56400"
+   },
+   {
+      "gambatte_gb_link_network_server_ip_1",
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_LABEL_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_LABEL_CAT_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_INFO_0_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_INFO_1_GA,
+      "gb_link",
+      {
+         { "0", NULL },
+         { "1", NULL },
+         { "2", NULL },
+         { "3", NULL },
+         { "4", NULL },
+         { "5", NULL },
+         { "6", NULL },
+         { "7", NULL },
+         { "8", NULL },
+         { "9", NULL },
+         { NULL, NULL },
+      },
+      "0"
+   },
+   {
+      "gambatte_gb_link_network_server_ip_2",
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_LABEL_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_LABEL_CAT_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_INFO_0_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_INFO_1_GA,
+      "gb_link",
+      {
+         { "0", NULL },
+         { "1", NULL },
+         { "2", NULL },
+         { "3", NULL },
+         { "4", NULL },
+         { "5", NULL },
+         { "6", NULL },
+         { "7", NULL },
+         { "8", NULL },
+         { "9", NULL },
+         { NULL, NULL },
+      },
+      "0"
+   },
+   {
+      "gambatte_gb_link_network_server_ip_3",
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_LABEL_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_LABEL_CAT_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_INFO_0_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_INFO_1_GA,
+      "gb_link",
+      {
+         { "0", NULL },
+         { "1", NULL },
+         { "2", NULL },
+         { "3", NULL },
+         { "4", NULL },
+         { "5", NULL },
+         { "6", NULL },
+         { "7", NULL },
+         { "8", NULL },
+         { "9", NULL },
+         { NULL, NULL },
+      },
+      "0"
+   },
+   {
+      "gambatte_gb_link_network_server_ip_4",
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_LABEL_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_LABEL_CAT_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_INFO_0_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_INFO_1_GA,
+      "gb_link",
+      {
+         { "0", NULL },
+         { "1", NULL },
+         { "2", NULL },
+         { "3", NULL },
+         { "4", NULL },
+         { "5", NULL },
+         { "6", NULL },
+         { "7", NULL },
+         { "8", NULL },
+         { "9", NULL },
+         { NULL, NULL },
+      },
+      "0"
+   },
+   {
+      "gambatte_gb_link_network_server_ip_5",
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_LABEL_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_LABEL_CAT_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_INFO_0_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_INFO_1_GA,
+      "gb_link",
+      {
+         { "0", NULL },
+         { "1", NULL },
+         { "2", NULL },
+         { "3", NULL },
+         { "4", NULL },
+         { "5", NULL },
+         { "6", NULL },
+         { "7", NULL },
+         { "8", NULL },
+         { "9", NULL },
+         { NULL, NULL },
+      },
+      "0"
+   },
+   {
+      "gambatte_gb_link_network_server_ip_6",
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_LABEL_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_LABEL_CAT_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_INFO_0_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_INFO_1_GA,
+      "gb_link",
+      {
+         { "0", NULL },
+         { "1", NULL },
+         { "2", NULL },
+         { "3", NULL },
+         { "4", NULL },
+         { "5", NULL },
+         { "6", NULL },
+         { "7", NULL },
+         { "8", NULL },
+         { "9", NULL },
+         { NULL, NULL },
+      },
+      "0"
+   },
+   {
+      "gambatte_gb_link_network_server_ip_7",
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_LABEL_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_LABEL_CAT_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_INFO_0_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_INFO_1_GA,
+      "gb_link",
+      {
+         { "0", NULL },
+         { "1", NULL },
+         { "2", NULL },
+         { "3", NULL },
+         { "4", NULL },
+         { "5", NULL },
+         { "6", NULL },
+         { "7", NULL },
+         { "8", NULL },
+         { "9", NULL },
+         { NULL, NULL },
+      },
+      "0"
+   },
+   {
+      "gambatte_gb_link_network_server_ip_8",
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_LABEL_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_LABEL_CAT_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_INFO_0_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_INFO_1_GA,
+      "gb_link",
+      {
+         { "0", NULL },
+         { "1", NULL },
+         { "2", NULL },
+         { "3", NULL },
+         { "4", NULL },
+         { "5", NULL },
+         { "6", NULL },
+         { "7", NULL },
+         { "8", NULL },
+         { "9", NULL },
+         { NULL, NULL },
+      },
+      "0"
+   },
+   {
+      "gambatte_gb_link_network_server_ip_9",
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_LABEL_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_LABEL_CAT_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_INFO_0_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_INFO_1_GA,
+      "gb_link",
+      {
+         { "0", NULL },
+         { "1", NULL },
+         { "2", NULL },
+         { "3", NULL },
+         { "4", NULL },
+         { "5", NULL },
+         { "6", NULL },
+         { "7", NULL },
+         { "8", NULL },
+         { "9", NULL },
+         { NULL, NULL },
+      },
+      "0"
+   },
+   {
+      "gambatte_gb_link_network_server_ip_10",
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_LABEL_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_LABEL_CAT_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_INFO_0_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_INFO_1_GA,
+      "gb_link",
+      {
+         { "0", NULL },
+         { "1", NULL },
+         { "2", NULL },
+         { "3", NULL },
+         { "4", NULL },
+         { "5", NULL },
+         { "6", NULL },
+         { "7", NULL },
+         { "8", NULL },
+         { "9", NULL },
+         { NULL, NULL },
+      },
+      "0"
+   },
+   {
+      "gambatte_gb_link_network_server_ip_11",
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_LABEL_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_LABEL_CAT_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_INFO_0_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_INFO_1_GA,
+      "gb_link",
+      {
+         { "0", NULL },
+         { "1", NULL },
+         { "2", NULL },
+         { "3", NULL },
+         { "4", NULL },
+         { "5", NULL },
+         { "6", NULL },
+         { "7", NULL },
+         { "8", NULL },
+         { "9", NULL },
+         { NULL, NULL },
+      },
+      "0"
+   },
+   {
+      "gambatte_gb_link_network_server_ip_12",
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_LABEL_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_LABEL_CAT_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_INFO_0_GA,
+      GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_INFO_1_GA,
+      "gb_link",
+      {
+         { "0", NULL },
+         { "1", NULL },
+         { "2", NULL },
+         { "3", NULL },
+         { "4", NULL },
+         { "5", NULL },
+         { "6", NULL },
+         { "7", NULL },
+         { "8", NULL },
+         { "9", NULL },
+         { NULL, NULL },
+      },
+      "0"
+   },
+#endif
+   { NULL, NULL, NULL, NULL, NULL, NULL, {{0}}, NULL },
+};
+struct retro_core_options_v2 options_ga = {
+   option_cats_ga,
+   option_defs_ga
+};
+
 /* RETRO_LANGUAGE_GL */
 
 #define CATEGORY_GB_LINK_LABEL_GL NULL
@@ -38106,7 +39742,7 @@ struct retro_core_options_v2 options_id = {
 #define OPTION_VAL_MIX_IT "Semplice"
 #define OPTION_VAL_LCD_GHOSTING_IT "Ghosting LCD (preciso)"
 #define OPTION_VAL_LCD_GHOSTING_FAST_IT "Ghosting LCD (veloce)"
-#define GAMBATTE_AUDIO_RESAMPLER_LABEL_IT "Driver per il Riamplificatore Audio"
+#define GAMBATTE_AUDIO_RESAMPLER_LABEL_IT "Ridiscretizzatore audio"
 #define GAMBATTE_AUDIO_RESAMPLER_INFO_0_IT "Specifica quale algoritmo usare quando si ricampiona l'audio generato (la velocità di Game Boy è limitata solo dalla velocità di scrittura della CPU, in modo che le frequenze 'native' non siano pratiche sui moderni dispositivi sonori e debbano essere sottoposte a campionamento). 'Sinc' produce la massima qualità. 'Cosine' migliora le prestazioni su hardware di fascia bassa."
 #define OPTION_VAL_SINC_IT NULL
 #define OPTION_VAL_CC_IT NULL
@@ -41018,7 +42654,7 @@ struct retro_core_options_v2 options_ja = {
 #define OPTION_VAL_TWB64_009_NEON_PINK_KO NULL
 #define OPTION_VAL_TWB64_010_MARIO_RED_KO NULL
 #define OPTION_VAL_TWB64_011_NICK_ORANGE_KO NULL
-#define OPTION_VAL_TWB64_012_VIRTUAL_VISION_KO "TWB64 012 - 버츄얼 비전"
+#define OPTION_VAL_TWB64_012_VIRTUAL_VISION_KO NULL
 #define OPTION_VAL_TWB64_013_GOLDEN_WILD_KO NULL
 #define OPTION_VAL_TWB64_014_DMG_099_KO NULL
 #define OPTION_VAL_TWB64_015_CLASSIC_BLURPLE_KO NULL
@@ -41026,14 +42662,14 @@ struct retro_core_options_v2 options_ja = {
 #define OPTION_VAL_TWB64_017_SUPERBALL_IVORY_KO NULL
 #define OPTION_VAL_TWB64_018_CRUNCHYROLL_ORANGE_KO NULL
 #define OPTION_VAL_TWB64_019_MUSE_PINK_KO NULL
-#define OPTION_VAL_TWB64_020_SCHOOL_IDOL_BLUE_KO "TWB64 020 - 스쿨 아이돌 블루"
+#define OPTION_VAL_TWB64_020_SCHOOL_IDOL_BLUE_KO NULL
 #define OPTION_VAL_TWB64_021_GAMATE_VER_KO NULL
 #define OPTION_VAL_TWB64_022_GREENSCALE_VER_KO NULL
 #define OPTION_VAL_TWB64_023_ODYSSEY_GOLD_KO NULL
 #define OPTION_VAL_TWB64_024_SUPER_SAIYAN_GOD_KO NULL
 #define OPTION_VAL_TWB64_025_SUPER_SAIYAN_BLUE_KO NULL
-#define OPTION_VAL_TWB64_026_ANIMAX_BLUE_KO "TWB64 026 - 애니맥스 블루"
-#define OPTION_VAL_TWB64_027_BMO_VER_KO "TWB64 027 - BMO 버전"
+#define OPTION_VAL_TWB64_026_ANIMAX_BLUE_KO NULL
+#define OPTION_VAL_TWB64_027_BMO_VER_KO NULL
 #define OPTION_VAL_TWB64_028_GAME_COM_VER_KO NULL
 #define OPTION_VAL_TWB64_029_SANRIO_PINK_KO NULL
 #define OPTION_VAL_TWB64_030_TIMMY_TURNER_PINK_KO NULL
@@ -41050,7 +42686,7 @@ struct retro_core_options_v2 options_ja = {
 #define OPTION_VAL_TWB64_041_POCKET_VER_KO NULL
 #define OPTION_VAL_TWB64_042_LIGHT_VER_KO NULL
 #define OPTION_VAL_TWB64_043_ALL_MIGHT_HERO_PALETTE_KO NULL
-#define OPTION_VAL_TWB64_044_U_A_HIGH_SCHOOL_UNIFORM_KO "TWB64 044 - U.A. 고등학교 교복"
+#define OPTION_VAL_TWB64_044_U_A_HIGH_SCHOOL_UNIFORM_KO NULL
 #define OPTION_VAL_TWB64_045_PIKACHU_YELLOW_KO NULL
 #define OPTION_VAL_TWB64_046_EEVEE_BROWN_KO NULL
 #define OPTION_VAL_TWB64_047_MICROVISION_VER_KO NULL
@@ -41062,7 +42698,7 @@ struct retro_core_options_v2 options_ja = {
 #define OPTION_VAL_TWB64_053_VMU_VER_KO NULL
 #define OPTION_VAL_TWB64_054_GAME_MASTER_VER_KO NULL
 #define OPTION_VAL_TWB64_055_ANDROID_GREEN_KO NULL
-#define OPTION_VAL_TWB64_056_AMAZON_VISION_KO "TWB64 056 - 아마존 비젼"
+#define OPTION_VAL_TWB64_056_AMAZON_VISION_KO NULL
 #define OPTION_VAL_TWB64_057_GOOGLE_RED_KO NULL
 #define OPTION_VAL_TWB64_058_GOOGLE_BLUE_KO NULL
 #define OPTION_VAL_TWB64_059_GOOGLE_YELLOW_KO NULL
@@ -41070,7 +42706,7 @@ struct retro_core_options_v2 options_ja = {
 #define OPTION_VAL_TWB64_061_WONDERSWAN_VER_KO NULL
 #define OPTION_VAL_TWB64_062_NEO_GEO_POCKET_VER_KO NULL
 #define OPTION_VAL_TWB64_063_DEW_GREEN_KO NULL
-#define OPTION_VAL_TWB64_064_COCA_COLA_VISION_KO "TWB64 064 - 코카콜라 비젼"
+#define OPTION_VAL_TWB64_064_COCA_COLA_VISION_KO NULL
 #define OPTION_VAL_TWB64_065_GAMEKING_VER_KO NULL
 #define OPTION_VAL_TWB64_066_DO_THE_DEW_VER_KO NULL
 #define OPTION_VAL_TWB64_067_DIGIVICE_VER_KO NULL
@@ -41115,10 +42751,10 @@ struct retro_core_options_v2 options_ja = {
 #define OPTION_VAL_TWB64_104_SIDEM_GREEN_KO NULL
 #define OPTION_VAL_TWB64_105_SHINY_SKY_BLUE_KO NULL
 #define OPTION_VAL_TWB64_106_ANGRY_VOLCANO_VER_KO NULL
-#define OPTION_VAL_TWB64_107_NBA_VISION_KO "TWB64 107 - NBA 비젼"
-#define OPTION_VAL_TWB64_108_NFL_VISION_KO "TWB64 108 - NFL 비젼"
-#define OPTION_VAL_TWB64_109_MLB_VISION_KO "TWB64 109 - MLB 비젼"
-#define OPTION_VAL_TWB64_110_ANIME_DIGIVICE_VER_KO "TWB64 110 - 애니메 디지바이스 버전"
+#define OPTION_VAL_TWB64_107_NBA_VISION_KO NULL
+#define OPTION_VAL_TWB64_108_NFL_VISION_KO NULL
+#define OPTION_VAL_TWB64_109_MLB_VISION_KO NULL
+#define OPTION_VAL_TWB64_110_ANIME_DIGIVICE_VER_KO NULL
 #define OPTION_VAL_TWB64_111_AQUATIC_IRO_KO NULL
 #define OPTION_VAL_TWB64_112_TEA_MIDORI_KO NULL
 #define OPTION_VAL_TWB64_113_SAKURA_PINK_KO NULL
@@ -41129,10 +42765,10 @@ struct retro_core_options_v2 options_ja = {
 #define OPTION_VAL_TWB64_118_FRUITY_ORANGE_KO NULL
 #define OPTION_VAL_TWB64_119_AKB48_PINK_KO NULL
 #define OPTION_VAL_TWB64_120_MIKU_BLUE_KO NULL
-#define OPTION_VAL_TWB64_121_TRI_DIGIVICE_VER_KO "TWB64 121 - 트라이 디지바이스 버전"
-#define OPTION_VAL_TWB64_122_SURVEY_CORPS_UNIFORM_KO "TWB64 122 - 서베이 캅스 유니폼"
+#define OPTION_VAL_TWB64_121_TRI_DIGIVICE_VER_KO NULL
+#define OPTION_VAL_TWB64_122_SURVEY_CORPS_UNIFORM_KO NULL
 #define OPTION_VAL_TWB64_123_ISLAND_GREEN_KO NULL
-#define OPTION_VAL_TWB64_124_NOGIZAKA46_PURPLE_KO "TWB64 124 - 노기자카46 퍼플"
+#define OPTION_VAL_TWB64_124_NOGIZAKA46_PURPLE_KO NULL
 #define OPTION_VAL_TWB64_125_NINJA_TURTLE_GREEN_KO NULL
 #define OPTION_VAL_TWB64_126_SLIME_BLUE_KO NULL
 #define OPTION_VAL_TWB64_127_LIME_MIDORI_KO NULL
@@ -41142,15 +42778,15 @@ struct retro_core_options_v2 options_ja = {
 #define OPTION_VAL_TWB64_131_NEON_PURPLE_KO NULL
 #define OPTION_VAL_TWB64_132_NEON_ORANGE_KO NULL
 #define OPTION_VAL_TWB64_133_MOONLIGHT_VISION_KO NULL
-#define OPTION_VAL_TWB64_134_RISING_SUN_RED_KO "TWB64 134 - 라이징 선 레드"
-#define OPTION_VAL_TWB64_135_BURGER_KING_COLOR_COMBO_KO "TWB64 135 - 버커킹 컬러 콤보"
-#define OPTION_VAL_TWB64_136_GRAND_ZENO_COAT_KO "TWB64 136 - 그랜드 제노 코트"
+#define OPTION_VAL_TWB64_134_RISING_SUN_RED_KO NULL
+#define OPTION_VAL_TWB64_135_BURGER_KING_COLOR_COMBO_KO NULL
+#define OPTION_VAL_TWB64_136_GRAND_ZENO_COAT_KO NULL
 #define OPTION_VAL_TWB64_137_PAC_MAN_YELLOW_KO NULL
 #define OPTION_VAL_TWB64_138_IRISH_GREEN_KO NULL
-#define OPTION_VAL_TWB64_139_GOKU_GI_KO "TWB64 139 - 오공 기"
+#define OPTION_VAL_TWB64_139_GOKU_GI_KO NULL
 #define OPTION_VAL_TWB64_140_DRAGON_BALL_ORANGE_KO NULL
 #define OPTION_VAL_TWB64_141_CHRISTMAS_GOLD_KO NULL
-#define OPTION_VAL_TWB64_142_PEPSI_VISION_KO "TWB64 142 - 펩시 비전"
+#define OPTION_VAL_TWB64_142_PEPSI_VISION_KO NULL
 #define OPTION_VAL_TWB64_143_BUBBLUN_GREEN_KO NULL
 #define OPTION_VAL_TWB64_144_BOBBLUN_BLUE_KO NULL
 #define OPTION_VAL_TWB64_145_BAJA_BLAST_STORM_KO NULL
@@ -41161,20 +42797,20 @@ struct retro_core_options_v2 options_ja = {
 #define OPTION_VAL_TWB64_150_OLYMPIC_BRONZE_KO NULL
 #define OPTION_VAL_TWB64_151_ANA_FLIGHT_BLUE_KO NULL
 #define OPTION_VAL_TWB64_152_NIJIGASAKI_ORANGE_KO NULL
-#define OPTION_VAL_TWB64_153_HOLOBLUE_KO "TWB64 153 - 홀로블루"
+#define OPTION_VAL_TWB64_153_HOLOBLUE_KO NULL
 #define OPTION_VAL_TWB64_154_WWE_WHITE_AND_RED_KO NULL
 #define OPTION_VAL_TWB64_155_YOSHI_EGG_GREEN_KO NULL
 #define OPTION_VAL_TWB64_156_POKEDEX_RED_KO NULL
 #define OPTION_VAL_TWB64_157_FAMILYMART_VISION_KO NULL
 #define OPTION_VAL_TWB64_158_XBOX_GREEN_KO NULL
 #define OPTION_VAL_TWB64_159_SONIC_MEGA_BLUE_KO NULL
-#define OPTION_VAL_TWB64_160_SPRITE_GREEN_KO "TWB64 160 - 스프라이트 그린"
+#define OPTION_VAL_TWB64_160_SPRITE_GREEN_KO NULL
 #define OPTION_VAL_TWB64_161_SCARLETT_GREEN_KO NULL
 #define OPTION_VAL_TWB64_162_GLITCHY_BLUE_KO NULL
 #define OPTION_VAL_TWB64_163_CLASSIC_LCD_KO NULL
 #define OPTION_VAL_TWB64_164_3DS_VIRTUAL_CONSOLE_VER_KO NULL
 #define OPTION_VAL_TWB64_165_POCKETSTATION_VER_KO NULL
-#define OPTION_VAL_TWB64_166_TIMELESS_GOLD_AND_RED_KO "TWB64 166 - 타임레스 골드 앤 레드"
+#define OPTION_VAL_TWB64_166_TIMELESS_GOLD_AND_RED_KO NULL
 #define OPTION_VAL_TWB64_167_SMURFY_BLUE_KO NULL
 #define OPTION_VAL_TWB64_168_SWAMPY_OGRE_GREEN_KO NULL
 #define OPTION_VAL_TWB64_169_SAILOR_SPINACH_GREEN_KO NULL
@@ -41191,126 +42827,126 @@ struct retro_core_options_v2 options_ja = {
 #define OPTION_VAL_TWB64_180_TEAM_ROCKET_UNIFORM_KO NULL
 #define OPTION_VAL_TWB64_181_SEIKO_TIMELY_VISION_KO NULL
 #define OPTION_VAL_TWB64_182_PASTEL109_KO NULL
-#define OPTION_VAL_TWB64_183_DORAEMON_TRICOLOR_KO "TWB64 183 - 도라에몬 트라이컬러"
+#define OPTION_VAL_TWB64_183_DORAEMON_TRICOLOR_KO NULL
 #define OPTION_VAL_TWB64_184_FURY_BLUE_KO NULL
 #define OPTION_VAL_TWB64_185_GOOD_SMILE_VISION_KO NULL
 #define OPTION_VAL_TWB64_186_PUYO_PUYO_GREEN_KO NULL
-#define OPTION_VAL_TWB64_187_CIRCLE_K_COLOR_COMBO_KO "TWB64 187 - 서클 K 컬러 콤보"
+#define OPTION_VAL_TWB64_187_CIRCLE_K_COLOR_COMBO_KO NULL
 #define OPTION_VAL_TWB64_188_PIZZA_HUT_RED_KO NULL
 #define OPTION_VAL_TWB64_189_EMERALD_GREEN_KO NULL
 #define OPTION_VAL_TWB64_190_GRAND_IVORY_KO NULL
 #define OPTION_VAL_TWB64_191_DEMON_S_GOLD_KO NULL
 #define OPTION_VAL_TWB64_192_SEGA_TOKYO_BLUE_KO NULL
-#define OPTION_VAL_TWB64_193_CHAMPION_S_TUNIC_KO "TWB64 193 - 영걸의 옷"
+#define OPTION_VAL_TWB64_193_CHAMPION_S_TUNIC_KO NULL
 #define OPTION_VAL_TWB64_194_DK_BARREL_BROWN_KO NULL
-#define OPTION_VAL_TWB64_195_EVA_01_KO "TWB64 195 - 에바-01"
-#define OPTION_VAL_TWB64_196_WILD_WEST_VISION_KO "TWB64 196 - 와일드 웨스트 비젼"
+#define OPTION_VAL_TWB64_195_EVA_01_KO NULL
+#define OPTION_VAL_TWB64_196_WILD_WEST_VISION_KO NULL
 #define OPTION_VAL_TWB64_197_OPTIMUS_PRIME_PALETTE_KO NULL
-#define OPTION_VAL_TWB64_198_NICONICO_SEA_GREEN_KO "TWB64 198 - 니코니코 시 그린"
+#define OPTION_VAL_TWB64_198_NICONICO_SEA_GREEN_KO NULL
 #define OPTION_VAL_TWB64_199_DURACELL_COPPER_KO NULL
 #define OPTION_VAL_TWB64_200_TOKYO_SKYTREE_CLOUDY_BLUE_KO NULL
 #define GAMBATTE_GB_PALETTE_TWB64_3_LABEL_KO "> TWB64 - 팩 3 팔레트"
 #define GAMBATTE_GB_PALETTE_TWB64_3_INFO_0_KO "'내부 팔레트'가 'TWB64 - 팩 3'으로 설정된 경우 내부 색상화 팔레트를 선택합니다."
-#define OPTION_VAL_TWB64_201_DMG_GOLD_KO "TWB64 201 - DMG-골드"
-#define OPTION_VAL_TWB64_202_LCD_CLOCK_GREEN_KO "TWB64 202 - LCD 클락 그린"
-#define OPTION_VAL_TWB64_203_FAMICOM_FRENZY_KO "TWB64 203 - 패미컴 프렌지"
-#define OPTION_VAL_TWB64_204_DK_ARCADE_BLUE_KO "TWB64 204 - DK 아케이드 블루"
-#define OPTION_VAL_TWB64_205_ADVANCED_INDIGO_KO "TWB64 205 - 어드밴스드 인디고"
-#define OPTION_VAL_TWB64_206_ULTRA_BLACK_KO "TWB64 206 - 울트라 블랙"
-#define OPTION_VAL_TWB64_207_CHAOS_EMERALD_GREEN_KO "TWB64 207 - 카오스 에메랄드 그린"
+#define OPTION_VAL_TWB64_201_DMG_GOLD_KO NULL
+#define OPTION_VAL_TWB64_202_LCD_CLOCK_GREEN_KO NULL
+#define OPTION_VAL_TWB64_203_FAMICOM_FRENZY_KO NULL
+#define OPTION_VAL_TWB64_204_DK_ARCADE_BLUE_KO NULL
+#define OPTION_VAL_TWB64_205_ADVANCED_INDIGO_KO NULL
+#define OPTION_VAL_TWB64_206_ULTRA_BLACK_KO NULL
+#define OPTION_VAL_TWB64_207_CHAOS_EMERALD_GREEN_KO NULL
 #define OPTION_VAL_TWB64_208_BLUE_BOMBER_VISION_KO NULL
-#define OPTION_VAL_TWB64_209_KRISPY_KREME_VISION_KO "TWB64 209 - 크리스피 크림 비젼"
-#define OPTION_VAL_TWB64_210_STEAM_GRAY_KO "TWB64 210 - 스팀 그레이"
-#define OPTION_VAL_TWB64_211_DREAM_LAND_GB_VER_KO "TWB64 211 - 드림 랜드 GB 버전"
-#define OPTION_VAL_TWB64_212_POKEMON_PINBALL_VER_KO "TWB64 212 - 포켓몬 핀볼 버전"
-#define OPTION_VAL_TWB64_213_POKETCH_VER_KO "TWB64 213 - 포켓치 버전"
-#define OPTION_VAL_TWB64_214_COLLECTION_OF_SAGA_VER_KO "TWB64 214 - 콜렉션 오브 사가 버전"
-#define OPTION_VAL_TWB64_215_ROCKY_VALLEY_HOLIDAY_KO "TWB64 215 - 록키-밸리 홀리데이"
-#define OPTION_VAL_TWB64_216_GIGA_KIWI_DMG_KO "TWB64 216 - 기가 키위 DMG"
-#define OPTION_VAL_TWB64_217_DMG_PEA_GREEN_KO "TWB64 217 - DMG 피 그린"
-#define OPTION_VAL_TWB64_218_TIMING_HERO_VER_KO "TWB64 218 - 타이밍 히어로 버전"
+#define OPTION_VAL_TWB64_209_KRISPY_KREME_VISION_KO NULL
+#define OPTION_VAL_TWB64_210_STEAM_GRAY_KO NULL
+#define OPTION_VAL_TWB64_211_DREAM_LAND_GB_VER_KO NULL
+#define OPTION_VAL_TWB64_212_POKEMON_PINBALL_VER_KO NULL
+#define OPTION_VAL_TWB64_213_POKETCH_VER_KO NULL
+#define OPTION_VAL_TWB64_214_COLLECTION_OF_SAGA_VER_KO NULL
+#define OPTION_VAL_TWB64_215_ROCKY_VALLEY_HOLIDAY_KO NULL
+#define OPTION_VAL_TWB64_216_GIGA_KIWI_DMG_KO NULL
+#define OPTION_VAL_TWB64_217_DMG_PEA_GREEN_KO NULL
+#define OPTION_VAL_TWB64_218_TIMING_HERO_VER_KO NULL
 #define OPTION_VAL_TWB64_219_INVINCIBLE_YELLOW_AND_BLUE_KO NULL
-#define OPTION_VAL_TWB64_220_GRINCHY_GREEN_KO "TWB64 220 - 그리치 그린"
-#define OPTION_VAL_TWB64_221_ANIMATE_VISION_KO "TWB64 221 - 애니메이트 비젼"
-#define OPTION_VAL_TWB64_222_SCHOOL_IDOL_MIX_KO "TWB64 222 - 스쿨 아이돌 믹스"
-#define OPTION_VAL_TWB64_223_GREEN_AWAKENING_KO "TWB64 223 - 그린 어웨이크닝"
-#define OPTION_VAL_TWB64_224_GOOMBA_BROWN_KO "TWB64 224 - 굼바 브라운"
+#define OPTION_VAL_TWB64_220_GRINCHY_GREEN_KO NULL
+#define OPTION_VAL_TWB64_221_ANIMATE_VISION_KO NULL
+#define OPTION_VAL_TWB64_222_SCHOOL_IDOL_MIX_KO NULL
+#define OPTION_VAL_TWB64_223_GREEN_AWAKENING_KO NULL
+#define OPTION_VAL_TWB64_224_GOOMBA_BROWN_KO NULL
 #define OPTION_VAL_TWB64_225_WARIOWARE_MICROBLUE_KO NULL
-#define OPTION_VAL_TWB64_226_KONOSUBA_SHERBET_KO "TWB64 226 - 코노스바 셔벗"
-#define OPTION_VAL_TWB64_227_SPOOKY_PURPLE_KO "TWB64 227 - 스푸키 퍼플"
-#define OPTION_VAL_TWB64_228_TREASURE_GOLD_KO "TWB64 228 - 트레져 골드"
-#define OPTION_VAL_TWB64_229_CHERRY_BLOSSOM_PINK_KO "TWB64 229 - 체리 블라썸 핑크"
-#define OPTION_VAL_TWB64_230_GOLDEN_TROPHY_KO "TWB64 230 - 골든 트로피"
-#define OPTION_VAL_TWB64_231_GLACIAL_WINTER_BLUE_KO "TWB64 231 - 글레이셜 윈터 블루"
-#define OPTION_VAL_TWB64_232_LEPRECHAUN_GREEN_KO "TWB64 232 - 레프러콘 그린"
-#define OPTION_VAL_TWB64_233_SAITAMA_SUPER_BLUE_KO "TWB64 233 - 사이타마 슈퍼 블루"
-#define OPTION_VAL_TWB64_234_SAITAMA_SUPER_GREEN_KO "TWB64 234 - 사이타마 슈퍼 그린"
-#define OPTION_VAL_TWB64_235_DUOLINGO_GREEN_KO "TWB64 235 - 듀오링고 그린"
-#define OPTION_VAL_TWB64_236_SUPER_MUSHROOM_VISION_KO "TWB64 236 - 슈퍼 머시룸 비전"
-#define OPTION_VAL_TWB64_237_ANCIENT_HISUIAN_BROWN_KO "TWB64 237 - 에인션트 히스이안 브라운"
-#define OPTION_VAL_TWB64_238_SKY_POP_IVORY_KO "TWB64 238 - 스카이 팝 아이보리"
-#define OPTION_VAL_TWB64_239_LAWSON_BLUE_KO "TWB64 239 - 로손 블루"
-#define OPTION_VAL_TWB64_240_ANIME_EXPO_RED_KO "TWB64 240 - 아니메 엑스포 레드"
+#define OPTION_VAL_TWB64_226_KONOSUBA_SHERBET_KO NULL
+#define OPTION_VAL_TWB64_227_SPOOKY_PURPLE_KO NULL
+#define OPTION_VAL_TWB64_228_TREASURE_GOLD_KO NULL
+#define OPTION_VAL_TWB64_229_CHERRY_BLOSSOM_PINK_KO NULL
+#define OPTION_VAL_TWB64_230_GOLDEN_TROPHY_KO NULL
+#define OPTION_VAL_TWB64_231_GLACIAL_WINTER_BLUE_KO NULL
+#define OPTION_VAL_TWB64_232_LEPRECHAUN_GREEN_KO NULL
+#define OPTION_VAL_TWB64_233_SAITAMA_SUPER_BLUE_KO NULL
+#define OPTION_VAL_TWB64_234_SAITAMA_SUPER_GREEN_KO NULL
+#define OPTION_VAL_TWB64_235_DUOLINGO_GREEN_KO NULL
+#define OPTION_VAL_TWB64_236_SUPER_MUSHROOM_VISION_KO NULL
+#define OPTION_VAL_TWB64_237_ANCIENT_HISUIAN_BROWN_KO NULL
+#define OPTION_VAL_TWB64_238_SKY_POP_IVORY_KO NULL
+#define OPTION_VAL_TWB64_239_LAWSON_BLUE_KO NULL
+#define OPTION_VAL_TWB64_240_ANIME_EXPO_RED_KO NULL
 #define OPTION_VAL_TWB64_241_BRILLIANT_DIAMOND_BLUE_KO NULL
-#define OPTION_VAL_TWB64_242_SHINING_PEARL_PINK_KO "TWB64 242 - 샤이닝 펄 핑크"
-#define OPTION_VAL_TWB64_243_FUNIMATION_MELON_KO "TWB64 243 - 퍼니메이션 멜론"
+#define OPTION_VAL_TWB64_242_SHINING_PEARL_PINK_KO NULL
+#define OPTION_VAL_TWB64_243_FUNIMATION_MELON_KO NULL
 #define OPTION_VAL_TWB64_244_TEYVAT_BROWN_KO NULL
 #define OPTION_VAL_TWB64_245_CHOZO_BLUE_KO NULL
-#define OPTION_VAL_TWB64_246_SPOTIFY_GREEN_KO "TWB64 246 - 스포티파이 그린"
-#define OPTION_VAL_TWB64_247_DR_PEPPER_RED_KO "TWB64 247 - 닥터 페퍼 레드"
-#define OPTION_VAL_TWB64_248_NHK_SILVER_GRAY_KO "TWB64 248 - NHK 실버 그레이"
+#define OPTION_VAL_TWB64_246_SPOTIFY_GREEN_KO NULL
+#define OPTION_VAL_TWB64_247_DR_PEPPER_RED_KO NULL
+#define OPTION_VAL_TWB64_248_NHK_SILVER_GRAY_KO NULL
 #define OPTION_VAL_TWB64_249_DUNKIN_VISION_KO NULL
 #define OPTION_VAL_TWB64_250_DEKU_GAMMA_PALETTE_KO NULL
 #define OPTION_VAL_TWB64_251_UNIVERSAL_STUDIOS_BLUE_KO NULL
-#define OPTION_VAL_TWB64_252_HOGWARTS_GOLDIUS_KO "TWB64 252 - 호그와트 골디우스"
-#define OPTION_VAL_TWB64_253_KENTUCKY_FRIED_RED_KO "TWB64 253 - 켄터키 프라이드 레드"
+#define OPTION_VAL_TWB64_252_HOGWARTS_GOLDIUS_KO NULL
+#define OPTION_VAL_TWB64_253_KENTUCKY_FRIED_RED_KO NULL
 #define OPTION_VAL_TWB64_254_CHEETO_ORANGE_KO NULL
-#define OPTION_VAL_TWB64_255_NAMCO_IDOL_PINK_KO "TWB64 255 - 남코 아이돌 핑크"
-#define OPTION_VAL_TWB64_256_DOMINO_S_PIZZA_VISION_KO "TWB64 256 - 도미노 피자 버전"
-#define OPTION_VAL_TWB64_257_PAC_MAN_VISION_KO "TWB64 257 - 팩맨 비젼"
-#define OPTION_VAL_TWB64_258_BILL_S_PC_SCREEN_KO "TWB64 258 - 빌의 PC 화면"
-#define OPTION_VAL_TWB64_259_SONIC_MEGA_BLUE_KO "TWB64 259 - 소닉 메가 블루"
+#define OPTION_VAL_TWB64_255_NAMCO_IDOL_PINK_KO NULL
+#define OPTION_VAL_TWB64_256_DOMINO_S_PIZZA_VISION_KO NULL
+#define OPTION_VAL_TWB64_257_PAC_MAN_VISION_KO NULL
+#define OPTION_VAL_TWB64_258_BILL_S_PC_SCREEN_KO NULL
+#define OPTION_VAL_TWB64_259_SONIC_MEGA_BLUE_KO NULL
 #define OPTION_VAL_TWB64_260_FOOL_S_GOLD_AND_SILVER_KO NULL
 #define OPTION_VAL_TWB64_261_UTA_VISION_KO NULL
 #define OPTION_VAL_TWB64_262_METALLIC_PALDEA_BRASS_KO NULL
 #define OPTION_VAL_TWB64_263_CLASSY_CHRISTMAS_KO NULL
-#define OPTION_VAL_TWB64_264_WINTER_CHRISTMAS_KO "TWB64 264 - 윈터 크리스마스"
+#define OPTION_VAL_TWB64_264_WINTER_CHRISTMAS_KO NULL
 #define OPTION_VAL_TWB64_265_IDOL_WORLD_TRICOLOR_KO NULL
-#define OPTION_VAL_TWB64_266_INKLING_TRICOLOR_KO "TWB64 266 - 잉클링 트라이컬러"
-#define OPTION_VAL_TWB64_267_7_ELEVEN_COLOR_COMBO_KO "TWB64 267 - 7-일레븐 컬러 콤보"
+#define OPTION_VAL_TWB64_266_INKLING_TRICOLOR_KO NULL
+#define OPTION_VAL_TWB64_267_7_ELEVEN_COLOR_COMBO_KO NULL
 #define OPTION_VAL_TWB64_268_PAC_PALETTE_KO NULL
 #define OPTION_VAL_TWB64_269_VULNERABLE_BLUE_KO NULL
-#define OPTION_VAL_TWB64_270_NIGHTVISION_GREEN_KO "TWB64 270 - 나이트비젼 그린"
-#define OPTION_VAL_TWB64_271_BANDAI_NAMCO_TRICOLOR_KO "TWB64 271 - 반다이 남코 트라이컬러"
-#define OPTION_VAL_TWB64_272_GOLD_SILVER_AND_BRONZE_KO "TWB64 272 - 금, 은, 동"
+#define OPTION_VAL_TWB64_270_NIGHTVISION_GREEN_KO NULL
+#define OPTION_VAL_TWB64_271_BANDAI_NAMCO_TRICOLOR_KO NULL
+#define OPTION_VAL_TWB64_272_GOLD_SILVER_AND_BRONZE_KO NULL
 #define OPTION_VAL_TWB64_273_DEKU_VIGILANTE_PALETTE_KO NULL
-#define OPTION_VAL_TWB64_274_SUPER_FAMICOM_SUPREME_KO "TWB64 274 - 슈퍼 패미컴 슈프림"
+#define OPTION_VAL_TWB64_274_SUPER_FAMICOM_SUPREME_KO NULL
 #define OPTION_VAL_TWB64_275_ABSORBENT_AND_YELLOW_KO NULL
-#define OPTION_VAL_TWB64_276_765PRO_TRICOLOR_KO "TWB64 276 - 765프로 트라이컬러"
-#define OPTION_VAL_TWB64_277_GAMECUBE_GLIMMER_KO "TWB64 277 - 게임큐브 글림머"
+#define OPTION_VAL_TWB64_276_765PRO_TRICOLOR_KO NULL
+#define OPTION_VAL_TWB64_277_GAMECUBE_GLIMMER_KO NULL
 #define OPTION_VAL_TWB64_278_1ST_VISION_PASTEL_KO NULL
 #define OPTION_VAL_TWB64_279_PERFECT_MAJIN_EMPEROR_KO NULL
-#define OPTION_VAL_TWB64_280_J_POP_IDOL_SHERBET_KO "TWB64 280 - J팝 아이돌 셔벗"
+#define OPTION_VAL_TWB64_280_J_POP_IDOL_SHERBET_KO NULL
 #define OPTION_VAL_TWB64_281_RYUUGUU_SUNSET_KO NULL
 #define OPTION_VAL_TWB64_282_TROPICAL_STARFALL_KO NULL
-#define OPTION_VAL_TWB64_283_COLORFUL_HORIZONS_KO "TWB64 283 - 컬러풀 호라이즌"
+#define OPTION_VAL_TWB64_283_COLORFUL_HORIZONS_KO NULL
 #define OPTION_VAL_TWB64_284_BLACKPINK_BLINK_PINK_KO NULL
-#define OPTION_VAL_TWB64_285_DMG_SWITCH_KO "TWB64 285 - DMG스위치"
-#define OPTION_VAL_TWB64_286_POCKET_SWITCH_KO "TWB64 286 - 포켓 스위치"
+#define OPTION_VAL_TWB64_285_DMG_SWITCH_KO NULL
+#define OPTION_VAL_TWB64_286_POCKET_SWITCH_KO NULL
 #define OPTION_VAL_TWB64_287_SUNNY_PASSION_PARADISE_KO NULL
 #define OPTION_VAL_TWB64_288_SAIYAN_BEAST_SILVER_KO NULL
 #define OPTION_VAL_TWB64_289_RADIANT_SMILE_RAMP_KO NULL
 #define OPTION_VAL_TWB64_290_A_RISE_BLUE_KO NULL
 #define OPTION_VAL_TWB64_291_TROPICAL_TWICE_APRICOT_KO NULL
-#define OPTION_VAL_TWB64_292_ODYSSEY_BOY_KO "TWB64 292 - 오디세이 보이"
-#define OPTION_VAL_TWB64_293_FROG_COIN_GREEN_KO "TWB64 293 - 프로그 코인 그린"
-#define OPTION_VAL_TWB64_294_GARFIELD_VISION_KO "TWB64 294 - 가필드 비젼"
+#define OPTION_VAL_TWB64_292_ODYSSEY_BOY_KO NULL
+#define OPTION_VAL_TWB64_293_FROG_COIN_GREEN_KO NULL
+#define OPTION_VAL_TWB64_294_GARFIELD_VISION_KO NULL
 #define OPTION_VAL_TWB64_295_BEDROCK_CAVEMAN_VISION_KO NULL
 #define OPTION_VAL_TWB64_296_BANGTAN_ARMY_PURPLE_KO NULL
 #define OPTION_VAL_TWB64_297_LE_SSERAFIM_FEARLESS_BLUE_KO NULL
 #define OPTION_VAL_TWB64_298_BAJA_BLAST_BEACH_KO NULL
 #define OPTION_VAL_TWB64_299_3DS_VIRTUAL_CONSOLE_GREEN_KO NULL
-#define OPTION_VAL_TWB64_300_WONDER_PURPLE_KO "TWB64 300 - 원더 퍼플"
+#define OPTION_VAL_TWB64_300_WONDER_PURPLE_KO NULL
 #define GAMBATTE_GB_PALETTE_PIXELSHIFT_1_LABEL_KO "> PixelShift - 팩 1 팔레트"
 #define GAMBATTE_GB_PALETTE_PIXELSHIFT_1_INFO_0_KO "'내장 팔레트'가 'PixelShift - 팩 1'일 때 사용할 내장 색상화 팔레트를 선택합니다."
 #define OPTION_VAL_PIXELSHIFT_01_ARCTIC_GREEN_KO NULL
@@ -57758,7 +59394,7 @@ struct retro_core_options_v2 options_sr = {
 #define GAMBATTE_SHOW_GB_LINK_SETTINGS_INFO_0_SV "Aktivera konfiguration av nätverksbaserade Game Link-alternativ (flerspelare). OBS: Snabbmenyn kan behöva växlas för att denna inställning ska börja gälla."
 #define GAMBATTE_GB_LINK_MODE_LABEL_SV "Game Link-läge"
 #define GAMBATTE_GB_LINK_MODE_LABEL_CAT_SV "Länkläge"
-#define GAMBATTE_GB_LINK_MODE_INFO_0_SV NULL
+#define GAMBATTE_GB_LINK_MODE_INFO_0_SV "När du aktiverar nätverksfunktionen Spellänk (Game Link) ska du ange om den aktuella instansen ska köras som server eller klient."
 #define OPTION_VAL_NOT_CONNECTED_SV "Inte ansluten"
 #define OPTION_VAL_NETWORK_SERVER_SV "Nätverksserver"
 #define OPTION_VAL_NETWORK_CLIENT_SV "Nätverksklient"
@@ -57767,52 +59403,52 @@ struct retro_core_options_v2 options_sr = {
 #define GAMBATTE_GB_LINK_NETWORK_PORT_INFO_0_SV "Ange den port som används för nätverkskommunikation med Game Link."
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_LABEL_SV "Serveradress för nätverkslänk del 01: x__.___.___.___"
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_LABEL_CAT_SV "Serveradress del 01: x__.___.___.___"
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_INFO_0_SV NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_INFO_1_SV NULL
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_INFO_0_SV "1:a siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Spellänk-läge” är inställt på ”Nätverksklient”."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_INFO_1_SV "1:a siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Länk-läge” är inställt på ”Nätverksklient”."
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_LABEL_SV "Serveradress för nätverkslänk del 02: _x_.___.___.___"
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_LABEL_CAT_SV "Serveradress del 02: _x_.___.___.___"
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_INFO_0_SV NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_INFO_1_SV NULL
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_INFO_0_SV "2:a siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Spellänk-läge” är inställt på ”Nätverksklient”."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_INFO_1_SV "2:a siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Länk-läge” är inställt på ”Nätverksklient”."
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_LABEL_SV "Serveradress för nätverkslänk del 03: __x.___.___.___"
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_LABEL_CAT_SV "Serveradress del 03: __x.___.___.___"
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_INFO_0_SV NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_INFO_1_SV NULL
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_INFO_0_SV "3:e siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Spellänk-läge” är inställt på ”Nätverksklient”."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_INFO_1_SV "3:e siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Länk-läge” är inställt på ”Nätverksklient”."
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_LABEL_SV "Serveradress för nätverkslänk del 04: ___.x__.___.___"
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_LABEL_CAT_SV "Serveradress del 04: ___.x__.___.___"
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_INFO_0_SV NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_INFO_1_SV NULL
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_INFO_0_SV "4:e siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Spellänk-läge” är inställt på ”Nätverksklient”."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_INFO_1_SV "4:e siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Länk-läge” är inställt på ”Nätverksklient”."
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_LABEL_SV "Serveradress för nätverkslänk del 05: ___._x_.___.___"
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_LABEL_CAT_SV "Serveradress del 05: ___._x_.___.___"
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_INFO_0_SV NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_INFO_1_SV NULL
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_INFO_0_SV "5:e siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Spellänk-läge” är inställt på ”Nätverksklient”."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_INFO_1_SV "5:e siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Länk-läge” är inställt på ”Nätverksklient”."
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_LABEL_SV "Serveradress för nätverkslänk del 06: ___.__x.___.___"
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_LABEL_CAT_SV "Serveradress del 06: ___.__x.___.___"
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_INFO_0_SV NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_INFO_1_SV NULL
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_INFO_0_SV "6:e siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Spellänk-läge” är inställt på ”Nätverksklient”."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_INFO_1_SV "6:e siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Länk-läge” är inställt på ”Nätverksklient”."
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_LABEL_SV "Serveradress för nätverkslänk del 07: ___.___.x__.___"
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_LABEL_CAT_SV "Serveradress del 07: ___.___.x__.___"
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_INFO_0_SV NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_INFO_1_SV NULL
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_INFO_0_SV "7:e siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Spellänk-läge” är inställt på ”Nätverksklient”."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_INFO_1_SV "7:e siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Länk-läge” är inställt på ”Nätverksklient”."
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_LABEL_SV "Serveradress för nätverkslänk del 08: ___.___._x_.___"
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_LABEL_CAT_SV "Serveradress del 08: ___.___._x_.___"
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_INFO_0_SV NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_INFO_1_SV NULL
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_INFO_0_SV "8:e siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Spellänk-läge” är inställt på ”Nätverksklient”."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_INFO_1_SV "8:e siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Länk-läge” är inställt på ”Nätverksklient”."
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_LABEL_SV "Serveradress för nätverkslänk del 09: ___.___.__x.___"
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_LABEL_CAT_SV "Serveradress del 09: ___.___.__x.___"
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_INFO_0_SV NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_INFO_1_SV NULL
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_INFO_0_SV "9:e siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Spellänk-läge” är inställt på ”Nätverksklient”."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_INFO_1_SV "9:e siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Länk-läge” är inställt på ”Nätverksklient”."
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_LABEL_SV "Serveradress för nätverkslänk del 10: ___.___.___.x__"
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_LABEL_CAT_SV "Serveradress del 10: ___.___.___.x__"
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_INFO_0_SV NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_INFO_1_SV NULL
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_INFO_0_SV "10:e siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Spellänk-läge” är inställt på ”Nätverksklient”."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_INFO_1_SV "10:e siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Länk-läge” är inställt på ”Nätverksklient”."
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_LABEL_SV "Serveradress för nätverkslänk del 11: ___.___.___._x_"
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_LABEL_CAT_SV "Serveradress del 11: ___.___.___._x_"
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_INFO_0_SV "11: e siffran i IP-adressen för Game Link-fjärrserverns nätverksserver. Används endast när ”Game Link Mode” är inställt på ”Network Client”."
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_INFO_1_SV NULL
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_INFO_0_SV "11:e siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Spellänk-läge” är inställt på ”Nätverksklient”."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_INFO_1_SV "11:e siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Länk-läge” är inställt på ”Nätverksklient”."
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_LABEL_SV "Serveradress för nätverkslänk Pt. 12: ___.___.___.___.__x"
 #define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_LABEL_CAT_SV "Serveradress Pt. 12: ___.___.___.__x"
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_INFO_0_SV "12: e siffran i IP-adressen för nätverksservern för fjärrspelet Game Link. Används endast när ”Game Link Mode” är inställt på ”Network Client”."
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_INFO_1_SV "12: e siffran i IP-adressen för nätverksservern för fjärrspelet Game Link. Används endast när ”Link Mode” är inställt på ”Network Client”."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_INFO_0_SV "12:e siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Spellänk-läge” är inställt på ”Nätverksklient”."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_INFO_1_SV "12:e siffran i IP-adressen för fjärransluten Game Link-nätverksserver. Används endast när ”Länk-läge” är inställt på ”Nätverksklient”."
 
 struct retro_core_option_v2_category option_cats_sv[] = {
    {
@@ -65482,14 +67118,14 @@ struct retro_core_options_v2 options_val = {
 #define CATEGORY_GB_LINK_LABEL_VN NULL
 #define CATEGORY_GB_LINK_INFO_0_VN "Thay đổi cài đặt mạng Game Link (chơi nhiều người)."
 #define GAMBATTE_GB_COLORIZATION_LABEL_VN "Chỉnh màu GB"
-#define GAMBATTE_GB_COLORIZATION_INFO_0_VN NULL
+#define GAMBATTE_GB_COLORIZATION_INFO_0_VN "Bật tô màu cho trò chơi Game BoyTự động: Chọn bảng màu “tốt nhất” (nhiều màu / phù hợp nhất).GBC: Chọn bảng màu Game Boy Color theo từng trò chơi nếu có định nghĩa, nếu không sẽ dùng GBC - Dark Green.SGB: Chọn bảng màu Super Game Boy theo trò chơi nếu có định nghĩa, nếu không sẽ dùng SGB - 1A.Nội bộ: Dùng tùy chọn Internal Palette của core.Tùy chỉnh: Tải bảng màu do người dùng tạo từ thư mục hệ thống."
 #define OPTION_VAL_AUTO_VN "Tự động"
 #define OPTION_VAL_GBC_VN NULL
 #define OPTION_VAL_SGB_VN NULL
-#define OPTION_VAL_INTERNAL_VN NULL
+#define OPTION_VAL_INTERNAL_VN "Nội bộ"
 #define OPTION_VAL_CUSTOM_VN "Tùy chỉnh"
-#define GAMBATTE_GB_INTERNAL_PALETTE_LABEL_VN NULL
-#define GAMBATTE_GB_INTERNAL_PALETTE_INFO_0_VN NULL
+#define GAMBATTE_GB_INTERNAL_PALETTE_LABEL_VN "Bảng màu nội bộ"
+#define GAMBATTE_GB_INTERNAL_PALETTE_INFO_0_VN "Chọn bảng màu được sử dụng để tô màu trò chơi Game Boy khi:GB Colorization được đặt là Internal, hoặcGB Colorization đặt là Auto mà trò chơi không có bảng màu SGB/GBC định sẵn.Bảng màu GB mô phỏng hiển thị của phần cứng Game Boy gốc.Bảng màu GBC giống hệt các preset có sẵn trên Game Boy Color.Bảng màu SGB giống hệt các preset có sẵn trên Super Game Boy."
 #define OPTION_VAL_GB_DMG_VN NULL
 #define OPTION_VAL_GB_POCKET_VN NULL
 #define OPTION_VAL_GB_LIGHT_VN NULL
@@ -65501,10 +67137,10 @@ struct retro_core_options_v2 options_val = {
 #define OPTION_VAL_GBC_GRAYSCALE_VN NULL
 #define OPTION_VAL_GBC_GREEN_VN NULL
 #define OPTION_VAL_GBC_INVERTED_VN NULL
-#define OPTION_VAL_GBC_ORANGE_VN NULL
-#define OPTION_VAL_GBC_PASTEL_MIX_VN NULL
-#define OPTION_VAL_GBC_RED_VN NULL
-#define OPTION_VAL_GBC_YELLOW_VN NULL
+#define OPTION_VAL_GBC_ORANGE_VN "GBC - Cam"
+#define OPTION_VAL_GBC_PASTEL_MIX_VN "GBC - Pha trộn Pastel"
+#define OPTION_VAL_GBC_RED_VN "GBC - Đỏ"
+#define OPTION_VAL_GBC_YELLOW_VN "GBC - Vàng"
 #define OPTION_VAL_SGB_1A_VN NULL
 #define OPTION_VAL_SGB_1B_VN NULL
 #define OPTION_VAL_SGB_1C_VN NULL
@@ -65537,18 +67173,18 @@ struct retro_core_options_v2 options_val = {
 #define OPTION_VAL_SGB_4F_VN NULL
 #define OPTION_VAL_SGB_4G_VN NULL
 #define OPTION_VAL_SGB_4H_VN NULL
-#define OPTION_VAL_SPECIAL_1_VN NULL
-#define OPTION_VAL_SPECIAL_2_VN NULL
-#define OPTION_VAL_SPECIAL_3_VN NULL
-#define OPTION_VAL_SPECIAL_4_TI_83_LEGACY_VN NULL
+#define OPTION_VAL_SPECIAL_1_VN "Đặc biệt 1"
+#define OPTION_VAL_SPECIAL_2_VN "Đặc biệt 2"
+#define OPTION_VAL_SPECIAL_3_VN "Đặc biệt 3"
+#define OPTION_VAL_SPECIAL_4_TI_83_LEGACY_VN "Đặc biệt 4 (TI-83 Legacy)"
 #define OPTION_VAL_TWB64_PACK_1_VN "TWB64 - Gói 1"
 #define OPTION_VAL_TWB64_PACK_2_VN "TWB64 - Gói 2"
-#define OPTION_VAL_TWB64_PACK_3_VN NULL
-#define OPTION_VAL_PIXELSHIFT_PACK_1_VN NULL
-#define GAMBATTE_GB_PALETTE_TWB64_1_LABEL_VN NULL
-#define GAMBATTE_GB_PALETTE_TWB64_1_INFO_0_VN NULL
-#define OPTION_VAL_TWB64_001_AQOURS_BLUE_VN NULL
-#define OPTION_VAL_TWB64_002_ANIME_EXPO_VER_VN NULL
+#define OPTION_VAL_TWB64_PACK_3_VN "TWB64 - Gói 3"
+#define OPTION_VAL_PIXELSHIFT_PACK_1_VN "PixelShift - Gói 1"
+#define GAMBATTE_GB_PALETTE_TWB64_1_LABEL_VN "> TWB64 - Bảng màu Gói 1"
+#define GAMBATTE_GB_PALETTE_TWB64_1_INFO_0_VN "Chọn bảng màu nội bộ khi 'Bảng màu nội bộ' được đặt thành 'TWB64 - Gói 1'."
+#define OPTION_VAL_TWB64_001_AQOURS_BLUE_VN "TWB64 001 - Aqours Xanh dương"
+#define OPTION_VAL_TWB64_002_ANIME_EXPO_VER_VN "TWB64 002 - Phiên bản Anime Expo."
 #define OPTION_VAL_TWB64_003_SPONGEBOB_YELLOW_VN NULL
 #define OPTION_VAL_TWB64_004_PATRICK_STAR_PINK_VN NULL
 #define OPTION_VAL_TWB64_005_NEON_RED_VN NULL
@@ -65564,22 +67200,22 @@ struct retro_core_options_v2 options_val = {
 #define OPTION_VAL_TWB64_015_CLASSIC_BLURPLE_VN NULL
 #define OPTION_VAL_TWB64_016_765_PRODUCTION_VER_VN NULL
 #define OPTION_VAL_TWB64_017_SUPERBALL_IVORY_VN NULL
-#define OPTION_VAL_TWB64_018_CRUNCHYROLL_ORANGE_VN NULL
-#define OPTION_VAL_TWB64_019_MUSE_PINK_VN NULL
-#define OPTION_VAL_TWB64_020_SCHOOL_IDOL_BLUE_VN NULL
-#define OPTION_VAL_TWB64_021_GAMATE_VER_VN NULL
-#define OPTION_VAL_TWB64_022_GREENSCALE_VER_VN NULL
-#define OPTION_VAL_TWB64_023_ODYSSEY_GOLD_VN NULL
+#define OPTION_VAL_TWB64_018_CRUNCHYROLL_ORANGE_VN "TWB64 018 - Cam Crunchyroll"
+#define OPTION_VAL_TWB64_019_MUSE_PINK_VN "TWB64 019 - Hồng Muse"
+#define OPTION_VAL_TWB64_020_SCHOOL_IDOL_BLUE_VN "TWB64 020 - Xanh School Idol"
+#define OPTION_VAL_TWB64_021_GAMATE_VER_VN "TWB64 021 - Phiên bản Gamate."
+#define OPTION_VAL_TWB64_022_GREENSCALE_VER_VN "TWB64 022 - Phiên bản Greenscale."
+#define OPTION_VAL_TWB64_023_ODYSSEY_GOLD_VN "TWB64 023 - Vàng Odyssey"
 #define OPTION_VAL_TWB64_024_SUPER_SAIYAN_GOD_VN NULL
 #define OPTION_VAL_TWB64_025_SUPER_SAIYAN_BLUE_VN NULL
-#define OPTION_VAL_TWB64_026_ANIMAX_BLUE_VN NULL
-#define OPTION_VAL_TWB64_027_BMO_VER_VN NULL
-#define OPTION_VAL_TWB64_028_GAME_COM_VER_VN NULL
-#define OPTION_VAL_TWB64_029_SANRIO_PINK_VN NULL
-#define OPTION_VAL_TWB64_030_TIMMY_TURNER_PINK_VN NULL
-#define OPTION_VAL_TWB64_031_FAIRLY_ODDPALETTE_VN NULL
-#define OPTION_VAL_TWB64_032_DANNY_PHANTOM_SILVER_VN NULL
-#define OPTION_VAL_TWB64_033_LINK_S_AWAKENING_DX_VER_VN NULL
+#define OPTION_VAL_TWB64_026_ANIMAX_BLUE_VN "TWB64 026 - Xanh ANIMAX"
+#define OPTION_VAL_TWB64_027_BMO_VER_VN "TWB64 027 - Phiên bản BMO."
+#define OPTION_VAL_TWB64_028_GAME_COM_VER_VN "TWB64 028 - Phiên bản Game.com."
+#define OPTION_VAL_TWB64_029_SANRIO_PINK_VN "TWB64 029 - Hồng Sanrio"
+#define OPTION_VAL_TWB64_030_TIMMY_TURNER_PINK_VN "TWB64 030 - Hồng Timmy Turner"
+#define OPTION_VAL_TWB64_031_FAIRLY_ODDPALETTE_VN "TWB64 031 - Palette Fairly Odd"
+#define OPTION_VAL_TWB64_032_DANNY_PHANTOM_SILVER_VN "TWB64 032 - Bạc Danny Phantom"
+#define OPTION_VAL_TWB64_033_LINK_S_AWAKENING_DX_VER_VN "TWB64 033 - Phiên bản Link's Awakening DX."
 #define OPTION_VAL_TWB64_034_TRAVEL_WOOD_VN NULL
 #define OPTION_VAL_TWB64_035_POKEMON_VER_VN NULL
 #define OPTION_VAL_TWB64_036_GAME_GRUMP_ORANGE_VN NULL
@@ -65648,7 +67284,7 @@ struct retro_core_options_v2 options_val = {
 #define OPTION_VAL_TWB64_099_BLUE_STRIPES_VER_VN NULL
 #define OPTION_VAL_TWB64_100_PRECURE_MARBLE_RASPBERRY_VN NULL
 #define GAMBATTE_GB_PALETTE_TWB64_2_LABEL_VN NULL
-#define GAMBATTE_GB_PALETTE_TWB64_2_INFO_0_VN NULL
+#define GAMBATTE_GB_PALETTE_TWB64_2_INFO_0_VN "Chọn bảng màu nội bộ khi 'Bảng màu nội bộ' được đặt thành 'TWB64 - Gói 2'."
 #define OPTION_VAL_TWB64_101_765PRO_PINK_VN NULL
 #define OPTION_VAL_TWB64_102_CINDERELLA_BLUE_VN NULL
 #define OPTION_VAL_TWB64_103_MILLION_YELLOW_VN NULL
@@ -65669,21 +67305,21 @@ struct retro_core_options_v2 options_val = {
 #define OPTION_VAL_TWB64_118_FRUITY_ORANGE_VN NULL
 #define OPTION_VAL_TWB64_119_AKB48_PINK_VN NULL
 #define OPTION_VAL_TWB64_120_MIKU_BLUE_VN NULL
-#define OPTION_VAL_TWB64_121_TRI_DIGIVICE_VER_VN NULL
-#define OPTION_VAL_TWB64_122_SURVEY_CORPS_UNIFORM_VN NULL
-#define OPTION_VAL_TWB64_123_ISLAND_GREEN_VN NULL
-#define OPTION_VAL_TWB64_124_NOGIZAKA46_PURPLE_VN NULL
-#define OPTION_VAL_TWB64_125_NINJA_TURTLE_GREEN_VN NULL
-#define OPTION_VAL_TWB64_126_SLIME_BLUE_VN NULL
-#define OPTION_VAL_TWB64_127_LIME_MIDORI_VN NULL
-#define OPTION_VAL_TWB64_128_GHOSTLY_AOI_VN NULL
+#define OPTION_VAL_TWB64_121_TRI_DIGIVICE_VER_VN "TWB64 121 - Phiên bản Tri Digivice."
+#define OPTION_VAL_TWB64_122_SURVEY_CORPS_UNIFORM_VN "TWB64 122 - Bộ đồng phục Survey Corps"
+#define OPTION_VAL_TWB64_123_ISLAND_GREEN_VN "TWB64 123 - Xanh lá đảo"
+#define OPTION_VAL_TWB64_124_NOGIZAKA46_PURPLE_VN "TWB64 124 - Tím Nogizaka46"
+#define OPTION_VAL_TWB64_125_NINJA_TURTLE_GREEN_VN "TWB64 125 - Xanh Ninja Turtle"
+#define OPTION_VAL_TWB64_126_SLIME_BLUE_VN "TWB64 126 - Xanh Slime"
+#define OPTION_VAL_TWB64_127_LIME_MIDORI_VN "TWB64 127 - Xanh chanh Midori"
+#define OPTION_VAL_TWB64_128_GHOSTLY_AOI_VN "TWB64 128 - Xanh ma Aoi"
 #define OPTION_VAL_TWB64_129_RETRO_BOGEDA_VN NULL
-#define OPTION_VAL_TWB64_130_ROYAL_BLUE_VN NULL
-#define OPTION_VAL_TWB64_131_NEON_PURPLE_VN NULL
-#define OPTION_VAL_TWB64_132_NEON_ORANGE_VN NULL
-#define OPTION_VAL_TWB64_133_MOONLIGHT_VISION_VN NULL
-#define OPTION_VAL_TWB64_134_RISING_SUN_RED_VN NULL
-#define OPTION_VAL_TWB64_135_BURGER_KING_COLOR_COMBO_VN NULL
+#define OPTION_VAL_TWB64_130_ROYAL_BLUE_VN "TWB64 130 - Xanh hoàng gia"
+#define OPTION_VAL_TWB64_131_NEON_PURPLE_VN "TWB64 131 - Tím Neon"
+#define OPTION_VAL_TWB64_132_NEON_ORANGE_VN "TWB64 132 - Cam Neon"
+#define OPTION_VAL_TWB64_133_MOONLIGHT_VISION_VN "TWB64 133 - Tầm nhìn Ánh trăng"
+#define OPTION_VAL_TWB64_134_RISING_SUN_RED_VN "TWB64 134 - Đỏ Mặt trời mọc"
+#define OPTION_VAL_TWB64_135_BURGER_KING_COLOR_COMBO_VN "TWB64 135 - Combo màu Burger King"
 #define OPTION_VAL_TWB64_136_GRAND_ZENO_COAT_VN NULL
 #define OPTION_VAL_TWB64_137_PAC_MAN_YELLOW_VN NULL
 #define OPTION_VAL_TWB64_138_IRISH_GREEN_VN NULL
@@ -65750,7 +67386,7 @@ struct retro_core_options_v2 options_val = {
 #define OPTION_VAL_TWB64_199_DURACELL_COPPER_VN NULL
 #define OPTION_VAL_TWB64_200_TOKYO_SKYTREE_CLOUDY_BLUE_VN NULL
 #define GAMBATTE_GB_PALETTE_TWB64_3_LABEL_VN NULL
-#define GAMBATTE_GB_PALETTE_TWB64_3_INFO_0_VN NULL
+#define GAMBATTE_GB_PALETTE_TWB64_3_INFO_0_VN "Chọn bảng màu nội bộ khi 'Bảng màu nội bộ' được đặt thành 'TWB64 - Gói 3'."
 #define OPTION_VAL_TWB64_201_DMG_GOLD_VN NULL
 #define OPTION_VAL_TWB64_202_LCD_CLOCK_GREEN_VN NULL
 #define OPTION_VAL_TWB64_203_FAMICOM_FRENZY_VN NULL
@@ -65852,10 +67488,10 @@ struct retro_core_options_v2 options_val = {
 #define OPTION_VAL_TWB64_299_3DS_VIRTUAL_CONSOLE_GREEN_VN NULL
 #define OPTION_VAL_TWB64_300_WONDER_PURPLE_VN NULL
 #define GAMBATTE_GB_PALETTE_PIXELSHIFT_1_LABEL_VN NULL
-#define GAMBATTE_GB_PALETTE_PIXELSHIFT_1_INFO_0_VN NULL
+#define GAMBATTE_GB_PALETTE_PIXELSHIFT_1_INFO_0_VN "Chọn bảng màu nội bộ khi 'Bảng màu nội bộ' được đặt thành 'PixelShift - Gói 1'."
 #define OPTION_VAL_PIXELSHIFT_01_ARCTIC_GREEN_VN NULL
 #define OPTION_VAL_PIXELSHIFT_02_ARDUBOY_VN NULL
-#define OPTION_VAL_PIXELSHIFT_03_BGB_0_3_EMULATOR_VN NULL
+#define OPTION_VAL_PIXELSHIFT_03_BGB_0_3_EMULATOR_VN "PixelShift 08 - Easy Greens"
 #define OPTION_VAL_PIXELSHIFT_04_CAMOUFLAGE_VN NULL
 #define OPTION_VAL_PIXELSHIFT_05_CHOCOLATE_BAR_VN NULL
 #define OPTION_VAL_PIXELSHIFT_06_CMYK_VN NULL
@@ -65898,101 +67534,101 @@ struct retro_core_options_v2 options_val = {
 #define OPTION_VAL_PIXELSHIFT_43_VAPORWAVE_VN NULL
 #define OPTION_VAL_PIXELSHIFT_44_VIRTUAL_BOY_VN NULL
 #define OPTION_VAL_PIXELSHIFT_45_WISH_VN NULL
-#define GAMBATTE_GBC_COLOR_CORRECTION_LABEL_VN NULL
-#define GAMBATTE_GBC_COLOR_CORRECTION_INFO_0_VN NULL
-#define OPTION_VAL_GBC_ONLY_VN NULL
-#define OPTION_VAL_ALWAYS_VN NULL
-#define GAMBATTE_GBC_COLOR_CORRECTION_MODE_LABEL_VN NULL
-#define GAMBATTE_GBC_COLOR_CORRECTION_MODE_INFO_0_VN NULL
-#define OPTION_VAL_ACCURATE_VN NULL
-#define OPTION_VAL_FAST_VN NULL
-#define GAMBATTE_GBC_FRONTLIGHT_POSITION_LABEL_VN NULL
-#define GAMBATTE_GBC_FRONTLIGHT_POSITION_INFO_0_VN NULL
-#define OPTION_VAL_CENTRAL_VN NULL
-#define OPTION_VAL_ABOVE_SCREEN_VN NULL
-#define OPTION_VAL_BELOW_SCREEN_VN NULL
-#define GAMBATTE_DARK_FILTER_LEVEL_LABEL_VN NULL
-#define GAMBATTE_DARK_FILTER_LEVEL_INFO_0_VN NULL
-#define GAMBATTE_MIX_FRAMES_LABEL_VN NULL
-#define GAMBATTE_MIX_FRAMES_INFO_0_VN NULL
+#define GAMBATTE_GBC_COLOR_CORRECTION_LABEL_VN "Hiệu chỉnh Màu Sắc"
+#define GAMBATTE_GBC_COLOR_CORRECTION_INFO_0_VN "Điều chỉnh màu xuất để khớp với màn hình phần cứng Game Boy Color thật. 'Chỉ GBC' đảm bảo hiệu chỉnh chỉ được áp dụng khi chơi game Game Boy Color, hoặc khi dùng bảng màu Game Boy Color để tô màu game Game Boy. 'Luôn luôn' áp dụng hiệu chỉnh màu cho tất cả nội dung, và sẽ tạo ra kết quả bất ngờ/không tối ưu khi dùng bảng màu nội bộ 'GB' hoặc 'SGB'."
+#define OPTION_VAL_GBC_ONLY_VN "Chỉ GBC"
+#define OPTION_VAL_ALWAYS_VN "Luôn luôn"
+#define GAMBATTE_GBC_COLOR_CORRECTION_MODE_LABEL_VN "Chế độ hiệu chỉnh màu"
+#define GAMBATTE_GBC_COLOR_CORRECTION_MODE_INFO_0_VN "Chỉ định phương pháp sử dụng khi thực hiện hiệu chỉnh màu. 'Chính xác' tạo ra hình ảnh gần như không phân biệt được so với màn hình LCD Game Boy Color thật. 'Nhanh' chỉ làm màu tối hơn và giảm độ bão hòa, và có thể dùng trên phần cứng yếu nếu phương pháp 'Chính xác' quá chậm."
+#define OPTION_VAL_ACCURATE_VN "Chính xác"
+#define OPTION_VAL_FAST_VN "Nhanh"
+#define GAMBATTE_GBC_FRONTLIGHT_POSITION_LABEL_VN "Hiệu chỉnh màu – Vị trí đèn trước"
+#define GAMBATTE_GBC_FRONTLIGHT_POSITION_INFO_0_VN "Mô phỏng phản ứng vật lý của màn hình LCD Game Boy Color khi được chiếu sáng từ các góc khác nhau. 'Trung tâm' biểu thị tái tạo màu tiêu chuẩn. 'Trên màn hình' tăng độ sáng. 'Dưới màn hình' giảm độ sáng. Thiết lập này chỉ áp dụng khi 'Chế độ hiệu chỉnh màu' đặt là 'Chính xác'."
+#define OPTION_VAL_CENTRAL_VN "Trung tâm"
+#define OPTION_VAL_ABOVE_SCREEN_VN "Trên màn hình"
+#define OPTION_VAL_BELOW_SCREEN_VN "Dưới màn hình"
+#define GAMBATTE_DARK_FILTER_LEVEL_LABEL_VN "Cấp độ Bộ lọc Tối (%)"
+#define GAMBATTE_DARK_FILTER_LEVEL_INFO_0_VN "Bật giảm độ sáng dựa trên độ sáng. Có thể dùng để tránh chói/mỏi mắt khi chơi các trò có nền trắng, vốn được thiết kế cho Game Boy Color không có đèn nền và có thể quá sáng trên màn hình hiện đại có đèn nền."
+#define GAMBATTE_MIX_FRAMES_LABEL_VN "Pha Trộn Khung Hình Liên Tiếp"
+#define GAMBATTE_MIX_FRAMES_INFO_0_VN "Mô phỏng hiệu ứng bóng mờ LCD. 'Simple' trộn 50:50 giữa khung hình hiện tại và khung hình trước. 'LCD Ghosting' mô phỏng thời gian phản hồi tự nhiên của LCD bằng cách kết hợp nhiều khung hình đã lưu. Cần dùng trộn 'Simple' khi chơi các trò dựa vào bóng mờ LCD để hiển thị trong suốt (Wave Race, Ballistic, Chikyuu Kaihou Gun ZAS...)."
 #define OPTION_VAL_MIX_VN "Đơn giản"
-#define OPTION_VAL_LCD_GHOSTING_VN NULL
-#define OPTION_VAL_LCD_GHOSTING_FAST_VN NULL
+#define OPTION_VAL_LCD_GHOSTING_VN "LCD Ghosting (Chính xác)"
+#define OPTION_VAL_LCD_GHOSTING_FAST_VN "LCD Ghosting (Nhanh)"
 #define GAMBATTE_AUDIO_RESAMPLER_LABEL_VN "Âm thanh Resampler Driver"
-#define GAMBATTE_AUDIO_RESAMPLER_INFO_0_VN NULL
+#define GAMBATTE_AUDIO_RESAMPLER_INFO_0_VN "Chọn thuật toán dùng khi tái lấy mẫu âm thanh (tốc độ âm thanh Game Boy bị giới hạn bởi tốc độ ghi CPU, nên tần số ‘native’ không thực tế trên thiết bị âm thanh hiện đại và cần giảm mẫu). 'Sinc' cho chất lượng cao nhất. 'Cosine' cải thiện hiệu năng trên phần cứng yếu."
 #define OPTION_VAL_SINC_VN NULL
 #define OPTION_VAL_CC_VN NULL
-#define GAMBATTE_GB_HWMODE_LABEL_VN NULL
-#define GAMBATTE_GB_HWMODE_INFO_0_VN NULL
+#define GAMBATTE_GB_HWMODE_LABEL_VN "Phần cứng giả lập (cần khởi động lại)"
+#define GAMBATTE_GB_HWMODE_INFO_0_VN "Chọn loại phần cứng giả lập. Khuyến nghị dùng 'Auto'. Chọn 'GBA' mở thêm tính năng trong một số trò Game Boy Color ‘GBA Enhanced’ (Shantae, Wendy - Every Witch Way, Legend of Zelda: Oracle of Seasons/Ages...)."
 #define OPTION_VAL_GB_VN NULL
 #define OPTION_VAL_GBA_VN NULL
-#define GAMBATTE_GB_BOOTLOADER_LABEL_VN NULL
-#define GAMBATTE_GB_BOOTLOADER_INFO_0_VN NULL
-#define GAMBATTE_UP_DOWN_ALLOWED_LABEL_VN NULL
-#define GAMBATTE_UP_DOWN_ALLOWED_INFO_0_VN NULL
-#define GAMBATTE_TURBO_PERIOD_LABEL_VN NULL
-#define GAMBATTE_TURBO_PERIOD_INFO_0_VN NULL
-#define GAMBATTE_RUMBLE_LEVEL_LABEL_VN NULL
-#define GAMBATTE_RUMBLE_LEVEL_INFO_0_VN NULL
-#define GAMBATTE_SHOW_GB_LINK_SETTINGS_LABEL_VN NULL
-#define GAMBATTE_SHOW_GB_LINK_SETTINGS_INFO_0_VN NULL
-#define GAMBATTE_GB_LINK_MODE_LABEL_VN NULL
-#define GAMBATTE_GB_LINK_MODE_LABEL_CAT_VN NULL
-#define GAMBATTE_GB_LINK_MODE_INFO_0_VN NULL
+#define GAMBATTE_GB_BOOTLOADER_LABEL_VN "Dùng Bootloader chính thức (cần khởi động lại)"
+#define GAMBATTE_GB_BOOTLOADER_INFO_0_VN "Bật hỗ trợ bootloader chính thức của Game Boy và Game Boy Color, kèm hiệu ứng logo khởi động tương ứng."
+#define GAMBATTE_UP_DOWN_ALLOWED_LABEL_VN "Cho phép Hướng Ngược Lại"
+#define GAMBATTE_UP_DOWN_ALLOWED_INFO_0_VN "Bật tùy chọn này sẽ cho phép nhấn/nhấn luân phiên nhanh/giữ đồng thời cả trái và phải (hoặc lên và xuống). Điều này có thể gây lỗi liên quan đến di chuyển."
+#define GAMBATTE_TURBO_PERIOD_LABEL_VN "Chu kỳ nút tự động nhấn nhanh"
+#define GAMBATTE_TURBO_PERIOD_INFO_0_VN "Chỉ định khoảng lặp lại (tính theo khung hình) khi giữ nút tự động nhấn nhanh A/B."
+#define GAMBATTE_RUMBLE_LEVEL_LABEL_VN "Độ mạnh rung của tay cầm"
+#define GAMBATTE_RUMBLE_LEVEL_INFO_0_VN "Bật hiệu ứng phản hồi rung cho các trò chơi được hỗ trợ (Pokemon Pinball, Perfect Dark...)."
+#define GAMBATTE_SHOW_GB_LINK_SETTINGS_LABEL_VN "Hiện cài đặt Game Link"
+#define GAMBATTE_SHOW_GB_LINK_SETTINGS_INFO_0_VN "Bật cấu hình các tùy chọn Game Link qua mạng (nhiều người chơi). LƯU Ý: Có thể cần bật lại Menu Nhanh để thiết lập có hiệu lực."
+#define GAMBATTE_GB_LINK_MODE_LABEL_VN "Chế độ Game Link"
+#define GAMBATTE_GB_LINK_MODE_LABEL_CAT_VN "Chế độ liên kết"
+#define GAMBATTE_GB_LINK_MODE_INFO_0_VN "Khi bật chức năng Game Link qua mạng, chỉ định thể hiện hiện tại sẽ chạy như máy chủ hoặc máy khách."
 #define OPTION_VAL_NOT_CONNECTED_VN "Chưa kết nối"
 #define OPTION_VAL_NETWORK_SERVER_VN "Mạng máy chủ"
 #define OPTION_VAL_NETWORK_CLIENT_VN "Mạng máy khách"
-#define GAMBATTE_GB_LINK_NETWORK_PORT_LABEL_VN NULL
+#define GAMBATTE_GB_LINK_NETWORK_PORT_LABEL_VN "Cổng mạng Game Link"
 #define GAMBATTE_GB_LINK_NETWORK_PORT_LABEL_CAT_VN "Cổng"
-#define GAMBATTE_GB_LINK_NETWORK_PORT_INFO_0_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_LABEL_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_LABEL_CAT_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_INFO_0_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_INFO_1_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_LABEL_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_LABEL_CAT_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_INFO_0_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_INFO_1_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_LABEL_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_LABEL_CAT_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_INFO_0_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_INFO_1_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_LABEL_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_LABEL_CAT_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_INFO_0_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_INFO_1_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_LABEL_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_LABEL_CAT_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_INFO_0_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_INFO_1_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_LABEL_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_LABEL_CAT_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_INFO_0_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_INFO_1_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_LABEL_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_LABEL_CAT_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_INFO_0_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_INFO_1_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_LABEL_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_LABEL_CAT_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_INFO_0_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_INFO_1_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_LABEL_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_LABEL_CAT_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_INFO_0_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_INFO_1_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_LABEL_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_LABEL_CAT_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_INFO_0_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_INFO_1_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_LABEL_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_LABEL_CAT_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_INFO_0_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_INFO_1_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_LABEL_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_LABEL_CAT_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_INFO_0_VN NULL
-#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_INFO_1_VN NULL
+#define GAMBATTE_GB_LINK_NETWORK_PORT_INFO_0_VN "Chỉ định cổng dùng cho truyền thông mạng Game Link."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_LABEL_VN "Địa chỉ máy chủ mạng Game Link 01: x__.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_LABEL_CAT_VN "Địa chỉ máy chủ Pt. 01: x__.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_INFO_0_VN "Chữ số thứ nhất của địa chỉ IP máy chủ Game Link từ xa. Chỉ sử dụng khi 'Chế độ Game Link' được đặt thành 'Máy khách mạng'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_1_INFO_1_VN "Chữ số thứ 1 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi ‘Link Mode’ được đặt là ‘Network Client’."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_LABEL_VN "Địa chỉ máy chủ Phần 02: _x_.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_LABEL_CAT_VN "Địa chỉ máy chủ Network Link Phần 02: _x_.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_INFO_0_VN "Chữ số thứ 2 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi ‘Game Link Mode’ được đặt là ‘Network Client’."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_2_INFO_1_VN "Chữ số thứ 2 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi ‘Link Mode’ được đặt là ‘Network Client’."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_LABEL_VN "Địa chỉ máy chủ Network Link Phần 03: __x.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_LABEL_CAT_VN "Địa chỉ máy chủ Phần 03: __x.___.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_INFO_0_VN "Chữ số thứ 3 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi ‘Game Link Mode’ được đặt là ‘Network Client’."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_3_INFO_1_VN "Chữ số thứ 3 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi ‘Link Mode’ được đặt là ‘Network Client’."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_LABEL_VN "Địa chỉ máy chủ Network Link Phần 04: ___.x__.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_LABEL_CAT_VN "Địa chỉ máy chủ Phần 04: ___.x__.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_INFO_0_VN "Chữ số thứ 4 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi ‘Game Link Mode’ được đặt là ‘Network Client’."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_4_INFO_1_VN "Chữ số thứ 4 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi ‘Link Mode’ được đặt là ‘Network Client’."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_LABEL_VN "Địa chỉ máy chủ Network Link Phần 05: ___._x_.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_LABEL_CAT_VN "Địa chỉ máy chủ Phần 05: ___._x_.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_INFO_0_VN "Chữ số thứ 5 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi 'Game Link Mode' được đặt là 'Network Client'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_5_INFO_1_VN "Chữ số thứ 5 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi 'Link Mode' được đặt là 'Network Client'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_LABEL_VN "Địa chỉ máy chủ Network Link Pt. 06: ___.__x.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_LABEL_CAT_VN "Địa chỉ máy chủ Pt. 06: ___.__x.___.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_INFO_0_VN "Chữ số thứ 6 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi 'Game Link Mode' được đặt là 'Network Client'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_6_INFO_1_VN "Chữ số thứ 6 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi 'Link Mode' được đặt là 'Network Client'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_LABEL_VN "Địa chỉ máy chủ Network Link Pt. 07: ___.___.x__.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_LABEL_CAT_VN "Địa chỉ máy chủ Pt. 07: ___.___.x__.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_INFO_0_VN "Chữ số thứ 7 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi 'Game Link Mode' được đặt là 'Network Client'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_7_INFO_1_VN "Chữ số thứ 7 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi 'Link Mode' được đặt là 'Network Client'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_LABEL_VN "Địa chỉ máy chủ Network Link Pt. 08: ___.___._x_.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_LABEL_CAT_VN "Địa chỉ máy chủ Pt. 08: ___.___._x_.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_INFO_0_VN "Chữ số thứ 8 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi 'Game Link Mode' được đặt là 'Network Client'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_8_INFO_1_VN "Chữ số thứ 8 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi 'Link Mode' được đặt là 'Network Client'."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_LABEL_VN "Địa chỉ máy chủ Network Link Pt. 09: ___.___.__x.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_LABEL_CAT_VN "Địa chỉ máy chủ Pt. 09: ___.___.__x.___"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_INFO_0_VN "Chữ số thứ 9 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi ‘Chế độ Game Link’ được đặt thành ‘Khách mạng’."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_9_INFO_1_VN "Chữ số thứ 9 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi ‘Chế độ Liên kết’ được đặt thành ‘Khách mạng’."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_LABEL_VN "Địa chỉ máy chủ Liên kết mạng Pt. 10: ___.___.___.x__"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_LABEL_CAT_VN "Địa chỉ máy chủ Pt. 10: ___.___.___.x__"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_INFO_0_VN "Chữ số thứ 10 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi ‘Chế độ Game Link’ được đặt thành ‘Khách mạng’."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_10_INFO_1_VN "Chữ số thứ 10 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi ‘Chế độ Liên kết’ được đặt thành ‘Khách mạng’."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_LABEL_VN "Địa chỉ máy chủ Liên kết mạng Pt. 11: ___.___.___._x_"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_LABEL_CAT_VN "Địa chỉ máy chủ Pt. 11: ___.___.___._x_"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_INFO_0_VN "Chữ số thứ 11 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi ‘Chế độ Game Link’ được đặt thành ‘Khách mạng’."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_11_INFO_1_VN "Chữ số thứ 11 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi ‘Chế độ Liên kết’ được đặt thành ‘Khách mạng’."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_LABEL_VN "Địa chỉ máy chủ Liên kết mạng Pt. 12: ___.___.___.__x"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_LABEL_CAT_VN "Địa chỉ máy chủ Pt. 12: ___.___.___.__x"
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_INFO_0_VN "Chữ số thứ 12 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi ‘Chế độ Game Link’ được đặt thành ‘Khách mạng’."
+#define GAMBATTE_GB_LINK_NETWORK_SERVER_IP_12_INFO_1_VN "Chữ số thứ 12 của địa chỉ IP máy chủ Game Link từ xa. Chỉ dùng khi ‘Chế độ Liên kết’ được đặt thành ‘Khách mạng’."
 
 struct retro_core_option_v2_category option_cats_vn[] = {
    {
